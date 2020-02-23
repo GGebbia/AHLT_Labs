@@ -1,9 +1,12 @@
 from __future__ import print_function
 import xml.etree.ElementTree as ET
+
 import nltk
 from nltk.tokenize import WhitespaceTokenizer
 from nltk.corpus import stopwords
+
 import os
+import sys
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -53,7 +56,7 @@ def evaluate(inputdir, outputfile):
     os.system("java -jar eval/evaluateNER.jar "+ inputdir + " " + outputfile)
 
 ### VARIABLES
-inputdir = "./data/Devel"
+inputdir = sys.argv[1]
 outputfilename="./output.txt"
 outputfile = open(outputfilename, "w")
 
