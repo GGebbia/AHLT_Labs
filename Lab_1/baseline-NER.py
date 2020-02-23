@@ -59,16 +59,17 @@ def evaluate(inputdir, outputfile):
 inputdir = sys.argv[1]
 outputfilename="./output.txt"
 outputfile = open(outputfilename, "w")
+for filename in os.listdir(inputdir):
+    file_path = os.path.join(inputdir, filename)
+    tree = ET.parse(file_path)
+    root = tree.getroot()
 
-tree = ET.parse("./data/Devel/2981704.xml")
-root = tree.getroot()
-
-for child in root:
-    (sid, text) = (child.attrib["id"], child.attrib["text"])
-    span_generator = WhitespaceTokenizer().span_tokenize(text)
-    tokenized_list = tokenize(text, span_generator)
-    entities = extract_entities(tokenized_list)
-    output_entities(sid, entities, outputfile)
+    for child in root:
+        (sid, text) = (child.attrib["id"], child.attrib["text"])
+        span_generator = WhitespaceTokenizer().span_tokenize(text)
+        tokenized_list = tokenize(text, span_generator)
+        entities = extract_entities(tokenized_list)
+        output_entities(sid, entities, outputfile)
 
 evaluate(inputdir, outputfilename)
 outputfile.close()
