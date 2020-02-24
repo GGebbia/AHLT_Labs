@@ -1,4 +1,4 @@
-DDI-DrugBank.d481.s0|82-87|EMCYT.|drug
+DDI-DrugBank.d481.s0|82-87|EMCYT|drug
 DDI-DrugBank.d5.s0|59-68|WELLBUTRIN|drug
 DDI-DrugBank.d5.s0|187-196|WELLBUTRIN|drug
 DDI-DrugBank.d5.s2|93-98|CYP2B6|drug
@@ -6,26 +6,31 @@ DDI-DrugBank.d5.s3|63-72|WELLBUTRIN|drug
 DDI-DrugBank.d5.s3|100-105|CYP2B6|drug
 DDI-DrugBank.d5.s4|97-100|P450|drug
 DDI-DrugBank.d5.s7|49-51|AUC|drug
-DDI-DrugBank.d5.s7|57-61|Cmax,|drug
+DDI-DrugBank.d5.s7|57-61|Cmax|drug
 DDI-DrugBank.d5.s12|6-16|Metabolized|drug
-DDI-DrugBank.d5.s12|41-54|(CYP2D6): acid|drug
+DDI-DrugBank.d5.s12|32-49|P450IID6 acid|drug
+DDI-DrugBank.d5.s12|51-54|Many|drug
 DDI-DrugBank.d5.s12|194-199|CYP2D6|drug
 DDI-DrugBank.d5.s13|110-115|CYP2D6|drug
 DDI-DrugBank.d5.s14|92-97|CYP2D6|drug
-DDI-DrugBank.d5.s14|224-233|Cmax, acid|drug
+DDI-DrugBank.d5.s14|224-228|Cmax|drug
+DDI-DrugBank.d5.s14|230-233|AUC|drug
 DDI-DrugBank.d5.s16|61-66|CYP2D6|drug
 DDI-DrugBank.d5.s17|77-82|CYP2D6|drug
 DDI-DrugBank.d5.s17|313-319|Type acid|drug
-DDI-DrugBank.d5.s18|100-106|CYP2D6,|drug
-DDI-DrugBank.d5.s19|4-22|Inhibitors: acid|drug
+DDI-DrugBank.d5.s18|100-106|CYP2D6|drug
+DDI-DrugBank.d5.s19|0-14|MAO acid|drug
+DDI-DrugBank.d5.s19|16-22|Studies|drug
 DDI-DrugBank.d5.s19|103-105|MAO|drug
-DDI-DrugBank.d5.s20|13-31|Amantadine: acid|drug
+DDI-DrugBank.d5.s20|13-23|Amantadine|drug
+DDI-DrugBank.d5.s20|25-31|Limited|drug
 DDI-DrugBank.d5.s21|18-35|WELLBUTRIN acid|drug
-DDI-DrugBank.d5.s22|25-45|Threshold: acid|drug
+DDI-DrugBank.d5.s22|17-34|Seizure acid|drug
+DDI-DrugBank.d5.s22|36-45|Concurrent|drug
 DDI-DrugBank.d5.s22|65-74|WELLBUTRIN|drug
 DDI-DrugBank.d5.s24|9-27|Transdermal acid|drug
 DDI-DrugBank.d5.s25|9-10|In|drug
-DDI-DrugBank.d5.s25|192-202|WELLBUTRIN.|drug
+DDI-DrugBank.d5.s25|192-202|WELLBUTRIN|drug
 DDI-DrugBank.d5.s26|49-58|WELLBUTRIN|drug
 DDI-DrugBank.d5.s26|128-145|CONTRAINDICATIONS)|drug
 DDI-DrugBank.d283.s0|102-113|WITH acid|drug
@@ -39,15 +44,17 @@ DDI-DrugBank.d283.s4|14-22|bile acid|drug
 DDI-DrugBank.d283.s4|99-104|TRICOR|drug
 DDI-DrugBank.d283.s4|150-158|bile acid|drug
 DDI-DrugBank.d283.s5|14-20|Because|drug
-DDI-DrugBank.d283.s5|220-226|TRICOR,|drug
+DDI-DrugBank.d283.s5|220-226|TRICOR|drug
 DDI-DrugBank.d283.s6|32-37|TRICOR|drug
 DDI-DrugBank.d283.s8|23-24|In|drug
 DDI-DrugBank.d283.s8|99-113|fenofibric acid|drug
 DDI-DrugBank.d283.s8|148-157|(CYP) acid|drug
-DDI-DrugBank.d283.s8|176-190|CYP2D6, acid|drug
-DDI-DrugBank.d283.s8|195-201|CYP1A2.|drug
+DDI-DrugBank.d283.s8|168-174|CYP3A4|drug
+DDI-DrugBank.d283.s8|176-182|CYP2D6|drug
+DDI-DrugBank.d283.s8|184-190|CYP2E1|drug
+DDI-DrugBank.d283.s8|195-201|CYP1A2|drug
 DDI-DrugBank.d283.s9|28-34|CYP2C19|drug
-DDI-DrugBank.d283.s9|40-46|CYP2A6,|drug
+DDI-DrugBank.d283.s9|40-46|CYP2A6|drug
 DDI-DrugBank.d283.s9|83-88|CYP2C9|drug
 DDI-DrugBank.d283.s11|0-8|Bile acid|drug
 DDI-DrugBank.d283.s12|83-91|bile acid|drug
@@ -55,10 +62,13 @@ DDI-DrugBank.d283.s13|63-69|TRICOR)|drug
 DDI-DrugBank.d283.s13|155-158|Cmax|drug
 DDI-DrugBank.d283.s13|164-166|AUC|drug
 DDI-DrugBank.d283.s14|0-0|A|drug
+DDI-DrugBank.d283.s14|91-106|fenofibric acid|drug
 DDI-DrugBank.d283.s15|64-70|TRICOR)|drug
 DDI-DrugBank.d283.s15|218-220|AUC|drug
 DDI-DrugBank.d283.s16|17-20|Cmax|drug
 DDI-DrugBank.d283.s17|24-38|fenofibric acid|drug
+DDI-DrugBank.d78.s0|10-20|Sucralfate|drug
+DDI-DrugBank.d78.s0|22-35|Metal acid|drug
 DDI-DrugBank.d78.s0|37-60|Multivitamins acid|drug
 DDI-DrugBank.d78.s1|255-259|VIDEX|drug
 DDI-DrugBank.d78.s3|9-34|Theobromine acid|drug
@@ -66,30 +76,33 @@ DDI-DrugBank.d78.s6|14-26|Grepafloxacin|drug
 DDI-DrugBank.d78.s9|10-11|In|drug
 DDI-DrugBank.d78.s11|6-16|Metabolized|drug
 DDI-DrugBank.d78.s11|37-47|Enzymes acid|drug
-DDI-DrugBank.d78.s11|211-217|CYP1A2.|drug
-DDI-DrugBank.d78.s12|107-112|C.P.A.|drug
+DDI-DrugBank.d78.s11|211-217|CYP1A2|drug
+DDI-DrugBank.d78.s12|107-112|C.P.A|drug
 DDI-DrugBank.d78.s13|70-75|CYP3A4|drug
 DDI-DrugBank.d78.s14|65-79|CYP3A4-mediated|drug
-DDI-DrugBank.d78.s15|27-32|C.P.A.|drug
+DDI-DrugBank.d78.s15|27-32|C.P.A|drug
 DDI-DrugBank.d78.s17|85-90|C.P.A.|drug
 DDI-DrugBank.d78.s18|62-67|C.P.A.|drug
 DDI-DrugBank.d78.s19|13-35|Anti-inflammatory acid|drug
 DDI-DrugBank.d78.s19|47-49|The|drug
 DDI-DrugBank.d78.s19|162-164|CNS|drug
-DDI-DrugBank.d78.s20|13-32|Agents: acid|drug
+DDI-DrugBank.d78.s20|13-19|Agents|drug
+DDI-DrugBank.d78.s20|21-32|Disturbances|drug
 DDI-DrugBank.d176.s0|11-18|Patients|drug
 DDI-DrugBank.d176.s2|200-219|AND acid|drug
 DDI-DrugBank.d176.s3|10-20|Supplements|drug
-DDI-DrugBank.d176.s3|44-64|Diuretics: acid|drug
+DDI-DrugBank.d176.s3|26-53|Potassium-Sparing acid|drug
+DDI-DrugBank.d176.s3|55-64|Fosinopril|drug
 DDI-DrugBank.d176.s6|9-17|Increased|drug
 DDI-DrugBank.d176.s6|114-116|ACE|drug
 DDI-DrugBank.d176.s9|10-11|In|drug
 DDI-DrugBank.d176.s11|7-13|Neither|drug
 DDI-DrugBank.d176.s15|21-42|Interaction acid|drug
 DDI-DrugBank.d176.s15|122-128|RIA acid|drug
-DDI-DrugBank.d176.s15|134-141|Digoxin.|drug
+DDI-DrugBank.d176.s15|134-141|Digoxin|drug
 DDI-DrugBank.d176.s16|38-45|RIA acid|drug
-DDI-DrugBank.d453.s2|21-45|Interactions: acid|drug
+DDI-DrugBank.d453.s2|16-33|Test acid|drug
+DDI-DrugBank.d453.s2|35-45|Measurement|drug
 DDI-DrugBank.d453.s2|102-106|Jaffe|drug
 DDI-DrugBank.d453.s2|124-130|Ancobon|drug
 DDI-DrugBank.d453.s3|72-76|Jaffe|drug
@@ -98,12 +111,20 @@ DDI-MedLine.d121.s12|249-260|TRUNCATED acid|drug
 DDI-MedLine.d121.s12|266-271|WORDS)|drug
 DDI-DrugBank.d455.s0|26-28|CYP|drug
 DDI-DrugBank.d455.s0|75-77|CYP|drug
-DDI-DrugBank.d455.s0|108-115|2D6, acid|drug
+DDI-DrugBank.d455.s0|87-90|1A2|drug
+DDI-DrugBank.d455.s0|92-95|2A6|drug
+DDI-DrugBank.d455.s0|97-100|2C9|drug
+DDI-DrugBank.d455.s0|102-106|2C19|drug
+DDI-DrugBank.d455.s0|108-111|2D6|drug
+DDI-DrugBank.d455.s0|113-115|2E1|drug
 DDI-DrugBank.d455.s0|121-122|3A|drug
 DDI-DrugBank.d455.s0|157-161|(IC50|drug
-DDI-DrugBank.d455.s3|8-26|Binding: acid|drug
+DDI-DrugBank.d455.s3|8-15|Binding|drug
+DDI-DrugBank.d455.s3|17-26|Entacapone|drug
+DDI-DrugBank.d455.s4|119-133|salicylic acid|drug
 DDI-DrugBank.d455.s5|6-16|Metabolized|drug
-DDI-DrugBank.d455.s5|50-64|(COMT): acid|drug
+DDI-DrugBank.d455.s5|21-56|Catechol-O-methyltransferase acid|drug
+DDI-DrugBank.d455.s5|58-64|Hormone|drug
 DDI-DrugBank.d455.s5|74-81|Levodopa|drug
 DDI-DrugBank.d455.s7|34-38|MAO-B|drug
 DDI-DrugBank.d455.s8|14-23|Parkinsons|drug
@@ -112,7 +133,7 @@ DDI-DrugBank.d454.s0|29-31|CNS|drug
 DDI-DrugBank.d454.s2|2-11|Lofexidine|drug
 DDI-DrugBank.d454.s4|2-12|Concomitant|drug
 DDI-DrugBank.d69.s0|7-16|Cerubidine|drug
-DDI-DrugBank.d69.s1|130-140|Cerubidine.|drug
+DDI-DrugBank.d69.s1|130-140|Cerubidine|drug
 DDI-DrugBank.d69.s2|40-49|Cerubidine|drug
 DDI-DrugBank.d69.s3|20-29|Cerubidine|drug
 DDI-MedLine.d30.s0|38-57|N-allylnormetazocine|drug
@@ -133,51 +154,60 @@ DDI-MedLine.d30.s5|41-42|FR|drug
 DDI-MedLine.d30.s6|12-19|(-)-NANM|drug
 DDI-MedLine.d30.s6|57-64|(+)-NANM|drug
 DDI-MedLine.d30.s6|111-118|(-)-NANM|drug
-DDI-MedLine.d30.s6|146-154|(+)-NANM.|drug
-DDI-MedLine.d30.s7|17-25|(-)-NANM,|drug
-DDI-MedLine.d30.s7|35-43|(+)-NANM,|drug
+DDI-MedLine.d30.s6|146-154|(+)-NANM|drug
+DDI-MedLine.d30.s7|17-25|(-)-NANM|drug
+DDI-MedLine.d30.s7|35-43|(+)-NANM|drug
 DDI-MedLine.d30.s7|100-101|FI|drug
 DDI-MedLine.d30.s7|107-108|FR|drug
-DDI-MedLine.d30.s8|27-35|(-)-NANM,|drug
+DDI-MedLine.d30.s8|27-35|(-)-NANM|drug
 DDI-MedLine.d30.s8|45-52|(+)-NANM|drug
-DDI-MedLine.d30.s8|57-60|PCP,|drug
+DDI-MedLine.d30.s8|57-60|PCP|drug
 DDI-MedLine.d30.s9|60-67|(-)-NANM|drug
-DDI-MedLine.d30.s10|65-82|(-)-NANM, acid|drug
-DDI-MedLine.d30.s10|87-90|PCP.|drug
+DDI-MedLine.d30.s10|65-73|(-)-NANM|drug
+DDI-MedLine.d30.s10|75-82|(+)-NANM|drug
+DDI-MedLine.d30.s10|87-90|PCP|drug
 DDI-MedLine.d30.s11|51-52|FI|drug
 DDI-MedLine.d30.s11|106-113|(+)-NANM|drug
 DDI-MedLine.d30.s11|118-120|PCP|drug
 DDI-MedLine.d30.s11|174-175|FI|drug
 DDI-MedLine.d30.s11|180-181|FR|drug
 DDI-MedLine.d30.s11|220-222|PCP|drug
-DDI-MedLine.d30.s11|250-254|NANM.|drug
-DDI-MedLine.d30.s12|88-92|NANM.|drug
+DDI-MedLine.d30.s11|250-254|NANM|drug
+DDI-MedLine.d30.s12|88-92|NANM|drug
 DDI-MedLine.d30.s14|78-80|PCP|drug
-DDI-DrugBank.d273.s0|10-26|Interactions: acid|drug
+DDI-DrugBank.d273.s0|10-22|Interactions|drug
+DDI-DrugBank.d273.s0|24-26|The|drug
 DDI-DrugBank.d273.s0|85-93|UROXATRAL|drug
 DDI-DrugBank.d273.s1|43-51|UROXATRAL|drug
 DDI-DrugBank.d273.s1|60-62|NOT|drug
 DDI-DrugBank.d98.s0|25-25|D|drug
-DDI-DrugBank.d98.s0|58-72|D3, acid|drug
-DDI-DrugBank.d98.s0|90-119|Cholestyramine: acid|drug
-DDI-DrugBank.d98.s1|62-63|D.|drug
+DDI-DrugBank.d98.s0|46-48|D2|drug
+DDI-DrugBank.d98.s0|50-60|Vitamin acid|drug
+DDI-DrugBank.d98.s0|62-72|Calcitriol|drug
+DDI-DrugBank.d98.s0|78-88|Calcidiol)|drug
+DDI-DrugBank.d98.s0|90-104|Cholestyramine|drug
+DDI-DrugBank.d98.s0|106-119|Cholestyramine|drug
+DDI-DrugBank.d98.s1|62-63|D|drug
 DDI-DrugBank.d98.s2|25-27|The|drug
-DDI-DrugBank.d98.s2|125-126|D,|drug
+DDI-DrugBank.d98.s2|125-126|D|drug
 DDI-DrugBank.d98.s3|80-88|Rocaltrol|drug
 DDI-DrugBank.d98.s4|11-19|Thiazides|drug
 DDI-DrugBank.d98.s5|86-86|D|drug
 DDI-DrugBank.d98.s7|11-19|Vitamin acid|drug
 DDI-DrugBank.d98.s8|14-25|Ketoconazole|drug
-DDI-DrugBank.d98.s8|87-88|D.|drug
+DDI-DrugBank.d98.s8|87-88|D|drug
 DDI-DrugBank.d98.s9|39-39|D|drug
 DDI-DrugBank.d98.s10|71-71|D|drug
 DDI-DrugBank.d98.s11|17-17|A|drug
 DDI-DrugBank.d98.s11|80-80|D|drug
-DDI-DrugBank.d98.s12|18-30|Agents: acid|drug
+DDI-DrugBank.d98.s12|18-24|Agents|drug
+DDI-DrugBank.d98.s12|26-30|Since|drug
 DDI-DrugBank.d98.s12|40-40|D|drug
-DDI-DrugBank.d98.s13|8-13|D: acid|drug
+DDI-DrugBank.d98.s13|8-9|D|drug
+DDI-DrugBank.d98.s13|11-13|The|drug
 DDI-DrugBank.d98.s13|54-54|D|drug
-DDI-DrugBank.d98.s14|8-32|Supplements: acid|drug
+DDI-DrugBank.d98.s14|8-19|Supplements|drug
+DDI-DrugBank.d98.s14|21-32|Uncontrolled|drug
 DDI-DrugBank.d98.s15|11-30|Magnesium-containing|drug
 DDI-DrugBank.d98.s15|148-148|D|drug
 DDI-DrugBank.d161.s1|43-48|Gemzar|drug
@@ -187,15 +217,15 @@ DDI-DrugBank.d340.s0|30-34|CYP3A|drug
 DDI-DrugBank.d340.s0|48-56|P450 acid|drug
 DDI-DrugBank.d340.s1|20-27|VIRACEPT|drug
 DDI-DrugBank.d340.s1|64-68|CYP3A|drug
-DDI-DrugBank.d340.s2|38-43|C.P.A.|drug
+DDI-DrugBank.d340.s2|38-43|C.P.A|drug
 DDI-DrugBank.d340.s3|20-27|VIRACEPT|drug
 DDI-DrugBank.d340.s3|51-55|CYP3A|drug
 DDI-DrugBank.d340.s4|20-27|VIRACEPT|drug
 DDI-DrugBank.d340.s4|52-56|CYP3A|drug
 DDI-DrugBank.d340.s5|101-108|VIRACEPT|drug
 DDI-DrugBank.d340.s6|45-69|VIRACEPT acid|drug
-DDI-DrugBank.d340.s6|93-107|Antihistamines:|drug
-DDI-DrugBank.d340.s6|133-145|Antimigraine:|drug
+DDI-DrugBank.d340.s6|93-107|Antihistamines|drug
+DDI-DrugBank.d340.s6|133-145|Antimigraine|drug
 DDI-DrugBank.d340.s6|165-181|Antimycobacterial|drug
 DDI-DrugBank.d340.s6|200-214|Benzodiazepines|drug
 DDI-DrugBank.d340.s6|237-238|GI|drug
@@ -211,38 +241,39 @@ DDI-DrugBank.d340.s13|9-27|Protease acid|drug
 DDI-DrugBank.d340.s14|11-26|Coadministration|drug
 DDI-DrugBank.d340.s14|46-53|VIRACEPT|drug
 DDI-DrugBank.d340.s14|104-106|AUC|drug
-DDI-DrugBank.d340.s14|147-150|A.C.|drug
+DDI-DrugBank.d340.s14|147-150|A.C|drug
 DDI-DrugBank.d340.s16|11-26|Coadministration|drug
 DDI-DrugBank.d340.s16|46-53|VIRACEPT|drug
 DDI-DrugBank.d340.s16|104-106|AUC|drug
-DDI-DrugBank.d340.s16|151-154|A.C.|drug
+DDI-DrugBank.d340.s16|151-154|A.C|drug
 DDI-DrugBank.d340.s18|12-27|Coadministration|drug
 DDI-DrugBank.d340.s18|126-133|VIRACEPT|drug
 DDI-DrugBank.d340.s18|184-186|AUC|drug
-DDI-DrugBank.d340.s18|231-234|A.C.|drug
+DDI-DrugBank.d340.s18|231-234|A.C|drug
 DDI-DrugBank.d340.s21|11-16|Agents|drug
 DDI-DrugBank.d340.s22|14-29|Coadministration|drug
 DDI-DrugBank.d340.s22|52-59|VIRACEPT|drug
-DDI-DrugBank.d340.s22|109-112|A.C.|drug
+DDI-DrugBank.d340.s22|109-112|A.C|drug
 DDI-DrugBank.d340.s23|109-116|VIRACEPT|drug
 DDI-DrugBank.d340.s24|17-40|Transcriptase acid|drug
 DDI-DrugBank.d340.s25|12-13|It|drug
 DDI-DrugBank.d340.s27|0-0|A|drug
-DDI-DrugBank.d340.s27|69-77|VIRACEPT.|drug
+DDI-DrugBank.d340.s27|69-77|VIRACEPT|drug
 DDI-DrugBank.d340.s28|77-84|VIRACEPT|drug
 DDI-DrugBank.d340.s29|18-23|Agents|drug
 DDI-DrugBank.d340.s30|11-26|Coadministration|drug
 DDI-DrugBank.d340.s30|45-52|VIRACEPT|drug
 DDI-DrugBank.d340.s30|102-104|AUC|drug
-DDI-DrugBank.d340.s30|146-149|A.C.|drug
-DDI-DrugBank.d340.s31|106-114|VIRACEPT.|drug
+DDI-DrugBank.d340.s30|146-149|A.C|drug
+DDI-DrugBank.d340.s31|106-114|VIRACEPT|drug
 DDI-DrugBank.d340.s32|10-25|Coadministration|drug
 DDI-DrugBank.d340.s32|43-50|VIRACEPT|drug
-DDI-DrugBank.d340.s32|101-104|A.C.|drug
+DDI-DrugBank.d340.s32|101-104|A.C|drug
 DDI-DrugBank.d340.s33|0-7|VIRACEPT|drug
 DDI-DrugBank.d340.s34|5-18|Contraceptives|drug
 DDI-DrugBank.d340.s35|8-16|Estradiol|drug
-DDI-DrugBank.d340.s35|22-52|Norethindrone: acid|drug
+DDI-DrugBank.d340.s35|22-35|Norethindrone|drug
+DDI-DrugBank.d340.s35|37-52|Coadministration|drug
 DDI-DrugBank.d340.s35|57-64|VIRACEPT|drug
 DDI-DrugBank.d340.s35|71-78|OVCON-35|drug
 DDI-DrugBank.d340.s36|82-89|VIRACEPT|drug
@@ -268,14 +299,15 @@ DDI-DrugBank.d140.s6|51-55|LDL-C|drug
 DDI-DrugBank.d140.s7|9-12|When|drug
 DDI-DrugBank.d140.s9|14-15|In|drug
 DDI-DrugBank.d140.s9|192-200|P450 acid|drug
-DDI-DrugBank.d140.s10|5-36|Contraceptives: acid|drug
+DDI-DrugBank.d140.s10|5-19|Contraceptives|drug
+DDI-DrugBank.d140.s10|21-36|Coadministration|drug
 DDI-DrugBank.d140.s10|90-92|AUC|drug
 DDI-DrugBank.d140.s12|10-21|Atorvastatin|drug
 DDI-DrugBank.d140.s13|10-25|Function acid|drug
 DDI-DrugBank.d140.s15|15-21|HMG-CoA|drug
 DDI-DrugBank.d140.s17|34-40|HMG-CoA|drug
 DDI-DrugBank.d140.s18|4-17|Toxicity acid|drug
-DDI-DrugBank.d140.s20|112-116|(AUC,|drug
+DDI-DrugBank.d140.s20|112-116|(AUC|drug
 DDI-DrugBank.d140.s21|0-0|A|drug
 DDI-DrugBank.d140.s22|3-5|CNS|drug
 DDI-DrugBank.d140.s23|73-75|AUC|drug
@@ -283,11 +315,11 @@ DDI-DrugBank.d140.s24|0-2|CNS|drug
 DDI-DrugBank.d140.s25|0-0|A|drug
 DDI-MedLine.d53.s0|69-69|D|drug
 DDI-MedLine.d53.s1|30-46|D3 acid|drug
-DDI-MedLine.d53.s1|81-82|D,|drug
+DDI-MedLine.d53.s1|81-82|D|drug
 DDI-MedLine.d53.s2|19-23|MCF-7|drug
 DDI-MedLine.d53.s2|51-61|1,25(OH)2D3|drug
 DDI-MedLine.d53.s3|71-81|1,25(OH)2D3|drug
-DDI-MedLine.d53.s3|123-128|(TAM),|drug
+DDI-MedLine.d53.s3|123-128|(TAM)|drug
 DDI-MedLine.d53.s3|162-166|MCF-7|drug
 DDI-MedLine.d53.s4|22-24|TAM|drug
 DDI-MedLine.d53.s4|92-102|1,25(OH)2D3|drug
@@ -297,13 +329,15 @@ DDI-MedLine.d53.s6|31-35|MCF-7|drug
 DDI-MedLine.d53.s6|56-66|1,25(OH)2D3|drug
 DDI-MedLine.d53.s7|32-32|D|drug
 DDI-MedLine.d53.s7|97-101|MCF-7|drug
-DDI-MedLine.d53.s7|136-147|1,25(OH)2D3.|drug
+DDI-MedLine.d53.s7|136-147|1,25(OH)2D3|drug
 DDI-MedLine.d53.s8|41-45|MCF-7|drug
 DDI-MedLine.d53.s8|58-60|TAM|drug
 DDI-MedLine.d53.s9|54-58|MCF-7|drug
 DDI-DrugBank.d211.s1|13-21|Increased|drug
-DDI-DrugBank.d211.s2|15-43|Antibiotics: acid|drug
-DDI-DrugBank.d211.s4|5-23|Contraceptives: acid|drug
+DDI-DrugBank.d211.s2|15-26|Antibiotics|drug
+DDI-DrugBank.d211.s2|28-43|Chloramphenicol|drug
+DDI-DrugBank.d211.s4|5-19|Contraceptives|drug
+DDI-DrugBank.d211.s4|21-23|May|drug
 DDI-DrugBank.d211.s5|12-14|May|drug
 DDI-DrugBank.d211.s6|21-37|Interaction acid|drug
 DDI-DrugBank.d211.s6|174-181|Fehlings|drug
@@ -320,7 +354,8 @@ DDI-MedLine.d88.s5|177-184|E-strain|drug
 DDI-MedLine.d88.s5|286-293|A-strain|drug
 DDI-DrugBank.d73.s1|22-29|TENORMIN|drug
 DDI-DrugBank.d73.s2|74-81|TENORMIN|drug
-DDI-DrugBank.d73.s8|31-46|TIMI-II, acid|drug
+DDI-DrugBank.d73.s8|31-38|TIMI-II|drug
+DDI-DrugBank.d73.s8|40-46|ISIS-2|drug
 DDI-MedLine.d15.s0|152-153|It|drug
 DDI-DrugBank.d71.s3|95-101|TMP/SMX|drug
 DDI-DrugBank.d71.s3|131-142|Pneumocystis|drug
@@ -330,26 +365,33 @@ DDI-DrugBank.d1.s0|26-33|NEUPOGEN|drug
 DDI-MedLine.d4.s0|100-102|The|drug
 DDI-MedLine.d4.s1|120-125|Wistar|drug
 DDI-DrugBank.d404.s0|25-25|D|drug
-DDI-DrugBank.d404.s0|58-72|D3, acid|drug
-DDI-DrugBank.d404.s0|90-119|Cholestyramine: acid|drug
-DDI-DrugBank.d404.s1|62-63|D.|drug
+DDI-DrugBank.d404.s0|46-48|D2|drug
+DDI-DrugBank.d404.s0|50-60|Vitamin acid|drug
+DDI-DrugBank.d404.s0|62-72|Calcitriol|drug
+DDI-DrugBank.d404.s0|78-88|Calcidiol)|drug
+DDI-DrugBank.d404.s0|90-104|Cholestyramine|drug
+DDI-DrugBank.d404.s0|106-119|Cholestyramine|drug
+DDI-DrugBank.d404.s1|62-63|D|drug
 DDI-DrugBank.d404.s2|25-27|The|drug
-DDI-DrugBank.d404.s2|125-126|D,|drug
+DDI-DrugBank.d404.s2|125-126|D|drug
 DDI-DrugBank.d404.s3|80-88|Rocaltrol|drug
 DDI-DrugBank.d404.s4|11-19|Thiazides|drug
 DDI-DrugBank.d404.s5|86-86|D|drug
 DDI-DrugBank.d404.s7|11-19|Vitamin acid|drug
 DDI-DrugBank.d404.s8|14-25|Ketoconazole|drug
-DDI-DrugBank.d404.s8|87-88|D.|drug
+DDI-DrugBank.d404.s8|87-88|D|drug
 DDI-DrugBank.d404.s9|39-39|D|drug
 DDI-DrugBank.d404.s10|71-71|D|drug
 DDI-DrugBank.d404.s11|17-17|A|drug
 DDI-DrugBank.d404.s11|80-80|D|drug
-DDI-DrugBank.d404.s12|18-30|Agents: acid|drug
+DDI-DrugBank.d404.s12|18-24|Agents|drug
+DDI-DrugBank.d404.s12|26-30|Since|drug
 DDI-DrugBank.d404.s12|40-40|D|drug
-DDI-DrugBank.d404.s13|8-13|D: acid|drug
+DDI-DrugBank.d404.s13|8-9|D|drug
+DDI-DrugBank.d404.s13|11-13|The|drug
 DDI-DrugBank.d404.s13|54-54|D|drug
-DDI-DrugBank.d404.s14|8-32|Supplements: acid|drug
+DDI-DrugBank.d404.s14|8-19|Supplements|drug
+DDI-DrugBank.d404.s14|21-32|Uncontrolled|drug
 DDI-DrugBank.d404.s15|11-30|Magnesium-containing|drug
 DDI-DrugBank.d404.s15|148-148|D|drug
 DDI-DrugBank.d82.s1|34-40|INDOCIN|drug
@@ -357,8 +399,8 @@ DDI-DrugBank.d82.s2|26-32|INDOCIN|drug
 DDI-DrugBank.d82.s4|23-29|INDOCIN|drug
 DDI-DrugBank.d82.s4|42-47|NSAIDs|drug
 DDI-DrugBank.d82.s5|33-39|INDOCIN|drug
-DDI-DrugBank.d82.s6|45-52|INDOCIN,|drug
-DDI-DrugBank.d82.s7|118-125|INDOCIN.|drug
+DDI-DrugBank.d82.s6|45-52|INDOCIN|drug
+DDI-DrugBank.d82.s7|118-125|INDOCIN|drug
 DDI-DrugBank.d82.s8|33-39|INDOCIN|drug
 DDI-DrugBank.d82.s9|5-11|INDOCIN|drug
 DDI-DrugBank.d82.s10|41-47|INDOCIN|drug
@@ -371,15 +413,15 @@ DDI-DrugBank.d82.s21|0-6|INDOCIN|drug
 DDI-DrugBank.d82.s22|16-22|INDOCIN|drug
 DDI-DrugBank.d82.s23|40-46|INDOCIN|drug
 DDI-DrugBank.d82.s24|16-22|INDOCIN|drug
-DDI-DrugBank.d82.s24|28-35|INDOCIN.|drug
+DDI-DrugBank.d82.s24|28-35|INDOCIN|drug
 DDI-DrugBank.d82.s26|0-6|INDOCIN|drug
-DDI-DrugBank.d82.s26|44-49|(PRA),|drug
+DDI-DrugBank.d82.s26|44-49|(PRA)|drug
 DDI-DrugBank.d82.s26|82-84|PRA|drug
 DDI-DrugBank.d82.s28|83-89|INDOCIN|drug
 DDI-DrugBank.d82.s29|0-6|INDOCIN|drug
 DDI-DrugBank.d82.s30|0-6|INDOCIN|drug
 DDI-DrugBank.d82.s31|25-31|INDOCIN|drug
-DDI-DrugBank.d82.s32|152-159|INDOCIN.|drug
+DDI-DrugBank.d82.s32|152-159|INDOCIN|drug
 DDI-DrugBank.d82.s33|127-133|INDOCIN|drug
 DDI-DrugBank.d82.s35|0-6|INDOCIN|drug
 DDI-DrugBank.d82.s36|61-65|(DST)|drug
@@ -402,7 +444,7 @@ DDI-MedLine.d135.s4|237-239|DRL|drug
 DDI-MedLine.d135.s5|70-72|PCP|drug
 DDI-MedLine.d135.s6|111-113|PCP|drug
 DDI-MedLine.d135.s7|55-57|PCP|drug
-DDI-MedLine.d135.s8|183-186|PCP.|drug
+DDI-MedLine.d135.s8|183-186|PCP|drug
 DDI-DrugBank.d158.s0|26-30|These|drug
 DDI-DrugBank.d158.s0|59-69|sodium acid|drug
 DDI-DrugBank.d158.s2|20-29|Adrenergic|drug
@@ -424,13 +466,17 @@ DDI-DrugBank.d158.s21|11-22|Amphetamines|drug
 DDI-DrugBank.d158.s23|14-15|In|drug
 DDI-DrugBank.d158.s23|63-65|CNS|drug
 DDI-DrugBank.d158.s24|20-31|Amphetamines|drug
-DDI-DrugBank.d158.s25|21-46|Interactions: acid|drug
-DDI-DrugBank.d357.s0|5-22|Antagonists: acid|drug
+DDI-DrugBank.d158.s25|16-33|Test acid|drug
+DDI-DrugBank.d158.s25|35-46|Amphetamines|drug
+DDI-DrugBank.d357.s0|0-16|5HT3 acid|drug
+DDI-DrugBank.d357.s0|18-22|Based|drug
 DDI-DrugBank.d357.s0|190-193|5HT3|drug
 DDI-DrugBank.d357.s1|17-27|Medications|drug
-DDI-DrugBank.d357.s1|33-49|Vasodilators: acid|drug
-DDI-DrugBank.d357.s3|9-26|Antagonists: acid|drug
-DDI-DrugBank.d357.s3|231-237|APOKYN.|drug
+DDI-DrugBank.d357.s1|33-45|Vasodilators|drug
+DDI-DrugBank.d357.s1|47-49|The|drug
+DDI-DrugBank.d357.s3|9-20|Antagonists|drug
+DDI-DrugBank.d357.s3|22-26|Since|drug
+DDI-DrugBank.d357.s3|231-237|APOKYN|drug
 DDI-DrugBank.d357.s5|6-15|Prolonging|drug
 DDI-DrugBank.d357.s5|28-43|Interval acid|drug
 DDI-DrugBank.d357.s5|136-141|QT/QTc|drug
@@ -438,16 +484,18 @@ DDI-DrugBank.d357.s6|21-38|Interactions acid|drug
 DDI-DrugBank.d357.s6|74-79|APOKYN|drug
 DDI-DrugBank.d147.s0|56-61|Vidaza|drug
 DDI-DrugBank.d434.s1|7-17|Conjunction|drug
-DDI-DrugBank.d434.s1|44-53|Drugs: acid|drug
+DDI-DrugBank.d434.s1|30-49|Antiepileptic acid|drug
+DDI-DrugBank.d434.s1|51-53|The|drug
 DDI-DrugBank.d434.s1|67-74|Felbatol|drug
-DDI-DrugBank.d434.s1|157-161|AEDs.|drug
+DDI-DrugBank.d434.s1|157-161|AEDs|drug
 DDI-DrugBank.d434.s2|79-90|AED acid|drug
 DDI-DrugBank.d434.s3|15-41|Concentration acid|drug
 DDI-DrugBank.d434.s6|14-18|(CBZ)|drug
 DDI-DrugBank.d434.s7|0-3|*CBZ|drug
 DDI-DrugBank.d434.s11|9-15|Effects|drug
 DDI-DrugBank.d434.s11|20-27|Felbatol|drug
-DDI-DrugBank.d434.s11|59-77|Phenytoin: acid|drug
+DDI-DrugBank.d434.s11|53-68|Drugs acid|drug
+DDI-DrugBank.d434.s11|70-77|Felbatol|drug
 DDI-DrugBank.d434.s13|17-20|Cmin|drug
 DDI-DrugBank.d434.s14|107-110|Cmin|drug
 DDI-DrugBank.d434.s16|91-98|Felbatol|drug
@@ -467,7 +515,8 @@ DDI-DrugBank.d434.s28|15-30|Coadministration|drug
 DDI-DrugBank.d434.s28|123-124|In|drug
 DDI-DrugBank.d434.s29|17-20|Cmin|drug
 DDI-DrugBank.d434.s30|17-35|Antiepileptic acid|drug
-DDI-DrugBank.d434.s30|50-69|Phenytoin: acid|drug
+DDI-DrugBank.d434.s30|40-59|Felbatol acid|drug
+DDI-DrugBank.d434.s30|61-69|Phenytoin|drug
 DDI-DrugBank.d434.s30|122-129|Felbatol|drug
 DDI-DrugBank.d434.s30|282-289|Felbatol|drug
 DDI-DrugBank.d434.s30|324-331|Felbatol|drug
@@ -477,7 +526,7 @@ DDI-DrugBank.d434.s31|240-247|Felbatol|drug
 DDI-DrugBank.d434.s31|282-289|Felbatol|drug
 DDI-DrugBank.d434.s32|11-19|Available|drug
 DDI-DrugBank.d434.s32|103-110|Felbatol|drug
-DDI-DrugBank.d434.s32|130-139|Therefore,|drug
+DDI-DrugBank.d434.s32|130-139|Therefore|drug
 DDI-DrugBank.d434.s32|225-232|Felbatol|drug
 DDI-DrugBank.d434.s33|15-16|It|drug
 DDI-DrugBank.d434.s35|11-18|Antacids|drug
@@ -485,24 +534,28 @@ DDI-DrugBank.d434.s35|23-35|Felbatol acid|drug
 DDI-DrugBank.d434.s35|88-95|Felbatol|drug
 DDI-DrugBank.d434.s36|11-22|Erythromycin|drug
 DDI-DrugBank.d434.s36|27-39|Felbatol acid|drug
-DDI-DrugBank.d434.s36|160-169|AUC, acid|drug
+DDI-DrugBank.d434.s36|148-152|Cmax|drug
+DDI-DrugBank.d434.s36|154-158|Cmin|drug
+DDI-DrugBank.d434.s36|160-163|AUC|drug
+DDI-DrugBank.d434.s36|165-169|CI/kg|drug
 DDI-DrugBank.d434.s37|11-18|Felbatol|drug
 DDI-DrugBank.d434.s37|50-65|Contraceptives acid|drug
 DDI-DrugBank.d434.s38|64-66|AUC|drug
 DDI-DrugBank.d499.s1|69-74|Orudis|drug
 DDI-DrugBank.d499.s3|10-20|Concomitant|drug
-DDI-DrugBank.d499.s3|174-180|Orudis.|drug
+DDI-DrugBank.d499.s3|174-180|Orudis|drug
 DDI-DrugBank.d499.s5|9-18|Ketoprofen|drug
 DDI-DrugBank.d499.s6|169-174|L/kg/h|drug
 DDI-DrugBank.d499.s6|200-205|L/kg/h|drug
-DDI-DrugBank.d499.s10|10-29|Hydrochlorothiazide,|drug
+DDI-DrugBank.d499.s10|10-29|Hydrochlorothiazide|drug
 DDI-DrugBank.d499.s13|9-10|In|drug
 DDI-DrugBank.d499.s15|10-11|In|drug
 DDI-DrugBank.d499.s16|80-81|GI|drug
 DDI-DrugBank.d499.s19|12-21|Probenecid|drug
-DDI-DrugBank.d499.s22|14-24|Ketoprofen,|drug
-DDI-DrugBank.d499.s22|37-43|NSAIDs,|drug
+DDI-DrugBank.d499.s22|14-24|Ketoprofen|drug
+DDI-DrugBank.d499.s22|37-43|NSAIDs|drug
 DDI-DrugBank.d499.s24|9-20|Nonsteroidal|drug
+DDI-DrugBank.d499.s26|16-33|TEST acid|drug
 DDI-DrugBank.d499.s26|51-72|COAGULATION acid|drug
 DDI-MedLine.d100.s0|63-78|arachidonic acid|drug
 DDI-MedLine.d100.s1|51-66|arachidonic acid|drug
@@ -515,7 +568,7 @@ DDI-DrugBank.d456.s0|29-34|CYP3A4|drug
 DDI-DrugBank.d456.s0|79-81|AUC|drug
 DDI-DrugBank.d456.s1|52-58|TARCEVA|drug
 DDI-DrugBank.d456.s1|95-100|CYP3A4|drug
-DDI-DrugBank.d456.s1|272-277|(TAO),|drug
+DDI-DrugBank.d456.s1|272-277|(TAO)|drug
 DDI-DrugBank.d456.s2|23-28|CYP3A4|drug
 DDI-DrugBank.d456.s2|69-71|AUC|drug
 DDI-DrugBank.d456.s3|29-34|CYP3A4|drug
@@ -533,32 +586,43 @@ DDI-DrugBank.d456.s12|88-98|Ratio acid|drug
 DDI-DrugBank.d456.s13|134-136|INR|drug
 DDI-MedLine.d89.s5|0-0|A|drug
 DDI-MedLine.d89.s7|28-32|(TDM)|drug
-DDI-DrugBank.d141.s0|37-55|Derivatives, acid|drug
+DDI-DrugBank.d141.s0|18-23|Drugs|drug
+DDI-DrugBank.d141.s0|32-48|Acid acid|drug
+DDI-DrugBank.d141.s0|50-55|Niacin|drug
+DDI-DrugBank.d141.s0|68-72|Acid|drug
+DDI-DrugBank.d141.s0|74-86|Erythromycin|drug
+DDI-DrugBank.d141.s0|88-105|Azole acid|drug
 DDI-DrugBank.d141.s0|107-122|Skeletal acid|drug
 DDI-DrugBank.d141.s1|0-6|ANTACID|drug
-DDI-DrugBank.d141.s1|28-51|Hydroxide): acid|drug
+DDI-DrugBank.d141.s1|28-38|Hydroxide)|drug
+DDI-DrugBank.d141.s1|40-51|Cerivastatin|drug
 DDI-DrugBank.d141.s2|12-23|Cerivastatin|drug
-DDI-DrugBank.d141.s3|0-18|CHOLESTYRAMINE: acid|drug
+DDI-DrugBank.d141.s3|0-14|CHOLESTYRAMINE|drug
+DDI-DrugBank.d141.s3|16-18|The|drug
 DDI-DrugBank.d141.s4|144-146|AUC|drug
 DDI-DrugBank.d141.s4|160-163|Cmax|drug
 DDI-DrugBank.d141.s5|223-225|AUC|drug
 DDI-DrugBank.d141.s5|262-265|Cmax|drug
-DDI-DrugBank.d141.s7|0-14|DIGOXIN: acid|drug
-DDI-DrugBank.d141.s9|0-12|WARFARIN: acid|drug
+DDI-DrugBank.d141.s7|0-7|DIGOXIN|drug
+DDI-DrugBank.d141.s7|9-14|Plasma|drug
+DDI-DrugBank.d141.s9|0-8|WARFARIN|drug
+DDI-DrugBank.d141.s9|10-12|Co-|drug
 DDI-DrugBank.d141.s9|149-151|VII|drug
 DDI-DrugBank.d141.s10|4-6|AUC|drug
 DDI-DrugBank.d141.s10|12-15|Cmax|drug
 DDI-DrugBank.d141.s10|29-31|(R)|drug
 DDI-DrugBank.d141.s10|37-39|(S)|drug
-DDI-DrugBank.d141.s12|0-15|ERYTHROMYCIN: acid|drug
+DDI-DrugBank.d141.s12|0-12|ERYTHROMYCIN|drug
+DDI-DrugBank.d141.s12|14-15|In|drug
 DDI-DrugBank.d141.s12|74-76|AUC|drug
 DDI-DrugBank.d141.s12|82-85|Cmax|drug
 DDI-DrugBank.d141.s12|222-230|P450 acid|drug
-DDI-DrugBank.d141.s13|18-34|THERAPY: acid|drug
+DDI-DrugBank.d141.s13|6-25|CONCOMITANT acid|drug
+DDI-DrugBank.d141.s13|27-34|Although|drug
 DDI-DrugBank.d141.s13|185-189|(ACE)|drug
-DDI-DrugBank.d218.s0|80-87|SYNAREL.|drug
+DDI-DrugBank.d218.s0|80-87|SYNAREL|drug
 DDI-DrugBank.d218.s1|110-114|P-450|drug
-DDI-DrugBank.d218.s1|186-187|C,|drug
+DDI-DrugBank.d218.s1|186-187|C|drug
 DDI-DrugBank.d17.s9|13-13|B|drug
 DDI-DrugBank.d17.s9|18-32|Corticosteroids|drug
 DDI-DrugBank.d17.s9|37-56|Corticotropin acid|drug
@@ -578,10 +642,10 @@ DDI-DrugBank.d207.s1|265-316|PHARMACOLOGY-Pharmacokinetics-Drug-Drug acid|drug
 DDI-DrugBank.d207.s1|333-364|ADMINISTRATION-Dosage acid|drug
 DDI-DrugBank.d207.s2|25-35|Ratio acid|drug
 DDI-DrugBank.d207.s2|132-137|IRESSA|drug
-DDI-DrugBank.d207.s3|90-93|INR.|drug
+DDI-DrugBank.d207.s3|90-93|INR|drug
 DDI-DrugBank.d207.s4|41-46|CYP3A4|drug
 DDI-DrugBank.d207.s6|53-58|CYP3A4|drug
-DDI-DrugBank.d207.s6|76-82|IRESSA.|drug
+DDI-DrugBank.d207.s6|76-82|IRESSA|drug
 DDI-DrugBank.d207.s7|74-84|H2-receptor|drug
 DDI-DrugBank.d207.s7|168-173|IRESSA|drug
 DDI-DrugBank.d207.s8|6-7|II|drug
@@ -598,43 +662,46 @@ DDI-DrugBank.d115.s2|105-111|(CYP3A4|drug
 DDI-DrugBank.d115.s3|56-65|Substances|drug
 DDI-DrugBank.d115.s3|88-93|CYP3A4|drug
 DDI-DrugBank.d115.s4|27-32|CYP3A4|drug
-DDI-DrugBank.d115.s4|109-111|St.|drug
+DDI-DrugBank.d115.s4|109-111|St|drug
 DDI-DrugBank.d115.s5|6-10|Wort)|drug
-DDI-DrugBank.d115.s5|49-56|Gleevec.|drug
-DDI-DrugBank.d115.s6|96-103|Gleevec,|drug
+DDI-DrugBank.d115.s5|49-56|Gleevec|drug
+DDI-DrugBank.d115.s6|96-103|Gleevec|drug
 DDI-DrugBank.d115.s6|115-121|Gleevec|drug
-DDI-DrugBank.d115.s6|209-217|AUC(0-8).|drug
+DDI-DrugBank.d115.s6|209-217|AUC(0-8)|drug
 DDI-DrugBank.d115.s7|36-41|CYP3A4|drug
 DDI-DrugBank.d115.s8|58-72|Gleevec acid|drug
 DDI-DrugBank.d115.s8|102-104|AUC|drug
 DDI-DrugBank.d115.s8|121-127|(CYP3A4|drug
 DDI-DrugBank.d115.s8|203-208|CYP3A4|drug
-DDI-DrugBank.d115.s8|213-220|Gleevec.|drug
+DDI-DrugBank.d115.s8|213-220|Gleevec|drug
 DDI-DrugBank.d115.s9|53-59|Gleevec|drug
 DDI-DrugBank.d115.s9|66-71|CYP3A4|drug
 DDI-DrugBank.d115.s10|51-56|CYP3A4|drug
 DDI-DrugBank.d115.s10|159-165|HMG-CoA|drug
 DDI-DrugBank.d115.s11|35-40|CYP2C9|drug
-DDI-DrugBank.d115.s11|46-52|CYP3A4,|drug
+DDI-DrugBank.d115.s11|46-52|CYP3A4|drug
 DDI-DrugBank.d115.s12|10-16|Gleevec|drug
 DDI-DrugBank.d115.s12|42-45|P450|drug
 DDI-DrugBank.d115.s12|57-62|CYP2D6|drug
 DDI-DrugBank.d115.s12|111-116|CYP3A4|drug
 DDI-DrugBank.d115.s13|35-40|CYP2D6|drug
-DDI-DrugBank.d115.s13|95-102|Gleevec.|drug
+DDI-DrugBank.d115.s13|95-102|Gleevec|drug
 DDI-DrugBank.d115.s15|10-16|Gleevec|drug
 DDI-DrugBank.d115.s15|41-57|O-glucuronidation|drug
 DDI-DrugBank.d115.s15|78-79|M)|drug
-DDI-DrugBank.d115.s16|88-95|Gleevec.|drug
+DDI-DrugBank.d115.s16|88-95|Gleevec|drug
 DDI-DrugBank.d221.s0|44-52|NovoSeven|drug
-DDI-DrugBank.d221.s2|210-219|NovoSeven.|drug
+DDI-DrugBank.d221.s2|170-185|tranexamic acid|drug
+DDI-DrugBank.d221.s2|210-219|NovoSeven|drug
+DDI-DrugBank.d109.s0|27-37|Macrolides|drug
 DDI-DrugBank.d109.s0|39-60|Including acid|drug
-DDI-DrugBank.d553.s0|21-46|Interactions: acid|drug
+DDI-DrugBank.d553.s0|16-33|Test acid|drug
+DDI-DrugBank.d553.s0|35-46|Prolongation|drug
 DDI-DrugBank.d553.s0|138-143|AMICAR|drug
 DDI-DrugBank.d553.s2|104-107|EACA|drug
 DDI-DrugBank.d553.s2|118-120|ADP|drug
 DDI-DrugBank.d553.s2|180-182|ATP|drug
-DDI-DrugBank.d553.s3|26-32|AMICAR,|drug
+DDI-DrugBank.d553.s3|26-32|AMICAR|drug
 DDI-DrugBank.d553.s4|21-26|AMICAR|drug
 DDI-DrugBank.d553.s7|41-46|AMICAR|drug
 DDI-DrugBank.d227.s0|126-128|MAC|drug
@@ -655,43 +722,49 @@ DDI-DrugBank.d420.s6|40-46|OMNICEF|drug
 DDI-DrugBank.d420.s6|57-63|OMNICEF|drug
 DDI-DrugBank.d420.s9|11-17|OMNICEF|drug
 DDI-DrugBank.d420.s9|23-37|Oral acid|drug
-DDI-DrugBank.d420.s10|89-94|Japan.|drug
+DDI-DrugBank.d420.s10|89-94|Japan|drug
 DDI-DrugBank.d420.s12|21-34|Interactions acid|drug
-DDI-DrugBank.d420.s13|98-106|Clinitest|drug
-DDI-DrugBank.d420.s13|110-117|Benedict|drug
+DDI-DrugBank.d420.s13|108-117|, acid|drug
 DDI-DrugBank.d420.s13|134-141|Fehlings|drug
 DDI-DrugBank.d420.s14|91-99|Clinistix|drug
 DDI-DrugBank.d420.s14|105-112|Tes-Tape|drug
 DDI-DrugBank.d420.s15|66-71|Coombs|drug
-DDI-MedLine.d8.s0|21-29|KRM-1648,|drug
+DDI-MedLine.d8.s0|21-29|KRM-1648|drug
 DDI-MedLine.d8.s0|87-99|Mycobacterium|drug
-DDI-MedLine.d8.s1|52-60|KRM-1648,|drug
+DDI-MedLine.d8.s1|52-60|KRM-1648|drug
 DDI-MedLine.d8.s1|186-198|Mycobacterium|drug
-DDI-MedLine.d8.s2|10-11|M.|drug
+DDI-MedLine.d8.s2|10-11|M|drug
 DDI-MedLine.d8.s3|46-51|BACTEC|drug
 DDI-MedLine.d8.s4|86-93|KRM-1648|drug
-DDI-MedLine.d8.s4|103-104|M.|drug
+DDI-MedLine.d8.s4|103-104|M|drug
 DDI-MedLine.d8.s6|30-37|KRM-1648|drug
 DDI-MedLine.d8.s7|27-34|KRM-1648|drug
-DDI-MedLine.d8.s7|78-79|M.|drug
+DDI-MedLine.d8.s7|78-79|M|drug
 DDI-MedLine.d22.s0|0-7|Spermine|drug
 DDI-MedLine.d22.s1|0-7|Spermine|drug
-DDI-MedLine.d42.s1|0-16|BACKGROUND: acid|drug
+DDI-MedLine.d22.s3|0-8|Spermine|drug
+DDI-MedLine.d42.s1|0-10|BACKGROUND|drug
+DDI-MedLine.d42.s1|12-16|Since|drug
 DDI-MedLine.d42.s1|38-44|US acid|drug
 DDI-MedLine.d42.s1|50-68|Drug acid|drug
 DDI-MedLine.d42.s1|73-77|March|drug
-DDI-MedLine.d42.s3|0-14|OBJECTIVE: acid|drug
-DDI-MedLine.d42.s4|0-16|METHODS: acid|drug
+DDI-MedLine.d42.s3|0-9|OBJECTIVE|drug
+DDI-MedLine.d42.s3|11-14|This|drug
+DDI-MedLine.d42.s4|0-7|METHODS|drug
+DDI-MedLine.d42.s4|9-16|Clinical|drug
 DDI-MedLine.d42.s4|145-151|January|drug
 DDI-MedLine.d42.s4|162-167|August|drug
-DDI-MedLine.d42.s4|210-229|MEDLINE, acid|drug
+DDI-MedLine.d42.s4|210-217|MEDLINE|drug
+DDI-MedLine.d42.s4|219-229|PREMEDLINE|drug
 DDI-MedLine.d42.s4|249-273|Pharmaceutical acid|drug
-DDI-MedLine.d42.s4|303-309|Viagra,|drug
-DDI-MedLine.d42.s5|0-18|RESULTS: acid|drug
+DDI-MedLine.d42.s4|303-309|Viagra|drug
+DDI-MedLine.d42.s5|0-7|RESULTS|drug
+DDI-MedLine.d42.s5|9-18|Sildenafil|drug
 DDI-MedLine.d42.s6|85-99|SSRI-associated|drug
 DDI-MedLine.d42.s10|63-70|P450 acid|drug
-DDI-MedLine.d42.s11|0-22|CONCLUSIONS: acid|drug
-DDI-DrugBank.d46.s1|2-9|Alcohol,|drug
+DDI-MedLine.d42.s11|0-11|CONCLUSIONS|drug
+DDI-MedLine.d42.s11|13-22|Sildenafil|drug
+DDI-DrugBank.d46.s1|2-9|Alcohol|drug
 DDI-DrugBank.d46.s1|39-50|Potentiation|drug
 DDI-DrugBank.d46.s3|2-13|Antidiabetic|drug
 DDI-DrugBank.d46.s3|48-53|Dosage|drug
@@ -699,25 +772,31 @@ DDI-DrugBank.d46.s5|2-6|Other|drug
 DDI-DrugBank.d46.s5|32-39|Additive|drug
 DDI-DrugBank.d46.s7|2-15|Cholestyramine|drug
 DDI-DrugBank.d46.s7|40-53|Cholestytamine|drug
-DDI-DrugBank.d46.s9|19-35|ACTH: acid|drug
+DDI-DrugBank.d46.s9|2-17|Corticosteroids|drug
+DDI-DrugBank.d46.s9|19-23|ACTH|drug
+DDI-DrugBank.d46.s9|25-35|Intensified|drug
 DDI-DrugBank.d46.s11|2-8|Pressor|drug
 DDI-DrugBank.d46.s11|41-48|Possible|drug
 DDI-DrugBank.d46.s13|2-9|Skeletal|drug
 DDI-DrugBank.d46.s13|67-74|Possible|drug
-DDI-DrugBank.d46.s15|2-19|Lithium: acid|drug
-DDI-DrugBank.d46.s19|34-42|Drugs: acid|drug
-DDI-DrugBank.d46.s22|23-45|Interactions: acid|drug
+DDI-DrugBank.d46.s15|2-9|Lithium|drug
+DDI-DrugBank.d46.s15|11-19|Generally|drug
+DDI-DrugBank.d46.s19|16-39|Anti-inflammatory acid|drug
+DDI-DrugBank.d46.s19|41-42|In|drug
+DDI-DrugBank.d46.s22|18-35|Test acid|drug
+DDI-DrugBank.d46.s22|37-45|Thiazides|drug
 DDI-DrugBank.d389.s0|102-104|CNS|drug
 DDI-DrugBank.d389.s1|0-2|MAO|drug
 DDI-DrugBank.d389.s3|47-49|MAO|drug
 DDI-MedLine.d77.s1|209-214|Eagles|drug
 DDI-MedLine.d77.s2|14-14|C|drug
-DDI-MedLine.d77.s2|74-79|S.E.M.|drug
+DDI-MedLine.d77.s2|74-79|S.E.M|drug
 DDI-MedLine.d77.s4|30-30|C|drug
-DDI-MedLine.d77.s4|82-87|S.E.M.|drug
+DDI-MedLine.d77.s4|82-87|S.E.M|drug
 DDI-MedLine.d77.s8|55-57|D2O|drug
 DDI-DrugBank.d111.s0|14-16|MAO|drug
-DDI-DrugBank.d111.s0|98-113|HC1: acid|drug
+DDI-DrugBank.d111.s0|98-101|HC1|drug
+DDI-DrugBank.d111.s0|103-113|Concomitant|drug
 DDI-DrugBank.d111.s0|122-131|L-tyrosine|drug
 DDI-DrugBank.d111.s0|151-153|MAO|drug
 DDI-DrugBank.d485.s0|19-27|Substrate|drug
@@ -734,13 +813,16 @@ DDI-DrugBank.d485.s6|32-34|CYP|drug
 DDI-DrugBank.d485.s8|40-48|Pregnancy|drug
 DDI-DrugBank.d485.s10|16-26|Combination|drug
 DDI-DrugBank.d485.s12|82-89|Increase|drug
+DDI-DrugBank.d485.s14|0-13|Ascorbic acid|drug
 DDI-DrugBank.d485.s14|15-19|Doses|drug
 DDI-DrugBank.d485.s14|24-36|ascorbic acid|drug
 DDI-DrugBank.d485.s14|47-48|C)|drug
 DDI-DrugBank.d485.s16|14-25|Atorvastatin|drug
 DDI-DrugBank.d485.s16|41-43|AUC|drug
 DDI-DrugBank.d485.s17|17-27|Combination|drug
+DDI-DrugBank.d485.s18|0-14|Clofibric acid|drug
 DDI-DrugBank.d485.s18|16-26|Combination|drug
+DDI-DrugBank.d485.s18|82-96|clofibric acid|drug
 DDI-DrugBank.d485.s19|14-24|Combination|drug
 DDI-DrugBank.d485.s21|0-5|CYP3A4|drug
 DDI-DrugBank.d485.s21|17-22|CYP3A4|drug
@@ -748,25 +830,29 @@ DDI-DrugBank.d485.s23|14-25|Griseofulvin|drug
 DDI-DrugBank.d485.s26|10-20|Combination|drug
 DDI-DrugBank.d485.s27|58-67|Nevirapine|drug
 DDI-DrugBank.d485.s31|14-20|Ethinyl|drug
-DDI-DrugBank.d485.s32|21-31|Amprenavir,|drug
+DDI-DrugBank.d485.s32|21-31|Amprenavir|drug
 DDI-DrugBank.d485.s36|10-17|Rifampin|drug
+DDI-DrugBank.d485.s38|0-14|Salicylic acid|drug
 DDI-DrugBank.d485.s38|16-26|Combination|drug
+DDI-DrugBank.d485.s38|82-96|salicylic acid|drug
 DDI-DrugBank.d485.s39|12-22|Combination|drug
 DDI-DrugBank.d485.s40|14-20|Ethinyl|drug
 DDI-DrugBank.d485.s41|70-79|Metabolism|drug
 DDI-DrugBank.d485.s43|0-6|ETHANOL|drug
 DDI-DrugBank.d485.s43|10-18|NUTRITION|drug
-DDI-DrugBank.d485.s43|41-49|Food: acid|drug
+DDI-DrugBank.d485.s43|22-39|HERB acid|drug
+DDI-DrugBank.d485.s43|41-45|Food|drug
+DDI-DrugBank.d485.s43|47-49|CNS|drug
 DDI-DrugBank.d485.s46|20-27|St acid|drug
-DDI-MedLine.d94.s1|0-10|OBJECTIVES.|drug
-DDI-MedLine.d94.s3|0-10|BACKGROUND.|drug
-DDI-MedLine.d94.s6|0-7|METHODS.|drug
-DDI-MedLine.d94.s7|78-80|Hz,|drug
+DDI-MedLine.d94.s1|0-10|OBJECTIVES|drug
+DDI-MedLine.d94.s3|0-10|BACKGROUND|drug
+DDI-MedLine.d94.s6|0-7|METHODS|drug
+DDI-MedLine.d94.s7|78-80|Hz|drug
 DDI-MedLine.d94.s7|93-94|C)|drug
-DDI-MedLine.d94.s8|0-7|RESULTS.|drug
+DDI-MedLine.d94.s8|0-7|RESULTS|drug
 DDI-MedLine.d94.s10|85-101|Heart acid|drug
 DDI-MedLine.d94.s10|120-122|IV)|drug
-DDI-MedLine.d94.s10|194-200|(EC50).|drug
+DDI-MedLine.d94.s10|194-200|(EC50)|drug
 DDI-MedLine.d94.s11|4-7|EC50|drug
 DDI-MedLine.d94.s11|138-139|II|drug
 DDI-MedLine.d94.s11|144-146|III|drug
@@ -775,7 +861,7 @@ DDI-MedLine.d94.s12|187-188|IV|drug
 DDI-MedLine.d94.s13|197-198|II|drug
 DDI-MedLine.d94.s13|203-205|III|drug
 DDI-MedLine.d94.s13|211-212|IV|drug
-DDI-MedLine.d94.s14|0-11|CONCLUSIONS.|drug
+DDI-MedLine.d94.s14|0-11|CONCLUSIONS|drug
 DDI-MedLine.d94.s17|56-57|IV|drug
 DDI-DrugBank.d53.s13|162-168|Digoxin|drug
 DDI-DrugBank.d53.s16|16-33|Interactions acid|drug
@@ -783,7 +869,8 @@ DDI-DrugBank.d53.s17|7-23|Treatment acid|drug
 DDI-DrugBank.d53.s17|67-70|Zmax|drug
 DDI-DrugBank.d80.s0|36-41|Mentax|drug
 DDI-DrugBank.d80.s0|55-57|HCl|drug
-DDI-DrugBank.d80.s0|66-71|Cream,|drug
+DDI-DrugBank.d80.s0|66-71|Cream|drug
+DDI-DrugBank.d551.s1|119-132|valproic acid|drug
 DDI-DrugBank.d551.s2|23-26|Cmax|drug
 DDI-DrugBank.d551.s2|32-34|AUC|drug
 DDI-DrugBank.d551.s2|74-75|SR|drug
@@ -801,11 +888,12 @@ DDI-DrugBank.d122.s6|91-99|CLINISTIX|drug
 DDI-DrugBank.d122.s6|105-112|TES-TAPE|drug
 DDI-DrugBank.d523.s0|10-14|There|drug
 DDI-DrugBank.d523.s2|13-25|(KEMSTRO) acid|drug
-DDI-DrugBank.d523.s5|17-43|Neuropsychiatric: acid|drug
+DDI-DrugBank.d523.s5|17-33|Neuropsychiatric|drug
+DDI-DrugBank.d523.s5|35-43|Confusion|drug
 DDI-DrugBank.d523.s7|16-26|Hypotension|drug
 DDI-DrugBank.d523.s9|18-23|Nausea|drug
 DDI-DrugBank.d523.s11|15-21|Urinary|drug
 DDI-DrugBank.d523.s13|7-15|Instances|drug
 DDI-DrugBank.d523.s14|12-14|CNS|drug
-DDI-DrugBank.d523.s15|110-114|SGOT,|drug
+DDI-DrugBank.d523.s15|110-114|SGOT|drug
 DDI-DrugBank.d523.s16|41-49|KEMSTROTM|drug
