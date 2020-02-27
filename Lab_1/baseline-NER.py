@@ -97,9 +97,9 @@ def extract_entities(tokenized_list):
                     post_offset_to -= 1
                     word_stripped = True
             d["name"] = "{} {}".format(word, post_word)
-            d["type"] = "drug"
+            d["type"] = "group"
             d["offset"] = "{}-{}".format(offset_from, post_offset_to)
-            last_type = "drug"
+            last_type = "group"
             skip_word = True
 
         # todo canviar a brand o droga depenent de sufix
@@ -107,7 +107,7 @@ def extract_entities(tokenized_list):
             d["name"] = word
             d["type"] = "brand"  # Posar pes per fer probabilitat 2/3 si es drug, 1/3 si es brand
             d["offset"] = "{}-{}".format(offset_from, offset_to)
-            last_type = "drug"
+            last_type = "brand"
 
         # TODO: si la paraula seguent tambe te el mateix tipus, merge
         elif word.lower() == "acid":
