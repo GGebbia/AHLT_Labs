@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 
 import os
 import sys
+import re
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -15,9 +16,11 @@ stopWords = set(stopwords.words('english'))
 
 # Replace punctuation symbols by space in order to maintain the offset.
 def remove_punctuation(sentence):
-    return re.sub([",:?!."] ," ", sentence)
+    sentence = re.sub(r'\([^)]*\)', ' ', sentence)
+    sentence = re.sub("?!", " ", sentence)
+    return sentence
 
-def tokenize(sentence, span_generator):
+def tokenize(sentence):
     span_generator = WhitespaceTokenizer().span_tokenize(sentence)
     return [(sentence[span[0]: span[1]], span[0], span[1]-1) for span in span_generator]
 
@@ -37,7 +40,8 @@ def extract_entities(tokenized_list):
         if i == list_length and word.endswith("."):
             word = word[:-1]
         # strip , and : from word
-        elif (word.endswith(":") or word.endswith(",")):
+        elif any(punct in word for punct in punctuation):
+            print(word)
             word = word[:-1]
             word_stripped = True
 
@@ -59,7 +63,6 @@ def extract_entities(tokenized_list):
             d["type"] = "drug"
             d["offset"] = "{}-{}".format(offset_from, post_offset_to)
             last_type = "drug"
-
 
         if (word[0].isupper() and offset_from != 0) or (word.isupper()):
             d["name"] = word
@@ -103,8 +106,7 @@ inputdir = sys.argv[1]
 outputfilename="./output.txt"
 outputfile = open(outputfilename, "w")
 suffixes_list = [line.strip() for line in open("sufixes_devel.txt","r")]
-print(suffixes_list)
-
+punctuation = [",", ":", ";", ")", "!", "?"]
 for filename in os.listdir(inputdir):
     file_path = os.path.join(inputdir, filename)
     tree = ET.parse(file_path)
