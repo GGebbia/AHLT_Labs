@@ -11,6 +11,8 @@ import sys
 nltk.download('stopwords')
 nltk.download('punkt')
 
+stopWords = set(stopwords.words('english'))
+
 # Replace punctuation symbols by space in order to maintain the offset.
 def remove_punctuation(sentence):
     return re.sub([",:?!."] ," ", sentence)
