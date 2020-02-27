@@ -1,0 +1,16 @@
+- extreure els signes de puntuació ( !?,. ) ---> pensar manera eficient.
+- detectar brands a partir de paraules en majuscula
+- detectar (-)-BLABLA (+)-BLABLA
+- si droga + droga + paraula-s ---> group,  else --> drug
+- generalitzar a mes de 2 paraules
+- si te sufix --> drug. si la detecta i no te sufix --> brand
+- fer regla per les que continguin la paraula CHANNEL
+- vitamin D --> son groups
+- 1,25(OH)2D3 --> drug
+- Si la paraula comensa amb majuscula i conté sufix --> drug 
+- si paraula.lower in stopword_list ---> pass
+
+
+# TODO SECUNDARI
+- si la paraula te - --> drug
+- drug_n --> hardcoded
