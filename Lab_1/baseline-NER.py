@@ -14,7 +14,6 @@ nltk.download('punkt')
 
 stopWords = set(stopwords.words('english'))
 
-
 # Replace punctuation symbols by space in order to maintain the offset.
 def remove_punctuation(sentence):
     sentence = re.sub(r'\([^)]*\)', ' ', sentence)
@@ -77,9 +76,10 @@ def extract_entities(tokenized_list):
             if continue_stripping_word:
                 offset_to-= 1
                 word_stripped = True
-        if not word:
+        if not word or any(unwanted_word in word for unwanted_word in unwanted_word_list):
             continue
 
+        # gianca comment: hauria de ser word.lower() pero la puntuació BAIXA
         # If word contains any of the suffixes in the list, then mark it as drug
         if any(suffix in word for suffix in suffixes_list):
             d["name"] = word
@@ -87,8 +87,19 @@ def extract_entities(tokenized_list):
             d["offset"] = "{}-{}".format(offset_from, offset_to)
             last_type = "drug"
 
+        elif any(group_name in word.lower() for group_name in group_name_list):
+            d["name"] = word
+            d["type"] = "group"
+            d["offset"] = "{}-{}".format(offset_from, offset_to)
+            last_type = "group"
+
+        elif any(drug_n_word in word for drug_n_word in drug_n_list):
+            d["name"] = word
+            d["type"] = "drug_n"
+            d["offset"] = "{}-{}".format(offset_from, offset_to)
+
         # If word is vitamin, we store with the second letter
-        elif word == "vitamin":
+        elif word.lower() == "vitamin":
             post_word, _, post_offset_to = tokenized_list[i + 1]
             continue_stripping_word = True
             while continue_stripping_word:
@@ -103,7 +114,7 @@ def extract_entities(tokenized_list):
             skip_word = True
 
         # todo canviar a brand o droga depenent de sufix
-        elif (word[0].isupper() and offset_from != 0) or (word.isupper()):
+        elif (word[0].isupper() and offset_from != 0):
             d["name"] = word
             d["type"] = "brand"  # Posar pes per fer probabilitat 2/3 si es drug, 1/3 si es brand
             d["offset"] = "{}-{}".format(offset_from, offset_to)
@@ -147,7 +158,11 @@ def evaluate(inputdir, outputfile):
 inputdir = sys.argv[1]
 outputfilename = "./task9.1_GianMarc_1.txt"
 outputfile = open(outputfilename, "w")
+
 suffixes_list = [line.strip() for line in open("sufixes_devel.txt", "r")]
+drug_n_list = ["iron", "(+)-NANM", "(-)-NANM", "PCP", "NANM"]
+group_name_list = ["beta", "alpha", "anti"]
+unwanted_word_list = ["CYP3A", "3A", "P450"]
 
 for filename in os.listdir(inputdir):
     file_path = os.path.join(inputdir, filename)
