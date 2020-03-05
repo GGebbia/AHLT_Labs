@@ -64,7 +64,7 @@ def extract_entities(tokenized_list):
         if i == list_length and word.endswith("."):
             word = word[:-1]
             offset_to -= 1
-            # this should only happen if last word is a single ".""
+        # this should only happen if last word is a single ".""
         if not word:
             continue
 
@@ -113,24 +113,29 @@ def extract_entities(tokenized_list):
             last_type = "group"
             skip_word = True
 
+        # TODO: si la paraula seguent tambe te el mateix tipus, merge
+        elif word.lower() == "acid":
+            prev_word, prev_offset_from, _ = tokenized_list[i - 1]
+            # Remove drug or brand if it was added since the next word is acid
+            if last_type != None:
+                entities_list.pop(-1)
+            d["name"] = prev_word + " acid"
+            d["type"] = "drug"
+            d["offset"] = "{}-{}".format(prev_offset_from, offset_to)
+            last_type = "drug"
+
+        elif word[-1] == "s":
+            d["name"] = word
+            d["type"] = "group"
+            d["offset"] = "{}-{}".format(offset_from, offset_to)
+            last_type = "group"
+
         # todo canviar a brand o droga depenent de sufix
         elif (word[0].isupper() and offset_from != 0):
             d["name"] = word
             d["type"] = "brand"  # Posar pes per fer probabilitat 2/3 si es drug, 1/3 si es brand
             d["offset"] = "{}-{}".format(offset_from, offset_to)
             last_type = "brand"
-
-        # TODO: si la paraula seguent tambe te el mateix tipus, merge
-        elif word.lower() == "acid":
-            prev_word, prev_offset_from, _ = tokenized_list[i - 1]
-
-            # Remove drug or brand if it was added since the next word is acid
-            if last_type != None:
-                entitites_list.pop(-1)
-            d["name"] = prev_word + " acid"
-            d["type"] = "drug"
-            d["offset"] = "{}-{}".format(prev_offset_from, offset_to)
-            last_type = "drug"
 
         else:
             last_type = None
@@ -156,7 +161,7 @@ def evaluate(inputdir, outputfile):
 
 ### VARIABLES
 inputdir = sys.argv[1]
-outputfilename = "./task9.1_GianMarc_1.txt"
+outputfilename = "./task9.1_GianMarc_2.txt"
 outputfile = open(outputfilename, "w")
 
 suffixes_list = [line.strip() for line in open("sufixes_devel.txt", "r")]

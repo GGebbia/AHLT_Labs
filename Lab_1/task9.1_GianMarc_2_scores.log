@@ -1,0 +1,52 @@
+SCORES FOR THE GROUP: GianMarc RUN=2
+
+Strict matching (boundaries + type)
+cor	inc	par	mis	spu	total	prec	recall	F1
+694	465	0	612	1461	1771	0.26	0.39	0.32
+
+
+
+Exact matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+800	359	0	612	1461	1771	0.31	0.45	0.36
+
+
+
+Partial matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+800	0	359	612	1461	1771	0.31	0.55	0.39
+
+
+
+type matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+975	184	0	612	1461	1771	0.37	0.55	0.44
+
+
+
+SCORES FOR ENTITY TYPE
+Exact matching on drug
+cor	inc	par	mis	spu	total	prec	recall	F1
+342	33	0	670	34	1045	0.84	0.33	0.47
+
+
+Exact matching on brand
+cor	inc	par	mis	spu	total	prec	recall	F1
+145	5	0	30	107	180	0.56	0.81	0.66
+
+
+Exact matching on group
+cor	inc	par	mis	spu	total	prec	recall	F1
+177	236	0	41	419	454	0.21	0.39	0.28
+
+
+Exact matching on drug_n
+cor	inc	par	mis	spu	total	prec	recall	F1
+30	8	0	54	1	92	0.77	0.33	0.46
+
+
+MACRO-AVERAGE MEASURES:
+P	R	F1
+0.6	0.46	0.47
+________________________________________________________________________
+
