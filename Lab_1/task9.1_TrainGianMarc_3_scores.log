@@ -1,0 +1,52 @@
+SCORES FOR THE GROUP: TrainGianMarc RUN=3
+
+Strict matching (boundaries + type)
+cor	inc	par	mis	spu	total	prec	recall	F1
+6721	2879	0	3394	4793	12994	0.47	0.52	0.49
+
+
+
+Exact matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+7613	1987	0	3394	4793	12994	0.53	0.59	0.56
+
+
+
+Partial matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+7613	0	1987	3394	4793	12994	0.53	0.66	0.59
+
+
+
+type matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+7939	1661	0	3394	4793	12994	0.55	0.61	0.58
+
+
+
+SCORES FOR ENTITY TYPE
+Exact matching on drug
+cor	inc	par	mis	spu	total	prec	recall	F1
+4770	494	0	3116	2045	8380	0.65	0.57	0.61
+
+
+Exact matching on brand
+cor	inc	par	mis	spu	total	prec	recall	F1
+887	61	0	309	608	1257	0.57	0.71	0.63
+
+
+Exact matching on group
+cor	inc	par	mis	spu	total	prec	recall	F1
+970	646	0	1329	302	2945	0.51	0.33	0.4
+
+
+Exact matching on drug_n
+cor	inc	par	mis	spu	total	prec	recall	F1
+94	29	0	289	0	412	0.76	0.23	0.35
+
+
+MACRO-AVERAGE MEASURES:
+P	R	F1
+0.62	0.46	0.5
+________________________________________________________________________
+
