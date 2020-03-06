@@ -23,7 +23,25 @@ def remove_punctuation(sentence):
 
 def tokenize(sentence):
     span_generator = WhitespaceTokenizer().span_tokenize(sentence)
-    return [(sentence[span[0]: span[1]], span[0], span[1] - 1) for span in span_generator]
+    tokens = [(sentence[span[0]: span[1]], span[0], span[1] - 1) for span in span_generator]
+
+    new_tokens = []
+    for i, token in enumerate(tokens):
+        word, offset_from, offset_to = token
+        if (len(word) > 1) and ( word.endswith(',') or word.endswith('.') ):
+            punct = word[-1]
+            punct_offset_from = offset_to
+            punct_offset_to = offset_to
+
+            word = word[:-1]
+            offset_to -= 1
+
+            new_tokens.append((word, offset_from, offset_to))
+            new_tokens.append((punct, punct_offset_from, punct_offset_to))
+        else:
+            new_tokens.append((word, offset_from, offset_to))
+
+    return new_tokens
 
 
 def strip_word_end(word):
@@ -54,6 +72,10 @@ def extract_entities(tokenized_list):
 
         if skip_word:
             skip_word = False
+            last_type = None
+            continue
+        elif len(word) == 1:
+            last_type = None
             continue
 
         if word.lower() in stopWords:
@@ -82,10 +104,20 @@ def extract_entities(tokenized_list):
         # gianca comment: hauria de ser word.lower() pero la puntuació BAIXA
         # If word contains any of the suffixes in the list, then mark it as drug
         if any(suffix in word for suffix in suffixes_list):
-            d["name"] = word
-            d["type"] = "drug"
-            d["offset"] = "{}-{}".format(offset_from, offset_to)
-            last_type = "drug"
+            if last_type == "drug":
+                prev_word, prev_offset_from, _ = tokenized_list[i - 1]
+                # Remove drug or brand if it was added since the next word is acid
+                entities_list.pop(-1)
+                d["name"] = prev_word + " " + word
+                d["type"] = "drug"
+                d["offset"] = "{}-{}".format(prev_offset_from, offset_to)
+                last_type = "drug"
+            else:
+                d["name"] = word
+                d["type"] = "drug"
+                d["offset"] = "{}-{}".format(offset_from, offset_to)
+                last_type = "drug"
+
 
         elif any(group_name in word.lower() for group_name in group_name_list):
             d["name"] = word
@@ -98,42 +130,68 @@ def extract_entities(tokenized_list):
             d["type"] = "drug_n"
             d["offset"] = "{}-{}".format(offset_from, offset_to)
 
+        elif any(drug_word in word for drug_word in drug_list):
+            d["name"] = word
+            d["type"] = "drug"
+            d["offset"] = "{}-{}".format(offset_from, offset_to)
+
         # If word is vitamin, we store with the second letter
         elif word.lower() == "vitamin":
-            post_word, _, post_offset_to = tokenized_list[i + 1]
-            continue_stripping_word = True
-            while continue_stripping_word:
-                continue_stripping_word, post_word = strip_word_end(post_word)
-                if continue_stripping_word:
-                    post_offset_to -= 1
-                    word_stripped = True
-            d["name"] = "{} {}".format(word, post_word)
-            d["type"] = "group"
-            d["offset"] = "{}-{}".format(offset_from, post_offset_to)
-            last_type = "group"
-            skip_word = True
+            if i != list_length:
+                post_word, _, post_offset_to = tokenized_list[i + 1]
+                continue_stripping_word = True
+                while continue_stripping_word:
+                    continue_stripping_word, post_word = strip_word_end(post_word)
+                    if continue_stripping_word:
+                        post_offset_to -= 1
+                        word_stripped = True
+                d["name"] = "{} {}".format(word, post_word)
+                d["type"] = "group"
+                d["offset"] = "{}-{}".format(offset_from, post_offset_to)
+                last_type = "group"
+                skip_word = True
+            else:
+                d["name"] = word
+                d["type"] = "group"
+                d["offset"] = "{}-{}".format(offset_from, offset_to)
+                last_type = "group"
+
 
         # TODO: si la paraula seguent tambe te el mateix tipus, merge
         elif word.lower() == "acid":
-            prev_word, prev_offset_from, _ = tokenized_list[i - 1]
-            # Remove drug or brand if it was added since the next word is acid
             if last_type != None:
                 entities_list.pop(-1)
-            d["name"] = prev_word + " acid"
-            d["type"] = "drug"
-            d["offset"] = "{}-{}".format(prev_offset_from, offset_to)
-            last_type = "drug"
+                prev_word, prev_offset_from, _ = tokenized_list[i - 1]
+                # Remove drug or brand if it was added since the next word is acid
+                d["name"] = prev_word + " acid"
+                d["type"] = "drug"
+                d["offset"] = "{}-{}".format(prev_offset_from, offset_to)
+                last_type = "drug"
+            else:
+                d["name"] = word
+                d["type"] = "drug"
+                d["offset"] = "{}-{}".format(offset_from, offset_to)
+                last_type = "drug"
+
 
         elif word[-1] == "s":
-            d["name"] = word
-            d["type"] = "group"
-            d["offset"] = "{}-{}".format(offset_from, offset_to)
-            last_type = "group"
+            if last_type == "group":
+                prev_word, prev_offset_from, _ = tokenized_list[i - 1]
+                # Remove drug or brand if it was added since the next word is acid
+                entities_list.pop(-1)
+                d["name"] = prev_word + " " + word
+                d["type"] = "group"
+                d["offset"] = "{}-{}".format(prev_offset_from, offset_to)
+                last_type = "group"
+            else:
+                d["name"] = word
+                d["type"] = "group"
+                d["offset"] = "{}-{}".format(offset_from, offset_to)
+                last_type = "group"
 
-        # todo canviar a brand o droga depenent de sufix
         elif (word[0].isupper() and offset_from != 0):
             d["name"] = word
-            d["type"] = "brand"  # Posar pes per fer probabilitat 2/3 si es drug, 1/3 si es brand
+            d["type"] = "brand"
             d["offset"] = "{}-{}".format(offset_from, offset_to)
             last_type = "brand"
 
@@ -161,13 +219,15 @@ def evaluate(inputdir, outputfile):
 
 ### VARIABLES
 inputdir = sys.argv[1]
-outputfilename = "./task9.1_GianMarc_2.txt"
+outputfilename = "./task9.1_GianMarc_3.txt"
 outputfile = open(outputfilename, "w")
 
 suffixes_list = [line.strip() for line in open("sufixes_devel.txt", "r")]
+suffixes_plural_list = [line.strip() for line in open("sufixes_plural_devel.txt", "r")]
 drug_n_list = ["iron", "(+)-NANM", "(-)-NANM", "PCP", "NANM"]
-group_name_list = ["beta", "alpha", "anti"]
+group_name_list = ["beta", "alpha", "anti", "NSAID", "anticoagulant"]
 unwanted_word_list = ["CYP3A", "3A", "P450"]
+drug_list = ["1,25(OH)2D3", "etodolac"]
 
 for filename in os.listdir(inputdir):
     file_path = os.path.join(inputdir, filename)
