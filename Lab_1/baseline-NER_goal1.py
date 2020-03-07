@@ -53,9 +53,6 @@ def strip_word_end(word):
         return False, word
 
 
-# TODO afegir knowledge de english words (the, in etc. + drugs i brands que sabem de test)
-# TODO mirar com detectar brands
-
 def extract_entities(tokenized_list):
     entities_list = []
     last_type = None
