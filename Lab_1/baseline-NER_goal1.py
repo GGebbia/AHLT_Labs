@@ -74,7 +74,7 @@ def extract_entities(tokenized_list):
             skip_word = False
             last_type = None
             continue
-        elif len(word) < 3:
+        elif len(word) < 2:
             last_type = None
             continue
 
