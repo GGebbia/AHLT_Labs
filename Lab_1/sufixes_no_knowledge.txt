@@ -1,12 +1,11 @@
-afil
 asone
 bicin
 bital
 caine
-cef
 ceph
 cillin 
-cort cycline 
+cort 
+cycl
 dazole
 dipine
 dronate
@@ -15,7 +14,6 @@ fenac
 floxacin
 gliptin
 glitazone
-iramine
 ine
 lamide
 mab
@@ -25,7 +23,6 @@ nacin
 nazole
 olol
 olone
-onide
 oprazole
 parin
 phylline
@@ -60,4 +57,7 @@ arin
 oxin
 cid
 urea
-tam
+mine
+tamsu
+icin
+tamin
