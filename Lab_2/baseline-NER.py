@@ -10,10 +10,44 @@ import re
 
 nltk.download('punkt')
 
+class Token:
+    def __init__(self, word, offset_from, offset_to):
+        self.word = word
+        self.offset_from = int(offset_from)
+        self.offset_to = int(offset_to)
+        self.type = "O"                                # Initialize all tokens with type O as non-drugs non-brands and non-groups
 
-# Replace punctuation symbols by space in order to maintain the offset.
+    def word_iscapitalized(self):
+        return self.word[0].isupper()
 
-#TODO: tractar , i . per incorporarles al tokenized_list
+
+class Entity:
+
+    def __init__(self, **kwargs):
+        self.word = kwargs["text"]
+        self.offset_from, self.offset_to = self.parse_offset(kwargs["charOffset"])
+        self.type = kwargs["type"]
+
+    def parse_offset(self, offset):
+
+        # offset can be given in two ways
+        # e.g.:
+        #       * 9-23
+        #       * 9-11;12-20;21-23
+        #
+        # We differenciate both cases and always save the first one and the last one
+
+        if ";" in offset:
+            offset = offset.split(";")
+            offset_from = offset[0].split('-')[0]
+            offset_to = offset[-1].split('-')[1]
+        else:
+            offset_from, offset_to = offset.split('-')
+
+        return int(offset_from), int(offset_to)
+
+
+# Read a string sentence and tokenize it by words with the corresponding offset. words ending with comma or dot are splitted onto two tokenized words. Return a tokenized list of sentence.
 def tokenize(sentence):
     span_generator = WhitespaceTokenizer().span_tokenize(sentence)
     tokens = [(sentence[span[0]: span[1]], span[0], span[1] - 1) for span in span_generator]
@@ -29,64 +63,76 @@ def tokenize(sentence):
             word = word[:-1]
             offset_to -= 1
 
-            new_tokens.append((word, offset_from, offset_to))
-            new_tokens.append((punct, punct_offset_from, punct_offset_to))
+            new_tokens.append(Token(word, offset_from, offset_to))
+            new_tokens.append(Token(punct, punct_offset_from, punct_offset_to))
         else:
-            new_tokens.append((word, offset_from, offset_to))
+            new_tokens.append(Token(word, offset_from, offset_to))
 
     return new_tokens
 
+# Given a token list, collect the most relevant features to store in a list.
+def extract_features(tokens):
+    features = []
 
-#Agafar label de xml, en cas que no sigui drug, brand, group, drug_n, afegir un O
-def get_label_from_xml():
-   pass
-
-def extract_features(tokenized_list):
-    # list = [("word", i, j) ... ]
-    output = []
-    max_length = len(tokenized_list)
-
-    for i, token in enumerate(tokenized_list, 0):
-        word, offset_from, offset_to = token
-
+    for i, token in enumerate(tokens, 0):
         word_features = []
 
-        form = word
+        # COMMON FEATURES
+        form = token.word
         word_features.append("form={}".format(form))
-        suf4 = word[-4:]
+        suf4 = token.word[-4:]
         word_features.append("suf4={}".format(suf4))
         if i != 0:
-            prev = tokenized_list[i-1][0]
+            prev = tokens[i-1].word
         else:
             prev = "_BoS_"
         word_features.append("prev={}".format(prev))
 
         try:
-            _next = tokenized_list[i+1][0]
+            _next = tokens[i+1].word
             word_features.append("next={}".format(_next))
-
         except:
             pass
 
-        if word[0].isupper():
+        # SPECIFIC FEATURES
+        if token.word_iscapitalized():
             word_features.append("capitalized")
 
-        output.append(word_features)
+        features.append(word_features)
 
-    return output
+    return features
 
+def detect_label(token, entities):
 
+    for entity in entities:
+        # If the two offsets are equal, then it corresponds to the same word and type.
+        if token.offset_from == entity.offset_from and token.offset_to == entity.offset_to:
+            token.type = "B-" + entity.type
+        # If the token offset interval is inside the entity offset interval, then it is a first or the continuation of a type sequence.
+        elif entity.offset_from <= token.offset_from and token.offset_to <= entity.offset_to:
+            if entity.offset_from == token.offset_from:
+                token.type = "B-" + entity.type
+            else:
+                token.type = "I-" + entity.type
+        else:
+            token.type = "O"
 
-def output_entities(sid, entities, outputfile):
-    for ent in entities:
-        line = '|'.join([sid, ent["offset"], ent["name"], ent["type"]])
-        outputfile.write(line + "\n")
+# Write the feature extraction together with the label class and offsets into a file to future
+def output_features(sid, tokens, entities, features):
+    for i,token in enumerate(tokens):
+        detect_label(token, entities)
+        line = [sid, token.word, str(token.offset_from), str(token.offset_to), token.type] + features[i]
+        outputfile.write(" ".join(line) + "\n")
+# Store as a list of dictionaries the word, the offset interval and the label (drug, group, brand, drug_n,...) of each entity in the sentence.
+def get_entities(child):
+    entities = []
+    for ent in child.findall('entity'):
+        entity = Entity(**ent.attrib)
+        entities.append(entity)
 
-def evaluate(inputdir, outputfile):
-    os.system("java -jar eval/evaluateNER.jar " + inputdir + " " + outputfile)
+    return entities
 
-
-### VARIABLES
+### MAIN ###
 inputdir = sys.argv[1]
 outputfilename = "./task9.2_GianMarc_1.txt"
 outputfile = open(outputfilename, "w")
@@ -98,117 +144,10 @@ for filename in os.listdir(inputdir):
 
     for child in root:
         (sid, sentence) = (child.attrib["id"], child.attrib["text"])
-        tokenized_list = tokenize(sentence)
-        features = extract_features(tokenized_list)
-        print(features)
-        #output_entities(sid, entities, outputfile)
-#evaluate(inputdir, outputfilename)
-#outputfile.close()
+        tokens = tokenize(sentence)
+        features = extract_features(tokens)
+        entities = get_entities(child)
+        output_features(sid, tokens, entities, features)
 
-
-
-# def extract_entities(tokenized_list):
-#     entities_list = []
-#     last_type = None
-#     word_stripped = False
-#     list_length = len(tokenized_list) - 1
-#     # we use skip word when we want to store next token (vitamine D),
-#     # when we reach vitamine, we take D also, so when we take the next token (D), we skip it
-#     skip_word = False
-#     global suffixes_list
-#
-#     for i, token in enumerate(tokenized_list):
-#         word, offset_from, offset_to = token
-#         d = {}
-#
-#         if skip_word:
-#             skip_word = False
-#             continue
-#
-#         if word.lower() in stopWords:
-#             last_type = None
-#             continue
-#
-#         # remove . from last word
-#         if i == list_length and word.endswith("."):
-#             word = word[:-1]
-#             offset_to -= 1
-#             # this should only happen if last word is a single ".""
-#         if not word:
-#             continue
-#
-#         # strip symbols from end of the word
-#         continue_stripping_word = True
-#
-#         while continue_stripping_word:
-#             continue_stripping_word, word = strip_word_end(word)
-#             if continue_stripping_word:
-#                 offset_to-= 1
-#                 word_stripped = True
-#         if not word or any(unwanted_word in word for unwanted_word in unwanted_word_list):
-#             continue
-#
-#         # gianca comment: hauria de ser word.lower() pero la puntuació BAIXA
-#         # If word contains any of the suffixes in the list, then mark it as drug
-#         if any(suffix in word for suffix in suffixes_list):
-#             d["name"] = word
-#             d["type"] = "drug"
-#             d["offset"] = "{}-{}".format(offset_from, offset_to)
-#             last_type = "drug"
-#
-#         elif any(group_name in word.lower() for group_name in group_name_list):
-#             d["name"] = word
-#             d["type"] = "group"
-#             d["offset"] = "{}-{}".format(offset_from, offset_to)
-#             last_type = "group"
-#
-#         elif any(drug_n_word in word for drug_n_word in drug_n_list):
-#             d["name"] = word
-#             d["type"] = "drug_n"
-#             d["offset"] = "{}-{}".format(offset_from, offset_to)
-#
-#         # If word is vitamin, we store with the second letter
-#         elif word.lower() == "vitamin":
-#             post_word, _, post_offset_to = tokenized_list[i + 1]
-#             continue_stripping_word = True
-#             while continue_stripping_word:
-#                 continue_stripping_word, post_word = strip_word_end(post_word)
-#                 if continue_stripping_word:
-#                     post_offset_to -= 1
-#                     word_stripped = True
-#             d["name"] = "{} {}".format(word, post_word)
-#             d["type"] = "group"
-#             d["offset"] = "{}-{}".format(offset_from, post_offset_to)
-#             last_type = "group"
-#             skip_word = True
-#
-#         # todo canviar a brand o droga depenent de sufix
-#         elif (word[0].isupper() and offset_from != 0):
-#             d["name"] = word
-#             d["type"] = "brand"  # Posar pes per fer probabilitat 2/3 si es drug, 1/3 si es brand
-#             d["offset"] = "{}-{}".format(offset_from, offset_to)
-#             last_type = "brand"
-#
-#         # TODO: si la paraula seguent tambe te el mateix tipus, merge
-#         elif word.lower() == "acid":
-#             prev_word, prev_offset_from, _ = tokenized_list[i - 1]
-#
-#             # Remove drug or brand if it was added since the next word is acid
-#             if last_type != None:
-#                 entitites_list.pop(-1)
-#             d["name"] = prev_word + " acid"
-#             d["type"] = "drug"
-#             d["offset"] = "{}-{}".format(prev_offset_from, offset_to)
-#             last_type = "drug"
-#
-#         else:
-#             last_type = None
-#
-#         # If this word was ending with , or : next word not mergerd with this one
-#         if word_stripped:
-#             last_type = None
-#             word_stripped = False
-#
-#         if d.keys(): entities_list.append(d)
-#     return entities_list
+outputfile.close()
 
