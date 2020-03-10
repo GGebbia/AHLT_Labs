@@ -96,7 +96,7 @@ def extract_entities(tokenized_list):
             last_type = None
             continue
 
-        for line in groups_list_txt:
+        for line in drug_names_txt:
             entire_line = []
             number_of_words_in_line = 0
             same_line = False
@@ -115,9 +115,9 @@ def extract_entities(tokenized_list):
                     break
             if same_line:
                 d["name"] = " ".join(entire_line)
-                d["type"] = "group"
+                d["type"] = "drug"
                 d["offset"] = "{}-{}".format(offset_from, last_offset_to)
-                last_type = "group"
+                last_type = "drug"
                 skip_word = True
                 skip_word_times = number_of_words_in_line
                 break
@@ -142,7 +142,8 @@ def extract_entities(tokenized_list):
                 d["offset"] = "{}-{}".format(offset_from, offset_to)
                 last_type = "group"
 
-        elif any(drug_n_word.lower() in word.lower() for drug_n_word in drug_n_list):
+        elif any(drug_n_word.lower() in word.lower() for drug_n_word in drug_n_list)\
+                or "(+)" in word or "(-)" in word:
             if last_type is not None:
                 prev_word, prev_offset_from, _ = tokenized_list[i - 1]
                 # Remove drug or brand if it was added since the next word is acid
@@ -250,6 +251,98 @@ def extract_entities(tokenized_list):
                 last_type = "brand"
         else:
             last_type = None
+            for line in brand_names_txt:
+                entire_line = []
+                number_of_words_in_line = 0
+                same_line = False
+                last_offset_to = 0
+                line_words = line.split()
+                for word_index, line_word in enumerate(line_words):
+                    if i + word_index > list_length:
+                        break
+                    word_to_check, _, last_offset_to = tokenized_list[i + word_index]
+                    if word_to_check.lower() == line_word.lower():
+                        entire_line.append(word_to_check)
+                        number_of_words_in_line += 1
+                        same_line = True
+                    else:
+                        same_line = False
+                        break
+                if same_line:
+                    d["name"] = " ".join(entire_line)
+                    d["type"] = "brand"
+                    d["offset"] = "{}-{}".format(offset_from, last_offset_to)
+                    last_type = "brand"
+                    skip_word = True
+                    skip_word_times = number_of_words_in_line
+                    break
+
+            if skip_word:
+                if d.keys(): entities_list.append(d)
+                word_stripped = False
+                continue
+
+            for line in groups_list_txt:
+                entire_line = []
+                number_of_words_in_line = 0
+                same_line = False
+                last_offset_to = 0
+                line_words = line.split()
+                for word_index, line_word in enumerate(line_words):
+                    if i + word_index > list_length:
+                        break
+                    word_to_check, _, last_offset_to = tokenized_list[i + word_index]
+                    if word_to_check.lower() == line_word.lower():
+                        entire_line.append(word_to_check)
+                        number_of_words_in_line += 1
+                        same_line = True
+                    else:
+                        same_line = False
+                        break
+                if same_line:
+                    d["name"] = " ".join(entire_line)
+                    d["type"] = "group"
+                    d["offset"] = "{}-{}".format(offset_from, last_offset_to)
+                    last_type = "group"
+                    skip_word = True
+                    skip_word_times = number_of_words_in_line
+                    break
+
+            if skip_word:
+                if d.keys(): entities_list.append(d)
+                word_stripped = False
+                continue
+
+            for line in drug_n_list_txt:
+                entire_line = []
+                number_of_words_in_line = 0
+                same_line = False
+                last_offset_to = 0
+                line_words = line.split()
+                for word_index, line_word in enumerate(line_words):
+                    if i + word_index > list_length:
+                        break
+                    word_to_check, _, last_offset_to = tokenized_list[i + word_index]
+                    if word_to_check.lower() == line_word.lower():
+                        entire_line.append(word_to_check)
+                        number_of_words_in_line += 1
+                        same_line = True
+                    else:
+                        same_line = False
+                        break
+                if same_line:
+                    d["name"] = " ".join(entire_line)
+                    d["type"] = "drug_n"
+                    d["offset"] = "{}-{}".format(offset_from, last_offset_to)
+                    last_type = "drug_n"
+                    skip_word = True
+                    skip_word_times = number_of_words_in_line
+                    break
+
+        if skip_word:
+            if d.keys(): entities_list.append(d)
+            word_stripped = False
+            continue
 
         # If this word was ending with , or : next word not mergerd with this one
         if word_stripped:
@@ -280,6 +373,21 @@ groups_list_txt = []
 with open("groups.txt", "r") as f:
     for line in f:
         groups_list_txt.append(line)
+
+drug_n_list_txt = set()
+with open("compounds_dB.txt", "r") as f:
+    for line in f:
+        drug_n_list_txt.add(line)
+
+brand_names_txt = set()
+with open("brand_names_dB.txt", "r") as f:
+    for line in f:
+        brand_names_txt.add(line)
+
+drug_names_txt = set()
+with open("drug_names_dB.txt", "r") as f:
+    for line in f:
+        drug_names_txt.add(line)
 
 suffixes_plural_list = [line.strip() for line in open("sufixes_plural_external_knowledge.txt", "r")]
 drug_n_list = ["angiotensins", "angiotensin", "DPCPX", "FBAL", "5-FU", "trichlorfon", "coumaphos", "18-MC", "Flavoridin",
