@@ -176,8 +176,8 @@ def extract_entities(tokenized_list):
                 d["offset"] = "{}-{}".format(offset_from, offset_to)
                 last_type = "group"
 
-        # from the train dataset we observed some common sufixes among drugs and groups. The groups end with s as they
-        # are plural, so check if the word ends with a plural suffix, if so it probably is a group
+        # from the train dataset we observed some common sufixes and prefixes among drugs and groups. The groups end with s as they
+        # are plural, so check if the word ends has a plural suffix, if so it probably is a group
         elif any(suffix in word.lower() for suffix in suffixes_plural_list):
             if last_type == "group":
                 prev_word, prev_offset_from, _ = tokenized_list[i - 1]
