@@ -12,8 +12,6 @@ import re
 nltk.download('stopwords')
 nltk.download('punkt')
 
-stopWords = set(stopwords.words('english'))
-
 # Replace punctuation symbols by space in order to maintain the offset.
 def remove_punctuation(sentence):
     sentence = re.sub(r'\([^)]*\)', ' ', sentence)
@@ -72,10 +70,6 @@ def extract_entities(tokenized_list):
             last_type = None
             continue
         elif len(word) < 2:
-            last_type = None
-            continue
-
-        if word.lower() in stopWords:
             last_type = None
             continue
 
