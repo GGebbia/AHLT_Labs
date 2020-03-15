@@ -211,7 +211,7 @@ def extract_entities(tokenized_list):
                 d["offset"] = "{}-{}".format(offset_from, offset_to)
                 last_type = "group"
 
-        elif any(suffix in word.lower() for suffix in suffixes_plural_list):
+        elif any(word.endswith(suffix.lower()) or word.startswith(suffix.lower()) for suffix in suffixes_plural_list):
             if last_type == "group":
                 prev_word, prev_offset_from, _ = tokenized_list[i - 1]
                  # Remove drug or brand if it was added since the next word is acid
@@ -227,7 +227,8 @@ def extract_entities(tokenized_list):
                 last_type = "group"
 
        # If word contains any of the suffixes in the list, then mark it as drug
-        elif any(suffix in word for suffix in suffixes_list):
+        elif any(word.endswith(suffix.lower()) or word.startswith(suffix.lower()) for suffix in
+                     suffixes_list):
             if last_type == "drug":
                 prev_word, prev_offset_from, _ = tokenized_list[i - 1]
                 # Remove drug or brand if it was added since the next word is acid
@@ -356,6 +357,8 @@ def extract_entities(tokenized_list):
             last_type = None
             word_stripped = False
 
+        if d.keys() and d["name"].lower() == "agents":
+            d = {}
         if d.keys(): entities_list.append(d)
     return entities_list
 
@@ -402,10 +405,10 @@ drug_n_list = ["angiotensins", "angiotensin", "DPCPX", "FBAL", "5-FU", "trichlor
                "endotoxin", "Sedatives", "picrotoxin", "amizyl", "phenibut", "phenazepam", "picrotoxin", "contortrostatin",
                "iron", "PCP", "carboxytolbutamide", "dmPGE2", "heroin", "jacalin", "MPTP", "InsP(3)", "NN", "ibogaine", "MHD",
                "thimerosal", "Arecoline", "TML", "18-Methoxycoronaridine", "MHD"]
-group_name_list = ["Antacids", "beta", "alpha", "anti", "NSAID", "NSAIDs", "anticoagulant", "TCA", "TCAs", "polymyxins", "coumarin", "Androgens",
+group_name_list = ["Antacids", "alpha", "anti", "NSAID", "NSAIDs", "anticoagulant", "TCA", "TCAs", "polymyxins", "coumarin", "Androgens",
                    "diuretic", "diuretics", "Digitalis", "nitrosourea", "hypoglycemic", "agents", "barbiturates", "Corticosteroids",
-                   "cortico-steroids", "systemic", "solvent", "Drugs", "surfactant", "bronchodilators", "preparations", "inhibitors", ]
-drug_list = ["1,25(OH)2D3", "etodolac", "Rifabutin", "chloroquine", "CCNU", "CYP2D6", "CYP3A4", "MTX", "CYP2C9", "corticosteroid", "dapsone", "anakinra"]
+                   "cortico-steroids", "systemic", "solvent", "surfactant", "channel", "bronchodilators", "preparations", "inhibitors", ]
+drug_list = ["1,25(OH)2D3", "etodolac", "Rifabutin", "chloroquine", "CCNU", "CYP2D6", "CYP3A4", "MTX", "CYP2C9", "corticosteroid", "dapsone", "anakinra", "sodium"]
 unwanted_word_list = ["CYP3A", "3A", "P450", "Table", "environment", "identification", "provided", "Guidelines", "risk", "ironically", "manner", "cannot"]
 
 for filename in os.listdir(inputdir):
