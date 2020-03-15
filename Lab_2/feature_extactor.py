@@ -129,11 +129,13 @@ def output_features(sid, tokens, entities, features, flag="feats"):
             detect_label(token, entities)
             line = [sid, token.word, str(token.offset_from), str(token.offset_to), token.type] + features[i]
             outputfile.write(" ".join(line) + "\n")
+        outputfile.write("\n")
     elif flag == "megam":
         for i, token in enumerate(tokens):
             detect_label(token, entities)
             line = [token.type] + features[i]
             outputfile.write(" ".join(line) + "\n")
+        outputfile.write("\n")
     else:
         print("Incorrect feature extraction type\n")
         sys.exit(1)
@@ -163,7 +165,7 @@ parser.add_argument('--dir', type=str, help='Directory where are located the XML
 args = parser.parse_args()
 
 inputdir = args.dir
-outputfilename = "%s.dat" % args.type
+outputfilename = inputdir.replace("/","_") + "_%s.dat" % args.type
 outputfile = open(outputfilename, "w")
 
 for filename in os.listdir(inputdir):
