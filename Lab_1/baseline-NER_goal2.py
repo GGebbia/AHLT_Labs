@@ -15,12 +15,6 @@ nltk.download('punkt')
 # stopWords which we will not classify as entities
 stopWords = set(stopwords.words('english'))
 
-# Replace punctuation symbols by space in order to maintain the offset.
-def remove_punctuation(sentence):
-    sentence = re.sub(r'\([^)]*\)', ' ', sentence)
-    sentence = re.sub("?!", " ", sentence)
-    return sentence
-
 # Tokenize words
 def tokenize(sentence):
     span_generator = WhitespaceTokenizer().span_tokenize(sentence)
@@ -451,7 +445,6 @@ for filename in os.listdir(inputdir):
 
     for child in root:
         (sid, sentence) = (child.attrib["id"], child.attrib["text"])
-        # sentence = remove_punctuation(sentence)
         tokenized_list = tokenize(sentence)
         entities = extract_entities(tokenized_list)
         output_entities(sid, entities, outputfile)

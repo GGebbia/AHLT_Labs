@@ -7,8 +7,10 @@ from nltk.tokenize import WhitespaceTokenizer
 import os
 import sys
 import re
-
+import argparse
 nltk.download('punkt')
+
+
 
 class Token:
     def __init__(self, word, offset_from, offset_to):
@@ -118,11 +120,26 @@ def detect_label(token, entities):
             token.type = "O"
 
 # Write the feature extraction together with the label class and offsets into a file to future
-def output_features(sid, tokens, entities, features):
-    for i,token in enumerate(tokens):
-        detect_label(token, entities)
-        line = [sid, token.word, str(token.offset_from), str(token.offset_to), token.type] + features[i]
-        outputfile.write(" ".join(line) + "\n")
+def output_features(sid, tokens, entities, features, flag="feats"):
+
+
+    if flag == "feats":
+
+        for i,token in enumerate(tokens):
+            detect_label(token, entities)
+            line = [sid, token.word, str(token.offset_from), str(token.offset_to), token.type] + features[i]
+            outputfile.write(" ".join(line) + "\n")
+        outputfile.write("\n")
+    elif flag == "megam":
+        for i, token in enumerate(tokens):
+            detect_label(token, entities)
+            line = [token.type] + features[i]
+            outputfile.write(" ".join(line) + "\n")
+        outputfile.write("\n")
+    else:
+        print("Incorrect feature extraction type\n")
+        sys.exit(1)
+
 # Store as a list of dictionaries the word, the offset interval and the label (drug, group, brand, drug_n,...) of each entity in the sentence.
 def get_entities(child):
     entities = []
@@ -133,8 +150,22 @@ def get_entities(child):
     return entities
 
 ### MAIN ###
-inputdir = sys.argv[1]
-outputfilename = "./task9.2_GianMarc_1.txt"
+
+parser = argparse.ArgumentParser(description=
+        """
+        Compute the feature extractor of a given dataset containing XML Files.\n
+        Usage: \n\npython3 feature_extractor.py --dir data/Train --type <feats|megam>\n\n
+        If feats is selected returns the complete feature extractor with more detailed information about each sample.\n
+        If megam is selected returns only the features of each sample.\n
+        """
+        )
+parser.add_argument('--type', type=str, choices=["feats","megam"], help='Two option of extraction: feats or megam')
+parser.add_argument('--dir', type=str, help='Directory where are located the XML files')
+
+args = parser.parse_args()
+
+inputdir = args.dir
+outputfilename = inputdir.replace("/","_") + "_%s.dat" % args.type
 outputfile = open(outputfilename, "w")
 
 for filename in os.listdir(inputdir):
@@ -147,7 +178,7 @@ for filename in os.listdir(inputdir):
         tokens = tokenize(sentence)
         features = extract_features(tokens)
         entities = get_entities(child)
-        output_features(sid, tokens, entities, features)
+        output_features(sid, tokens, entities, features, flag=args.type)
 
 outputfile.close()
 
