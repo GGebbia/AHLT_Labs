@@ -1,52 +1,52 @@
-SCORES FOR THE GROUP: TrainGianMarc RUN=3
+SCORES FOR THE GROUP: GianMarc RUN=3
 
 Strict matching (boundaries + type)
 cor	inc	par	mis	spu	total	prec	recall	F1
-6968	2580	0	3446	4978	12994	0.48	0.54	0.51
+7848	2642	0	2504	4019	12994	0.54	0.6	0.57
 
 
 
 Exact matching
 cor	inc	par	mis	spu	total	prec	recall	F1
-7825	1723	0	3446	4978	12994	0.54	0.6	0.57
+9091	1399	0	2504	4019	12994	0.63	0.7	0.66
 
 
 
 Partial matching
 cor	inc	par	mis	spu	total	prec	recall	F1
-7825	0	1723	3446	4978	12994	0.54	0.67	0.6
+9091	0	1399	2504	4019	12994	0.63	0.75	0.68
 
 
 
 type matching
 cor	inc	par	mis	spu	total	prec	recall	F1
-8061	1487	0	3446	4978	12994	0.55	0.62	0.59
+8668	1822	0	2504	4019	12994	0.6	0.67	0.63
 
 
 
 SCORES FOR ENTITY TYPE
 Exact matching on drug
 cor	inc	par	mis	spu	total	prec	recall	F1
-4693	426	0	3261	2013	8380	0.66	0.56	0.61
+5366	286	0	2728	1195	8380	0.78	0.64	0.7
 
 
 Exact matching on brand
 cor	inc	par	mis	spu	total	prec	recall	F1
-868	68	0	321	531	1257	0.59	0.69	0.64
+885	61	0	311	478	1257	0.62	0.7	0.66
 
 
 Exact matching on group
 cor	inc	par	mis	spu	total	prec	recall	F1
-1284	581	0	1080	356	2945	0.58	0.44	0.5
+1448	450	0	1047	296	2945	0.66	0.49	0.56
 
 
 Exact matching on drug_n
 cor	inc	par	mis	spu	total	prec	recall	F1
-123	36	0	253	17	412	0.7	0.3	0.42
+149	29	0	234	61	412	0.62	0.36	0.46
 
 
 MACRO-AVERAGE MEASURES:
 P	R	F1
-0.63	0.5	0.54
+0.67	0.55	0.6
 ________________________________________________________________________
 

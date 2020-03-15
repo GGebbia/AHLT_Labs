@@ -1,4 +1,4 @@
-ºDDI-DrugBank.d219.s28|143-148|Lodine|brand
+DDI-DrugBank.d219.s28|143-148|Lodine|brand
 DDI-DrugBank.d413.s23|14-25|cyclosporine|drug
 DDI-DrugBank.d413.s23|61-72|cyclosporine|drug
 DDI-DrugBank.d219.s27|65-70|Lodine|brand
