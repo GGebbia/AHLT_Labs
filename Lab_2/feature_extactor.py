@@ -116,7 +116,8 @@ def extract_features(tokens):
                 max_pref_len = len(prev)
             prevpref4 = prev[0:max_pref_len]
             word_features.append("prevpref4={}".format(prevpref4))
-
+            if prev[0].isupper():
+                word_features.append("prevupper")
         else:
             prev = "_BoS_"
         word_features.append("prev={}".format(prev))
