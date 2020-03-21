@@ -22,6 +22,11 @@ class Token:
     def word_iscapitalized(self):
         return self.word[0].isupper()
 
+    def word_isupper(self):
+        return self.word.isupper()
+
+    def word_hassuffix(self):
+        return any(suffix in self.word for suffix in suffixes_list)
 
 class Entity:
 
@@ -100,6 +105,12 @@ def extract_features(tokens):
         if token.word_iscapitalized():
             word_features.append("capitalized")
 
+        if token.word_isupper():
+            word_features.append("isupper")
+
+        if token.word_hassuffix():
+            word_features.append("drugsuffix")
+
         features.append(word_features)
 
     return features
@@ -107,15 +118,22 @@ def extract_features(tokens):
 def detect_label(token, entities):
 
     for entity in entities:
+        print(token.offset_from, token.offset_to, token.word)
+        print(entity.offset_from, entity.offset_to, entity.word)
+        print("\n")
+
         # If the two offsets are equal, then it corresponds to the same word and type.
         if token.offset_from == entity.offset_from and token.offset_to == entity.offset_to:
             token.type = "B-" + entity.type
-        # If the token offset interval is inside the entity offset interval, then it is a first or the continuation of a type sequence.
+            return
+# If the token offset interval is inside the entity offset interval, then it is a first or the continuation of a type sequence.
         elif entity.offset_from <= token.offset_from and token.offset_to <= entity.offset_to:
             if entity.offset_from == token.offset_from:
                 token.type = "B-" + entity.type
             else:
                 token.type = "I-" + entity.type
+
+            return
         else:
             token.type = "O"
 
@@ -146,7 +164,7 @@ def get_entities(child):
     for ent in child.findall('entity'):
         entity = Entity(**ent.attrib)
         entities.append(entity)
-
+        print(ent.attrib)
     return entities
 
 ### MAIN ###
@@ -168,6 +186,11 @@ inputdir = args.dir
 outputfilename = inputdir.replace("/","_") + "_%s.dat" % args.type
 outputfile = open(outputfilename, "w")
 
+
+# INTERNAL KNOWLEDGE
+suffixes_list = [line.strip() for line in open("sufixes_no_knowledge.txt", "r")]
+# EXTERNAL KNOWLEDGE
+
 for filename in os.listdir(inputdir):
     file_path = os.path.join(inputdir, filename)
     tree = ET.parse(file_path)
@@ -179,6 +202,5 @@ for filename in os.listdir(inputdir):
         features = extract_features(tokens)
         entities = get_entities(child)
         output_features(sid, tokens, entities, features, flag=args.type)
-
 outputfile.close()
 
