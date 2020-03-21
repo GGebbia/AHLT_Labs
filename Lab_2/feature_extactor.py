@@ -144,8 +144,6 @@ def extract_features(tokens):
         if all_words_capitalized:
             word_features.append("all_capitalized")
 
-        if token.word
-
         features.append(word_features)
 
     return features
