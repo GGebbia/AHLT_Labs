@@ -202,22 +202,22 @@ def get_entities(child):
 parser = argparse.ArgumentParser(description=
                                  """
         Compute the feature extractor of a given dataset containing XML Files.\n
-        Usage: \n\npython3 feature_extractor.py --dir data/Train --type <feats|megam>\n\n
+        Usage: \n\npython3 feature_extractor.py --dir data/Train --type <feats|megam> --out ./extracted_features/Train\n\n
         If feats is selected returns the complete feature extractor with more detailed information about each sample.\n
         If megam is selected returns only the features of each sample.\n
         """
                                  )
 parser.add_argument('--type', type=str, choices=["feats", "megam"], help='Two option of extraction: feats or megam')
 parser.add_argument('--dir', type=str, help='Directory where are located the XML files')
-
+parser.add_argument('--out', type=str, help='Output directory to save the extracted features.')
 args = parser.parse_args()
 
 inputdir = args.dir
-outputfilename = inputdir.replace("/", "_") + "_%s.dat" % args.type
+outputfilename = args.out + "/" + inputdir.replace("/", "_") + "_%s.dat" % args.type
 outputfile = open(outputfilename, "w")
 
 # INTERNAL KNOWLEDGE
-suffixes_list = [line.strip() for line in open("sufixes_no_knowledge.txt", "r")]
+suffixes_list = [line.strip() for line in open("./resources/sufixes_no_knowledge.txt", "r")]
 # EXTERNAL KNOWLEDGE
 
 for filename in os.listdir(inputdir):
