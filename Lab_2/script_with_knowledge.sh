@@ -1,8 +1,13 @@
+#!/bin/sh
+
+KNOWLEDGE_DIR="./extracted_features/knowledge"
+
 # Execute feature extractor on Train dataset (feats and megam)
-python feature_extactor_with_knowledge.py --dir data/Train --type feats > /dev/null
-python feature_extactor_with_knowledge.py --dir data/Train --type megam > /dev/null
+python3 feature_extactor_with_knowledge.py --dir data/$1 --type feats --out "$KNOWLEDGE_DIR/$1"
+python3 feature_extactor_with_knowledge.py --dir data/$1 --type megam --out "$KNOWLEDGE_DIR/$1"
 
-python feature_extactor_with_knowledge.py --dir data/Devel --type feats > /dev/null
-python feature_extactor_with_knowledge.py --dir data/Devel --type megam > /dev/null
+python3 feature_extactor_with_knowledge.py --dir data/$2 --type feats --out "$KNOWLEDGE_DIR/$2"
+python3 feature_extactor_with_knowledge.py --dir data/$2 --type megam --out "$KNOWLEDGE_DIR/$2"
 
-python ML_model.py
+python3 ML_model.py --train "$KNOWLEDGE_DIR/$1" --test "$KNOWLEDGE_DIR/$2" --out "FINAL_RESULTS/knowledge_$2"
+

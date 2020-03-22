@@ -1,0 +1,469 @@
+allergenics
+alternative medicines
+herbal products
+nutraceutical products
+probiotics
+anti-infectives
+amebicides
+aminoglycosides
+anthelmintics
+antifungals
+azole antifungals
+echinocandins
+miscellaneous antifungals
+polyenes
+antimalarial agents
+antimalarial combinations
+antimalarial quinolines
+miscellaneous antimalarials
+antituberculosis agents
+aminosalicylates
+antituberculosis combinations
+diarylquinolines
+hydrazide derivatives
+miscellaneous antituberculosis agents
+nicotinic acid derivatives
+rifamycin derivatives
+streptomyces derivatives
+antiviral agents
+adamantane antivirals
+antiviral boosters
+antiviral combinations
+antiviral interferons
+chemokine receptor antagonist
+integrase strand transfer inhibitor
+miscellaneous antivirals
+neuraminidase inhibitors
+NNRTIs
+NS5A inhibitors
+nucleoside reverse transcriptase inhibitors (NRTIs)
+protease inhibitors
+purine nucleosides
+carbapenems
+carbapenems/beta-lactamase inhibitors
+cephalosporins
+cephalosporins/beta-lactamase inhibitors
+first generation cephalosporins
+fourth generation cephalosporins
+next generation cephalosporins
+second generation cephalosporins
+third generation cephalosporins
+glycopeptide antibiotics
+glycylcyclines
+leprostatics
+lincomycin derivatives
+macrolide derivatives
+ketolides
+macrolides
+miscellaneous antibiotics
+oxazolidinone antibiotics
+penicillins
+aminopenicillins
+antipseudomonal penicillins
+beta-lactamase inhibitors
+natural penicillins
+penicillinase resistant penicillins
+quinolones
+streptogramins
+sulfonamides
+tetracyclines
+urinary anti-infectives
+antineoplastics
+alkylating agents
+anti-CTLA-4 monoclonal antibodies
+anti-PD-1 monoclonal antibodies
+antibiotics/antineoplastics
+antimetabolites
+antineoplastic combinations
+antineoplastic detoxifying agents
+antineoplastic interferons
+BCR-ABL tyrosine kinase inhibitors
+BTK inhibitors
+CD20 monoclonal antibodies
+CD30 monoclonal antibodies
+CD33 monoclonal antibodies
+CD38 monoclonal antibodies
+CD52 monoclonal antibodies
+CDK 4/6 inhibitors
+EGFR inhibitors
+hedgehog pathway inhibitors
+HER2 inhibitors
+histone deacetylase inhibitors
+hormones/antineoplastics
+malignancy photosensitizers
+miscellaneous antineoplastics
+mitotic inhibitors
+mTOR inhibitors
+multikinase inhibitors
+PARP inhibitors
+PI3K inhibitors
+proteasome inhibitors
+VEGF/VEGFR inhibitors
+biologicals
+antitoxins and antivenins
+hematopoietic stem cell mobilizer
+in vivo diagnostic biologicals
+miscellaneous erythropoiesis agents
+recombinant human erythropoietins
+cardiovascular agents
+agents for hypertensive emergencies
+agents for pulmonary hypertension
+aldosterone receptor antagonists
+Angiotensin Converting Enzyme Inhibitors
+angiotensin receptor blockers
+angiotensin receptor blockers and neprilysin inhibitors
+antiadrenergic agents, centrally acting
+antiadrenergic agents, peripherally acting
+antianginal agents
+antiarrhythmic agents
+group I antiarrhythmics
+group II antiarrhythmics
+group III antiarrhythmics
+group IV antiarrhythmics
+group V antiarrhythmics
+anticholinergic chronotropic agents
+antihypertensive combinations
+ACE inhibitors with calcium channel blocking agents
+ACE inhibitors with thiazides
+angiotensin II inhibitors with calcium channel blockers
+angiotensin II inhibitors with thiazides
+antiadrenergic agents (central) with thiazides
+antiadrenergic agents (peripheral) with thiazides
+beta blockers with thiazides
+miscellaneous antihypertensive combinations
+Nonsteroidal anti-inflammatory agents
+potassium sparing diuretics with thiazides
+beta-adrenergic blocking agents
+cardioselective beta blockers
+non-cardioselective beta blockers
+calcium channel blocking agents
+catecholamines
+diuretics
+carbonic anhydrase inhibitors
+loop diuretics
+miscellaneous diuretics
+potassium-sparing diuretics
+thiazide diuretics
+inotropic agents
+miscellaneous cardiovascular agents
+peripheral vasodilators
+renin inhibitors
+sclerosing agents
+vasodilators
+vasopressin antagonists
+vasopressors
+central nervous system agents
+analgesics
+analgesic combinations
+antimigraine agents
+CGRP inhibitors
+cox-2 inhibitors
+miscellaneous analgesics
+narcotic analgesic combinations
+narcotic analgesics
+Nonsteroidal anti-inflammatory drugs
+salicylates
+anorexiants
+anticonvulsants
+AMPA receptor antagonists
+barbiturate anticonvulsants
+benzodiazepine anticonvulsants
+carbamate anticonvulsants
+carbonic anhydrase inhibitor anticonvulsants
+dibenzazepine anticonvulsants
+fatty acid derivative anticonvulsants
+gamma-aminobutyric acid analogs
+gamma-aminobutyric acid reuptake inhibitors
+hydantoin anticonvulsants
+miscellaneous anticonvulsants
+neuronal potassium channel openers
+oxazolidinedione anticonvulsants
+pyrrolidine anticonvulsants
+succinimide anticonvulsants
+triazine anticonvulsants
+antiemetic/antivertigo agents
+5HT3 receptor antagonists
+anticholinergic antiemetics
+miscellaneous antiemetics
+NK1 receptor antagonists
+phenothiazine antiemetics
+antiparkinson agents
+anticholinergic antiparkinson agents
+dopaminergic antiparkinsonism agents
+miscellaneous antiparkinson agents
+anxiolytics, sedatives, and hypnotics
+barbiturates
+benzodiazepines
+miscellaneous anxiolytics, sedatives and hypnotics
+cholinergic agonists
+cholinesterase inhibitors
+CNS stimulants
+general anesthetics
+miscellaneous central nervous system agents
+muscle relaxants
+neuromuscular blocking agents
+skeletal muscle relaxant combinations
+skeletal muscle relaxants
+VMAT2 inhibitors
+coagulation modifiers
+anticoagulant reversal agents
+anticoagulants
+coumarins and indandiones
+factor Xa inhibitors
+heparins
+thrombin inhibitors
+antiplatelet agents
+glycoprotein platelet inhibitors
+platelet aggregation inhibitors
+protease-activated receptor-1 antagonists
+heparin antagonists
+miscellaneous coagulation modifiers
+platelet-stimulating agents
+thrombolytics
+gastrointestinal agents
+5-aminosalicylates
+antacids
+antidiarrheals
+digestive enzymes
+functional bowel disorder agents
+anticholinergics/antispasmodics
+chloride channel activators
+guanylate cyclase-C agonists
+NHE3 inhibitors
+peripheral opioid receptor antagonists
+peripheral opioid receptor mixed agonists/antagonists
+serotoninergic neuroenteric modulators
+gallstone solubilizing agents
+GI stimulants
+H. pylori eradication agents
+H2 antagonists
+laxatives
+miscellaneous GI agents
+proton pump inhibitors
+genitourinary tract agents
+impotence agents
+miscellaneous genitourinary tract agents
+tocolytic agents
+urinary antispasmodics
+urinary pH modifiers
+uterotonic agents
+hormones
+5-alpha-reductase inhibitors
+adrenal cortical steroids
+corticotropin
+glucocorticoids
+mineralocorticoids
+adrenal corticosteroid inhibitors
+antiandrogens
+antidiuretic hormones
+antigonadotropic agents
+antithyroid agents
+aromatase inhibitors
+calcimimetics
+calcitonin
+estrogen receptor antagonists
+gonadotropin-releasing hormone antagonists
+growth hormone receptor blockers
+growth hormones
+insulin-like growth factors
+melanocortin receptor agonists
+parathyroid hormone and analogs
+progesterone receptor modulators
+prolactin inhibitors
+selective estrogen receptor modulators
+sex hormones
+androgens and anabolic steroids
+contraceptives
+estrogens
+gonadotropin releasing hormones
+gonadotropins
+progestins
+sex hormone combinations
+somatostatin and somatostatin analogs
+synthetic ovulation stimulants
+thyroid drugs
+immunologic agents
+immune globulins
+immunostimulants
+bacterial vaccines
+colony stimulating factors
+interferons
+interleukins
+other immunostimulants
+therapeutic vaccines
+vaccine combinations
+viral vaccines
+immunosuppressive agents
+calcineurin inhibitors
+interleukin inhibitors
+other immunosuppressants
+selective immunosuppressants
+TNF alfa inhibitors
+medical gas
+metabolic agents
+antidiabetic agents
+alpha-glucosidase inhibitors
+amylin analogs
+antidiabetic combinations
+dipeptidyl peptidase 4 inhibitors
+incretin mimetics
+insulin
+meglitinides
+non-sulfonylureas
+SGLT-2 inhibitors
+sulfonylureas
+thiazolidinediones
+antigout agents
+antihyperlipidemic agents
+antihyperlipidemic combinations
+bile acid sequestrants
+cholesterol absorption inhibitors
+fibric acid derivatives
+miscellaneous antihyperlipidemic agents
+PCSK9 inhibitors
+statins
+antihyperuricemic agents
+bone resorption inhibitors
+bisphosphonates
+miscellaneous bone resorption inhibitors
+CFTR combinations
+CFTR potentiators
+glucose elevating agents
+lysosomal enzymes
+miscellaneous metabolic agents
+peripherally acting antiobesity agents
+transthyretin stabilizers
+urea cycle disorder agents
+miscellaneous agents
+antidotes
+antipsoriatics
+antirheumatics
+cation exchange resins
+chelating agents
+cholinergic muscle stimulants
+illicit (street) drugs
+local injectable anesthetics
+local injectable anesthetics with corticosteroids
+miscellaneous uncategorized agents
+phosphate binders
+psoralens
+smoking cessation agents
+viscosupplementation agents
+nutritional products
+intravenous nutritional products
+iron products
+minerals and electrolytes
+oral nutritional supplements
+vitamin and mineral combinations
+vitamins
+plasma expanders
+psychotherapeutic agents
+antidepressants
+miscellaneous antidepressants
+monoamine oxidase inhibitors
+phenylpiperazine antidepressants
+selective serotonin reuptake inhibitors
+serotonin-norepinephrine reuptake inhibitors
+tetracyclic antidepressants
+tricyclic antidepressants
+antimanic agents
+antipsychotics
+atypical antipsychotics
+miscellaneous antipsychotic agents
+phenothiazine antipsychotics
+thioxanthenes
+psychotherapeutic combinations
+radiologic agents
+radiocontrast agents
+iodinated contrast media
+ionic iodinated contrast media
+lymphatic staining agents
+magnetic resonance imaging contrast media
+miscellaneous diagnostic dyes
+non-iodinated contrast media
+non-ionic iodinated contrast media
+ultrasound contrast media
+radiologic adjuncts
+cardiac stressing agents
+radiologic conjugating agents
+radiopharmaceuticals
+diagnostic radiopharmaceuticals
+therapeutic radiopharmaceuticals
+renal replacement solutions
+respiratory agents
+antiasthmatic combinations
+antihistamines
+antitussives
+bronchodilators
+adrenergic bronchodilators
+anticholinergic bronchodilators
+bronchodilator combinations
+methylxanthines
+decongestants
+expectorants
+leukotriene modifiers
+lung surfactants
+miscellaneous respiratory agents
+respiratory inhalant products
+inhaled anti-infectives
+inhaled corticosteroids
+mast cell stabilizers
+mucolytics
+selective phosphodiesterase-4 inhibitors
+upper respiratory combinations
+topical agents
+anorectal preparations
+antiseptic and germicides
+dermatological agents
+miscellaneous topical agents
+topical acne agents
+topical anesthetics
+topical anti-infectives
+topical anti-rosacea agents
+topical antibiotics
+topical antifungals
+topical antihistamines
+topical antineoplastics
+topical antipsoriatics
+topical antivirals
+topical astringents
+topical debriding agents
+topical depigmenting agents
+topical emollients
+topical keratolytics
+topical non-steroidal anti-inflammatories
+topical photochemotherapeutics
+topical rubefacient
+topical steroids
+topical steroids with anti-infectives
+mouth and throat products
+nasal preparations
+nasal antihistamines and decongestants
+nasal lubricants and irrigations
+nasal steroids
+ophthalmic preparations
+anti-angiogenic ophthalmic agents
+miscellaneous ophthalmic agents
+mydriatics
+ophthalmic anesthetics
+ophthalmic anti-infectives
+ophthalmic anti-inflammatory agents
+ophthalmic antihistamines and decongestants
+ophthalmic diagnostic agents
+ophthalmic glaucoma agents
+ophthalmic lubricants and irrigations
+ophthalmic steroids
+ophthalmic steroids with anti-infectives
+ophthalmic surgical agents
+otic preparations
+cerumenolytics
+miscellaneous otic agents
+otic anesthetics
+otic anti-infectives
+otic steroids
+otic steroids with anti-infectives
+sterile irrigating solutions
+vaginal preparations
+miscellaneous vaginal agents
+spermicides
+vaginal anti-infectives
