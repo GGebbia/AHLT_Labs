@@ -86,9 +86,9 @@ for xseq, yseq in zip(X_train, Y_train):
     trainer.append(xseq, yseq)
 
 trainer.set_params({
-   # 'c1': 1.0,  # coefficient for L1 penalty
+    'c1': 0.05,  # coefficient for L1 penalty
     'c2': 0.1,  # coefficient for L2 penalty 1e-1 0.61
-    'max_iterations': 250,  # stop earlier #todo put higher value
+    'max_iterations': 10000,  # stop earlier #todo put higher value
 
     # include transitions that are possible, but not observed
     'feature.possible_transitions': True

@@ -94,6 +94,7 @@ def extract_features(tokens):
     features = []
     next_is_brand_txt = 0
     next_is_drug_n_txt = 0
+    next_is_group_txt = 0
     all_words_capitalized = all(token.word_iscapitalized() or len(token.word) < 2 for token in tokens)
 
     for i, token in enumerate(tokens, 0):
@@ -149,6 +150,32 @@ def extract_features(tokens):
         for drug_n in drug_n_list:
             if drug_n.lower() in token.word.lower():
                 word_features.append("drug_n_list")
+                break
+
+        if next_is_group_txt > 0:
+            word_features.append("group_txt")
+            next_is_brand_txt -= 1
+        for line in group_names_txt:
+            entire_line = []
+            number_of_words_in_line = 0
+            same_line = False
+            line_words = line.split()
+            # check each word in line for exact match
+            for word_index, line_word in enumerate(line_words):
+                try:
+                    word_to_check = tokens[i + word_index].word
+                except:
+                    break
+                if word_to_check.lower() == line_word.lower():
+                    entire_line.append(word_to_check)
+                    number_of_words_in_line += 1
+                    same_line = True
+                else:
+                    same_line = False
+                    break
+            if same_line:
+                word_features.append("group_txt")
+                next_is_group_txt = word_index
                 break
 
         if next_is_brand_txt > 0:
@@ -290,6 +317,13 @@ brand_names_txt = set()
 with open("brand_names_dB.txt", "r") as f:
     for line in f:
         brand_names_txt.add(line)
+
+# some groups extracted resources db
+group_names_txt = set()
+with open("groups_DrugBank.txt", "r") as f:
+    for line in f:
+        group_names_txt.add(line)
+
 
 # some drug_n extracted from chebi db
 drug_n_list_txt = set()
