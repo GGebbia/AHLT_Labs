@@ -287,18 +287,18 @@ def get_entities(child):
 parser = argparse.ArgumentParser(description=
                                  """
         Compute the feature extractor of a given dataset containing XML Files.\n
-        Usage: \n\npython3 feature_extractor.py --dir data/Train --type <feats|megam>\n\n
+        Usage: \n\npython3 feature_extractor.py --dir data/Train --type <feats|megam> --out ./extracted_features/Train\n\n
         If feats is selected returns the complete feature extractor with more detailed information about each sample.\n
         If megam is selected returns only the features of each sample.\n
         """
                                  )
 parser.add_argument('--type', type=str, choices=["feats", "megam"], help='Two option of extraction: feats or megam')
 parser.add_argument('--dir', type=str, help='Directory where are located the XML files')
-
+parser.add_argument('--out', type=str, help='Output directory to save the extracted features.')
 args = parser.parse_args()
 
 inputdir = args.dir
-outputfilename = inputdir.replace("/", "_") + "_%s.dat" % args.type
+outputfilename = os.path.join(args.out, args.type) + ".dat"
 outputfile = open(outputfilename, "w")
 
 # EXTERNAL KNOWLEDGE
@@ -314,20 +314,20 @@ drug_n_list = ["angiotensins", "angiotensin", "DPCPX", "FBAL", "5-FU", "trichlor
 
 # some brands extracted from chebi db
 brand_names_txt = set()
-with open("brand_names_dB.txt", "r") as f:
+with open("./resources/brand_names_dB.txt", "r") as f:
     for line in f:
         brand_names_txt.add(line)
 
 # some groups extracted resources db
 group_names_txt = set()
-with open("groups_DrugBank.txt", "r") as f:
+with open("./resources/groups_DrugBank.txt", "r") as f:
     for line in f:
         group_names_txt.add(line)
 
 
 # some drug_n extracted from chebi db
 drug_n_list_txt = set()
-with open("compounds_dB.txt", "r") as f:
+with open("./resources/compounds_dB.txt", "r") as f:
     for line in f:
         drug_n_list_txt.add(line)
 

@@ -213,7 +213,7 @@ parser.add_argument('--out', type=str, help='Output directory to save the extrac
 args = parser.parse_args()
 
 inputdir = args.dir
-outputfilename = args.out + "/" + inputdir.replace("/", "_") + "_%s.dat" % args.type
+outputfilename = os.path.join(args.out, args.type) + ".dat"
 outputfile = open(outputfilename, "w")
 
 # INTERNAL KNOWLEDGE
