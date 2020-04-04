@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import xml.etree.ElementTree as ET
-# import nltk CoreNLP module
+import nltk
 from nltk.parse.corenlp import CoreNLPDependencyParser
 
 import os 
@@ -15,7 +15,7 @@ outputfile = open(outputfilename, "w")
 
 #### MAIN ####
 # connect to CoreNLP server 
-my parser = CoreNLPDependencyParser(url="http://localhost:9000")
+my_parser = CoreNLPDependencyParser(url="http://localhost:9000")
 
 # process each file in directory
 for filename in os.listdir(inputdir):
@@ -43,12 +43,11 @@ for filename in os.listdir(inputdir):
         # for each pair in the sentence, decide whether it is DDI and its type
         pairs = sentence.findall("pair")
         for pair in pairs:
-            id_e1 = p.attrib["e1"]
-            id_e2 = p.attrib["e2"]
+            id_e1 = pair.attrib["e1"]
+            id_e2 = pair.attrib["e2"]
             # TODO check_interaction function
-            (is_ddi, ddi_type) = check_interaction(analysis, entities, id_e1, id_e2)
-            d e2)
-            line = "|".join([sid, id_e1 id_e2, is ddi, ddi_type])
+            #(is_ddi, ddi_type) = check_interaction(analysis, entities, id_e1, id_e2)            
+            line = "|".join([sid, id_e1, id_e2, is_ddi, ddi_type])
             outputfile.write(line + "\n")
 
 evaluate(inputdir, outputfilename)
