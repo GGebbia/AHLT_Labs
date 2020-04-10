@@ -1,0 +1,41 @@
+SCORES FOR THE GROUP: TrainGianMarc RUN=1
+Gold Dataset: /
+
+Partial Evaluation: only detection of DDI (regadless to the type)
+tp	fp	fn	total	prec	recall	F1
+143	399	341	484	0.2638	0.2955	0.2788
+
+
+Detection and Classification of DDI
+tp	fp	fn	total	prec	recall	F1
+100	442	384	484	0.1845	0.2066	0.1949
+
+
+________________________________________________________________________
+
+SCORES FOR DDI TYPE
+Scores for ddi with type mechanism
+tp	fp	fn	total	prec	recall	F1
+28	129	173	201	0.1783	0.1393	0.1564
+
+
+Scores for ddi with type effect
+tp	fp	fn	total	prec	recall	F1
+4	2	158	162	0.6667	0.0247	0.0476
+
+
+Scores for ddi with type advise
+tp	fp	fn	total	prec	recall	F1
+66	306	53	119	0.1774	0.5546	0.2688
+
+
+Scores for ddi with type int
+tp	fp	fn	total	prec	recall	F1
+2	5	0	2	0.2857	1	0.4444
+
+
+MACRO-AVERAGE MEASURES:
+	P	R	F1
+	0.327	0.4297	0.3714
+________________________________________________________________________
+

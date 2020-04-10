@@ -58,7 +58,7 @@ def isNodeInParent(parent, word):
 # receives DependencyGraph with all sentence, list of entities and the ids of the 2 entities to be checked
 def check_interaction(analysis, entities, e1, e2):
     #### RULE VARIABLES ####
-    effect_clue_words = {"administer", "potentiate", "prevent"}
+    effect_clue_words = {"administer", "potentiate", "prevent", "antagonize", "antagonized"}
     mechanism_clue_words = {"reduce", "increase", "decrease"}
     int_clue_words = {"interact", "interaction"}
     advise_clue_words = {"may", "might", "should"}
@@ -87,13 +87,42 @@ def check_interaction(analysis, entities, e1, e2):
             # get current word of current node
             current_word = analysis.nodes[key]['word']
 
+            # Check if interaction is advise
+            if current_word in advise_clue_words:
+                next_word = analysis.nodes[key + 1]['word']
+                if next_word == "not" and analysis.nodes[key + 2]['word'] == "be" \
+                        and analysis.nodes[key + 3]['tag'] == "VBN" \
+                        or next_word == "be" and analysis.nodes[key + 2]['tag'] == "VBN":
+                    result = "1"
+                    interaction = "advise"
+
             # Check if interaction is int
-            if current_word in int_clue_words:
+            elif current_word in int_clue_words:
                 for subtree in tree.subtrees():
                     if subtree.label() in int_clue_words:
                         if isNodeInParent(subtree, e1_word) and isNodeInParent(subtree, e2_word):
                             result = "1"
                             interaction = "int"
+
+            # Check if interaction is effect
+            elif current_word in effect_clue_words:
+                next_word = analysis.nodes[key + 1]['word']
+                # Explicit observed structure
+                if current_word == "antagonize" and next_word == "the":
+                    if analysis.nodes[key+2]['word'] == e1_word or analysis.nodes[key+2]['word'] == e2_word:
+                        result = "1"
+                        interaction = "effect"
+                elif current_word == "antagonized" and next_word == "by":
+                    if analysis.nodes[key + 2]['word'] == e1_word or analysis.nodes[key + 2]['word'] == e2_word:
+                        result = "1"
+                        interaction = "effect"
+                # Generic structure (entities are childs of clue word)
+                else:
+                    for subtree in tree.subtrees():
+                        if subtree.label() in effect_clue_words:
+                            if isNodeInParent(subtree, e1_word) and isNodeInParent(subtree, e2_word):
+                                result = "1"
+                                interaction = "effect"
 
             # Check if interaction is mechanism
             elif current_word in mechanism_clue_words:
@@ -102,23 +131,6 @@ def check_interaction(analysis, entities, e1, e2):
                         if isNodeInParent(subtree, e1_word) and isNodeInParent(subtree, e2_word):
                             result = "1"
                             interaction = "mechanism"
-
-            # Check if interaction is effect
-            elif current_word in effect_clue_words:
-                for subtree in tree.subtrees():
-                    if subtree.label() in effect_clue_words:
-                        if isNodeInParent(subtree, e1_word) and isNodeInParent(subtree, e2_word):
-                            result = "1"
-                            interaction = "effect"
-
-            # Check if interaction is advise
-            elif current_word in advise_clue_words:
-                next_word = analysis.nodes[key + 1]['word']
-                if next_word == "not" and analysis.nodes[key + 2]['word'] == "be" \
-                        and analysis.nodes[key + 3]['tag'] == "VBN" \
-                        or next_word == "be" and analysis.nodes[key + 2]['tag'] == "VBN":
-                    result = "1"
-                    interaction = "advise"
 
         # If there's a KeyError, which can happen if there's extra non-numeric keys at the end of the tree (we are not \
         # interested in them, pass
