@@ -85,38 +85,82 @@ def get_subtree_from_word(tree, ent):
 
     return []
 
-def get_dependency(analysis, e1, e2):
-    #Split entities in a list of words:
-    for governor, dep, dependent in analysis.triples():
-        governor_word = governor[0]
-        dependent_word = dependent[0]
-        if (governor_word in e1 and dependent_word in e2) or (governor_word in e2 and dependent_word in e1):
-            return dep
-    return None
+def get_entity_node_key(entity, analysis):
+    for key in sorted(analysis.nodes, key=lambda key: int(key)):
+        try:
+            if analysis.nodes[key]['word'] == entity:
+                return key
+        except KeyError:
+            pass
+    return 0
+
+def separately_paths_to_common_parent(list1, list2):
+    h_1 = [el[0] for el in list1]
+    h_2 = [el[0] for el in list2]
+    h_intersection = [value for value in h_1 if value in h_2]
+
+    common_parent_node_key = h_intersection[0]
+    path_1 = sorted([el for el in list1 if el[0] >= common_parent_node_key])
+    path_2 = sorted([el for el in list2 if el[0] >= common_parent_node_key])
+
+    return path_1, path_2
+
+def _get_heads_and_relations(entity_key, analysis):
+    node = analysis.nodes[entity_key]
+
+    head = node["head"]
+    rel = node["rel"]
+    if head != 0:
+        heads_rels.append((head,rel))
+        _get_heads_and_relations(head,analysis)
+    return heads_rels
+
+def get_heads_and_relations(entity_key, analysis):
+    global heads_rels
+    heads_rels = []
+    heads_rels = _get_heads_and_relations(entity_key, analysis)
+    return heads_rels
+
 # Given a token list, collect the most relevant features to store in a list.
 def extract_features(analysis, sentence, entities, e1, e2):
     features = []
 
+    key_e1 = get_entity_node_key(e1.split()[-1],analysis)
+    key_e2 = get_entity_node_key(e2.split()[-1],analysis)
+
+    heads_rels_e1 = get_heads_and_relations(key_e1, analysis)
+    heads_rels_e2 = get_heads_and_relations(key_e2, analysis)
+
+    print(heads_rels_e1)
+    print(heads_rels_e2)
+    path_to_cp_e1, path_to_cp_e2 = separately_paths_to_common_parent(heads_rels_e1, heads_rels_e2)
+
+    for i, (head, rel) in enumerate(path_to_cp_e1):
+        features.append("dep_e1_{}={}".format(i,rel))
+
+    for i, (head, rel) in enumerate(path_to_cp_e2):
+        features.append("dep_e2_{}={}".format(i,rel))
 
     tree = analysis.tree()
 
-    dep = get_dependency(analysis, e1, e2)
-    features.append("dep={}".format(dep))
-    for lemma in sentence.partition(e1)[0].split():
-        features.append("lb1={}".format(lemma))
-    for lemma in find_between(sentence, e1, e2).split():
-        features.append("lib={}".format(lemma))
-    for lemma in sentence.partition(e2)[2].split():
-        features.append("la2={}".format(lemma))
+   #  for lemma in sentence.partition(e1)[0].split():
+   #      features.append("lb1={}".format(lemma))
+   #  for lemma in find_between(sentence, e1, e2).split():
+   #      features.append("lib={}".format(lemma))
+   #  for lemma in sentence.partition(e2)[2].split():
+   #      features.append("la2={}".format(lemma))
 
-
-
-    e1_tree = get_subtree_from_word(tree, e1)
-    e2_tree = get_subtree_from_word(tree, e2)
-    if is_node_in_parent(e1_tree, e2):
-        features.append("2under1")
-    elif is_node_in_parent(e2_tree, e1):
+    if key_e1 in [el[0] for el in heads_rels_e1]:
         features.append("1under2")
+    elif  key_e2 in [el[0] for el in heads_rels_e2]:
+        features.append("2under1")
+
+    # e1_tree = get_subtree_from_word(tree, e1)
+    # e2_tree = get_subtree_from_word(tree, e2)
+    # if is_node_in_parent(e1_tree, e2):
+    #     features.append("2under1")
+    # elif is_node_in_parent(e2_tree, e1):
+    #     features.append("1under2")
 
 
     return " ".join(features)
