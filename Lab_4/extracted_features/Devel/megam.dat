@@ -1,4 +1,2703 @@
-null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=acl dep_e2_1=nmod dep_e2_2=appos dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=acl dep_e2_1=nmod dep_e2_2=appos dep_e2_3=compound dep_e2_4=nsubj
 null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
 null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
 null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null 
+null 
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+advise dep_e1_0=nmod dep_e1_1=compound dep_e2_0=nmod
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=appos dep_e2_2=compound
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=appos
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=dep
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=compound
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=compound
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=amod
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep dep_e2_6=compound
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep dep_e2_6=compound
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep dep_e2_6=appos dep_e2_7=compound
+advise dep_e1_0=acl:relcl dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=appos dep_e2_2=compound
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=dep
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=compound
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=compound
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=amod
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep dep_e2_6=compound
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep dep_e2_6=compound
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep dep_e2_6=appos dep_e2_7=compound
+null dep_e1_0=acl:relcl dep_e1_1=nmod dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos dep_e2_2=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=amod
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep dep_e2_6=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep dep_e2_6=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=dep dep_e2_6=appos dep_e2_7=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep dep_e2_2=punct dep_e2_3=root dep_e2_4=dep
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=appos
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=dep
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=compound
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=compound
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=amod
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep dep_e2_5=compound
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep dep_e2_5=compound
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep dep_e2_5=appos dep_e2_6=compound
+null dep_e1_0=appos dep_e1_1=compound dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep
+null dep_e1_0=appos dep_e2_0=dep
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=compound
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=compound
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=amod
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep dep_e2_5=compound
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep dep_e2_5=compound
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep dep_e2_5=appos dep_e2_6=compound
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=amod
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep dep_e2_5=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep dep_e2_5=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=dep dep_e2_5=appos dep_e2_6=compound
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=punct dep_e2_2=root dep_e2_3=dep
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=amod
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=compound
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=compound
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=dep
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=dep dep_e2_2=appos dep_e2_3=compound
+null dep_e1_0=compound dep_e2_0=dep
+null dep_e1_0=compound dep_e2_0=amod
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=dep
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=appos dep_e2_2=compound
+null dep_e1_0=dep dep_e1_1=compound dep_e2_0=dep
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=compound
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=compound
+null dep_e1_0=amod dep_e2_0=dep
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=appos dep_e2_2=compound
+null dep_e1_0=dep dep_e1_1=amod dep_e2_0=dep
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=dep dep_e1_1=compound dep_e2_0=dep
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=compound
+null dep_e1_0=dep dep_e1_1=dep dep_e1_2=compound dep_e2_0=dep
+null dep_e1_0=dep dep_e1_1=compound dep_e2_0=dep
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=compound
+null dep_e1_0=dep dep_e1_1=dep dep_e1_2=compound dep_e2_0=dep
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos dep_e2_2=compound
+null dep_e1_0=dep dep_e1_1=dep dep_e2_0=dep
+null dep_e1_0=dep dep_e1_1=dep dep_e1_2=appos dep_e1_3=compound dep_e2_0=dep
+advise dep_e1_0=compound dep_e2_0=amod
+advise dep_e1_0=nmod dep_e1_1=compound dep_e2_0=dep
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=dep
+null dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=compound
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+advise dep_e1_0=nsubjpass dep_e2_0=nmod
+advise dep_e1_0=nsubjpass dep_e2_0=nmod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nsubj
+null dep_e2_0=parataxis dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=parataxis dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=parataxis dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+null dep_e2_0=parataxis dep_e2_1=nmod dep_e2_2=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nsubj
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nsubjpass
+advise dep_e1_0=nsubjpass dep_e2_0=nmod
+advise dep_e1_0=nsubjpass dep_e2_0=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nsubj
+advise dep_e1_0=nsubjpass dep_e2_0=advcl dep_e2_1=nmod
+null dep_e2_0=parataxis dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=parataxis dep_e2_1=conj dep_e2_2=nsubj
+null dep_e2_0=parataxis dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+advise dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null 
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nmod dep_e2_4=compound
+null dep_e1_0=conj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=conj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null 
+null dep_e1_0=conj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nmod dep_e2_4=compound
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null 
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod dep_e2_3=compound
+null 
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod dep_e2_3=compound
+null 
+null dep_e1_0=compound
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e2_0=conj
+null dep_e1_0=amod dep_e2_0=parataxis dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=amod dep_e2_0=parataxis dep_e2_1=dep dep_e2_2=nmod dep_e2_3=amod dep_e2_4=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=nmod dep_e2_2=amod dep_e2_3=nsubjpass
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=root dep_e1_1=compound dep_e2_0=root
+null dep_e1_0=compound dep_e2_0=parataxis dep_e2_1=compound dep_e2_2=nsubj
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=root dep_e1_1=compound dep_e2_0=root
+null dep_e1_0=compound dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=acl dep_e2_3=dobj dep_e2_4=amod
+null dep_e1_0=compound dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=acl dep_e2_3=conj dep_e2_4=dobj dep_e2_5=amod
+null dep_e1_0=root dep_e1_1=conj dep_e1_2=compound dep_e2_0=root
+null dep_e1_0=compound dep_e2_0=parataxis dep_e2_1=compound dep_e2_2=nsubj
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=root dep_e1_1=conj dep_e1_2=compound dep_e2_0=root
+null dep_e1_0=compound dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=acl dep_e2_3=dobj dep_e2_4=amod
+null dep_e1_0=compound dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=acl dep_e2_3=conj dep_e2_4=dobj dep_e2_5=amod
+null dep_e1_0=root dep_e2_0=root dep_e2_1=parataxis dep_e2_2=compound dep_e2_3=nsubj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=conj dep_e2_2=compound
+null dep_e1_0=root dep_e2_0=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=parataxis dep_e2_2=dobj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=amod
+null dep_e1_0=root dep_e2_0=root dep_e2_1=parataxis dep_e2_2=dobj dep_e2_3=acl dep_e2_4=conj dep_e2_5=dobj dep_e2_6=amod
+null dep_e1_0=parataxis dep_e1_1=compound dep_e1_2=nsubj dep_e2_0=compound
+null dep_e1_0=root dep_e1_1=parataxis dep_e1_2=compound dep_e1_3=nsubj dep_e2_0=root
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl dep_e2_2=dobj dep_e2_3=amod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl dep_e2_2=conj dep_e2_3=dobj dep_e2_4=amod
+null dep_e1_0=root dep_e1_1=conj dep_e1_2=compound dep_e2_0=root
+mechanism dep_e1_0=compound dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=acl dep_e2_3=dobj dep_e2_4=amod
+null dep_e1_0=compound dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=acl dep_e2_3=conj dep_e2_4=dobj dep_e2_5=amod
+null dep_e1_0=root dep_e2_0=root dep_e2_1=parataxis dep_e2_2=dobj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=amod
+null dep_e1_0=root dep_e2_0=root dep_e2_1=parataxis dep_e2_2=dobj dep_e2_3=acl dep_e2_4=conj dep_e2_5=dobj dep_e2_6=amod
+null dep_e1_0=dobj dep_e1_1=amod dep_e2_0=conj dep_e2_1=dobj dep_e2_2=amod
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=amod dep_e2_0=amod dep_e2_1=dep
+null dep_e1_0=amod dep_e2_0=compound
+null dep_e1_0=amod dep_e1_1=dep dep_e2_0=compound
+advise dep_e1_0=dep dep_e2_0=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+advise dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nmod dep_e2_1=nmod
+null 
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=conj dep_e2_4=amod
+effect 
+effect 
+effect 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=amod
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=amod
+advise dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=advcl dep_e2_0=xcomp dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=nsubjpass
+null dep_e1_0=advcl dep_e2_0=xcomp dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=nsubjpass
+mechanism 
+mechanism 
+effect dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=amod
+mechanism dep_e2_0=dep dep_e2_1=nmod
+null dep_e2_0=dep
+null dep_e2_0=dep dep_e2_1=appos
+null dep_e2_0=dep dep_e2_1=dep dep_e2_2=dobj dep_e2_3=nmod
+null 
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=dep dep_e2_2=dobj dep_e2_3=nmod
+null 
+null dep_e1_0=dep dep_e1_1=appos dep_e2_0=dep dep_e2_1=dep dep_e2_2=dobj dep_e2_3=nmod
+null 
+null 
+null 
+null 
+effect 
+null dep_e2_0=dep
+null dep_e2_0=dep dep_e2_1=conj
+null dep_e2_0=dep dep_e2_1=conj
+null dep_e2_0=dep dep_e2_1=conj
+null dep_e2_0=dep dep_e2_1=appos
+mechanism 
+mechanism dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+mechanism 
+mechanism dep_e1_0=dep dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=appos
+mechanism 
+mechanism dep_e1_0=dep dep_e1_1=conj dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=appos
+mechanism 
+mechanism dep_e1_0=dep dep_e1_1=conj dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj
+null dep_e1_0=conj dep_e2_0=appos
+mechanism 
+mechanism dep_e1_0=dep dep_e1_1=conj dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj
+mechanism 
+mechanism dep_e1_0=dep dep_e1_1=appos dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj
+null 
+null dep_e1_0=amod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=amod dep_e2_3=nsubjpass
+null 
+null 
+null 
+mechanism 
+mechanism 
+null 
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=conj dep_e2_4=compound
+mechanism dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+mechanism dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=conj dep_e2_4=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null 
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=dep
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=dep dep_e2_5=appos
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=dep dep_e2_5=appos
+mechanism 
+mechanism 
+mechanism 
+mechanism 
+mechanism 
+mechanism 
+mechanism 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=dep
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=dep dep_e2_2=appos
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=dep dep_e2_2=appos
+null dep_e1_0=dobj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep
+null dep_e1_0=dobj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e1_0=dobj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=dep dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=dep dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=dep dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e1_0=appos dep_e2_0=appos
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=dep dep_e1_3=appos dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=dep dep_e1_3=appos dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=dep dep_e1_3=appos dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=dep dep_e1_3=appos dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=dep dep_e1_3=appos dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=dep dep_e1_3=appos dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=appos dep_e2_0=appos
+null 
+null 
+mechanism 
+null 
+null dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=nmod
+mechanism 
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null 
+mechanism 
+null 
+null dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=nmod
+mechanism 
+null dep_e1_0=amod dep_e2_0=appos
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=nsubj
+null 
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=nsubj
+null 
+mechanism 
+null dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=nsubjpass
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=conj dep_e2_2=nsubjpass
+null 
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+mechanism 
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+mechanism 
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+mechanism 
+mechanism 
+mechanism 
+null 
+null 
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj dep_e2_3=appos
+mechanism 
+mechanism dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj
+mechanism dep_e2_0=dep dep_e2_1=dobj dep_e2_2=conj dep_e2_3=appos
+null 
+null 
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=appos
+null 
+null 
+mechanism 
+null dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=amod dep_e2_0=dep
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=appos
+mechanism 
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=nmod
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+mechanism 
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=nmod
+null dep_e1_0=appos dep_e2_0=appos
+mechanism 
+null dep_e1_0=dep dep_e1_1=appos dep_e2_0=dep dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=nmod
+mechanism 
+null dep_e1_0=dep dep_e1_1=appos dep_e2_0=dep dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=nmod
+null 
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null 
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null 
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+effect 
+null dep_e1_0=dobj dep_e1_1=compound dep_e2_0=conj dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=compound
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+effect dep_e1_0=dobj dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=dep dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=compound
+null 
+null 
+mechanism 
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e1_1=nsubj dep_e2_0=nsubjpass dep_e2_1=nsubj
+null dep_e1_0=nsubjpass dep_e1_1=nsubj dep_e2_0=nsubjpass dep_e2_1=nsubj
+null dep_e1_0=nsubjpass dep_e1_1=nsubj dep_e2_0=nsubjpass dep_e2_1=nsubj
+null dep_e1_0=nsubjpass dep_e1_1=nsubj dep_e2_0=nsubjpass dep_e2_1=nsubj
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e1_2=nsubj dep_e2_0=conj dep_e2_1=nsubjpass dep_e2_2=nsubj
+effect dep_e1_0=nsubjpass dep_e1_1=nsubj dep_e2_0=nsubjpass dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=appos
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=appos
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=appos
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+effect 
+null 
+null 
+null 
+effect 
+null 
+null 
+null dep_e1_0=nsubjpass dep_e2_0=nmod
+effect 
+effect dep_e1_0=nmod dep_e2_0=acl dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=nmod dep_e2_5=acl dep_e2_6=xcomp dep_e2_7=dobj dep_e2_8=nmod
+null 
+null 
+null 
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=dep dep_e2_3=conj
+null 
+null 
+null 
+effect 
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=acl dep_e2_3=acl dep_e2_4=nmod dep_e2_5=amod dep_e2_6=dep dep_e2_7=conj dep_e2_8=conj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=acl dep_e2_3=acl dep_e2_4=nmod dep_e2_5=amod dep_e2_6=dep dep_e2_7=conj
+null 
+null 
+null dep_e1_0=conj dep_e1_1=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=appos
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=dep dep_e2_3=conj
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=dep dep_e2_3=conj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl dep_e2_4=nmod dep_e2_5=conj dep_e2_6=dep dep_e2_7=amod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl dep_e2_4=nmod dep_e2_5=conj dep_e2_6=dep dep_e2_7=appos
+null dep_e1_0=amod dep_e2_0=appos
+effect dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=dobj dep_e1_1=nsubj dep_e2_0=dobj dep_e2_1=nsubj
+null dep_e2_0=dep
+null dep_e2_0=dep dep_e2_1=conj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+null dep_e1_0=dep dep_e1_1=conj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+null dep_e1_0=dep dep_e1_1=conj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=compound dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=compound dep_e2_2=nsubj
+null dep_e1_0=nsubj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=advcl dep_e2_1=nsubjpass
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=advcl dep_e1_1=nsubjpass dep_e2_0=nsubj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=compound dep_e2_2=advcl
+null dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=compound dep_e2_2=advcl
+null dep_e1_0=advcl dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=compound dep_e1_1=advcl dep_e2_0=compound dep_e2_1=advcl
+null dep_e1_0=advcl dep_e2_0=dobj dep_e2_1=nmod
+advise dep_e1_0=advcl dep_e2_0=dobj dep_e2_1=nmod
+null dep_e2_0=appos dep_e2_1=compound dep_e2_2=nmod
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e2_0=nsubj
+mechanism dep_e1_0=nmod dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=dobj dep_e2_1=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=compound dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=compound
+mechanism dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj
+mechanism dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=conj dep_e2_0=compound
+null 
+advise 
+null dep_e1_0=compound dep_e1_1=advcl dep_e2_0=compound dep_e2_1=advcl
+null dep_e1_0=nmod dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=csubjpass
+null dep_e1_0=nmod dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound dep_e2_3=csubjpass
+null dep_e1_0=nmod dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound dep_e2_3=csubjpass
+null 
+null 
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=compound
+null 
+mechanism dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e2_0=conj dep_e2_1=acl dep_e2_2=dobj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=acl dep_e2_1=dobj dep_e2_2=nsubj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=acl dep_e2_1=dobj dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=acl dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj dep_e2_4=compound dep_e2_5=nsubj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=acl dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj dep_e2_4=conj dep_e2_5=amod dep_e2_6=nsubj
+null dep_e1_0=dobj dep_e1_1=nsubj dep_e2_0=dobj dep_e2_1=conj dep_e2_2=nsubj
+effect dep_e1_0=dobj dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=compound dep_e2_4=nsubj
+effect dep_e1_0=dobj dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=amod dep_e2_5=nsubj
+effect dep_e1_0=dobj dep_e1_1=conj dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=compound dep_e2_4=nsubj
+effect dep_e1_0=dobj dep_e1_1=conj dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=amod dep_e2_5=nsubj
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=amod dep_e2_2=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null 
+null dep_e1_0=nmod dep_e2_0=conj dep_e2_1=amod
+null dep_e1_0=nmod dep_e2_0=conj
+null dep_e1_0=nmod dep_e2_0=conj dep_e2_1=appos dep_e2_2=amod
+null dep_e1_0=nmod dep_e2_0=conj
+null dep_e1_0=nmod dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=conj
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=conj dep_e2_1=appos dep_e2_2=amod
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=conj
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=appos dep_e2_2=amod
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e1_1=appos dep_e1_2=amod dep_e2_0=conj
+null dep_e1_0=conj dep_e1_1=appos dep_e1_2=amod dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=compound
+null dep_e2_0=dep dep_e2_1=nsubjpass dep_e2_2=advcl
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=compound dep_e2_3=nsubjpass dep_e2_4=advcl
+null dep_e2_0=dep dep_e2_1=nsubjpass dep_e2_2=advcl
+mechanism dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e2_0=appos dep_e2_1=nsubj dep_e2_2=csubjpass
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=csubjpass
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=appos dep_e2_4=nmod dep_e2_5=csubjpass
+null dep_e1_0=nsubj dep_e1_1=csubjpass dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=csubjpass
+null dep_e1_0=nsubj dep_e1_1=csubjpass dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=appos dep_e2_3=nmod dep_e2_4=csubjpass
+null dep_e1_0=nmod dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nmod dep_e2_3=csubjpass
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=appos dep_e2_1=advcl dep_e2_2=nsubjpass
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+mechanism dep_e1_0=advcl dep_e1_1=nsubjpass dep_e2_0=nsubj
+effect dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e2_0=appos dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubjpass
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubjpass
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubjpass
+mechanism dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=compound
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null dep_e1_0=nsubj dep_e2_0=nmod
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=acl dep_e2_4=dobj dep_e2_5=compound
+null dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj dep_e2_4=compound
+advise dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=nmod
+advise dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=nmod dep_e2_5=conj
+advise dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=nmod dep_e2_5=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e1_2=csubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass dep_e2_3=csubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e1_2=csubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=nmod dep_e2_4=dep dep_e2_5=amod dep_e2_6=nsubjpass dep_e2_7=csubjpass
+null dep_e1_0=nsubjpass dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=csubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e1_2=csubjpass dep_e2_0=conj dep_e2_1=acl dep_e2_2=nmod dep_e2_3=dep dep_e2_4=amod dep_e2_5=nsubjpass dep_e2_6=csubjpass
+null dep_e1_0=nsubjpass dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=csubjpass
+null dep_e1_0=nsubjpass dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=csubjpass
+null dep_e1_0=amod dep_e2_0=appos
+null dep_e1_0=amod dep_e2_0=appos dep_e2_1=conj dep_e2_2=conj dep_e2_3=amod
+null dep_e1_0=amod dep_e2_0=appos dep_e2_1=conj dep_e2_2=acl dep_e2_3=nmod dep_e2_4=conj dep_e2_5=amod
+null dep_e1_0=appos dep_e2_0=appos dep_e2_1=conj dep_e2_2=conj dep_e2_3=amod
+null dep_e1_0=appos dep_e2_0=appos dep_e2_1=conj dep_e2_2=acl dep_e2_3=nmod dep_e2_4=conj dep_e2_5=amod
+null dep_e1_0=amod dep_e2_0=acl dep_e2_1=nmod dep_e2_2=conj dep_e2_3=amod
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=compound dep_e2_0=conj dep_e2_1=appos
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=appos
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=appos
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=compound
+advise 
+null 
+effect 
+effect 
+effect 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=amod
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj dep_e2_1=amod
+advise dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=advcl dep_e2_0=xcomp dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=nsubjpass
+null dep_e1_0=advcl dep_e2_0=xcomp dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=nsubjpass
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect 
+null 
+null dep_e2_0=appos
+null dep_e2_0=nmod
+null 
+null 
+null dep_e1_0=appos dep_e2_0=nmod
+effect 
+effect dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+effect dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null 
+null 
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=nmod
+null 
+effect dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=cop
+effect dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=cop dep_e2_0=nmod dep_e2_1=nmod
+null 
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=amod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null 
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=amod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=appos dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=amod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=appos dep_e2_3=nsubj
+mechanism 
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nsubj
+null 
+null 
+null dep_e1_0=appos dep_e1_1=nsubj dep_e2_0=appos dep_e2_1=nsubj
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=dep dep_e1_1=compound dep_e2_0=dep
+null dep_e1_0=dep dep_e1_1=compound dep_e2_0=dep
+null dep_e2_0=appos
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=amod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=compound
+mechanism dep_e1_0=nmod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=nmod
+mechanism dep_e1_0=csubj dep_e2_0=dobj dep_e2_1=compound
+null dep_e1_0=dobj dep_e1_1=compound dep_e2_0=punct dep_e2_1=root dep_e2_2=conj dep_e2_3=dobj dep_e2_4=compound
+null dep_e1_0=compound dep_e2_0=compound
+advise dep_e1_0=punct dep_e1_1=root dep_e1_2=conj dep_e1_3=dobj dep_e1_4=compound dep_e2_0=dobj dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=compound dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=compound dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=compound dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=compound dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=compound dep_e2_2=nsubj
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=compound dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=compound dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=compound
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=compound
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nsubjpass
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound dep_e2_3=nsubjpass
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=compound
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=nmod
+mechanism dep_e1_0=csubj dep_e2_0=dobj dep_e2_1=compound
+null dep_e1_0=nsubj dep_e2_0=conj dep_e2_1=nmod dep_e2_2=dep
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod
+null dep_e2_0=dep dep_e2_1=nmod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=amod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=amod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=amod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=amod
+mechanism dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=amod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=amod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=amod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=amod
+null dep_e1_0=amod dep_e2_0=amod
+null dep_e1_0=amod dep_e2_0=amod
+null dep_e1_0=amod dep_e2_0=amod
+null dep_e1_0=amod dep_e2_0=amod
+null dep_e1_0=amod dep_e2_0=amod
+null dep_e1_0=amod dep_e2_0=amod
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=appos
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=nmod
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=appos
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=appos
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+mechanism dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+mechanism dep_e1_0=nmod dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=appos
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=appos
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=nmod dep_e1_3=appos dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=dep dep_e1_1=dobj dep_e1_2=nmod dep_e1_3=nmod dep_e1_4=appos dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=dep dep_e1_1=dobj dep_e1_2=nmod dep_e1_3=nmod dep_e1_4=appos dep_e2_0=nmod dep_e2_1=compound
+mechanism dep_e1_0=dep dep_e1_1=ccomp dep_e1_2=nmod dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=dep dep_e1_1=ccomp dep_e1_2=nmod dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=compound
+null 
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod
+mechanism dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=nmod dep_e2_0=conj dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+mechanism dep_e1_0=conj dep_e1_1=nmod dep_e1_2=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nsubj dep_e2_3=nmod
+null dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nsubj dep_e2_3=nmod dep_e2_4=nmod
+null dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nsubj dep_e2_3=nmod
+null dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nsubj dep_e2_3=nmod dep_e2_4=nmod
+null dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nsubj dep_e2_3=nmod dep_e2_4=acl dep_e2_5=xcomp dep_e2_6=dobj dep_e2_7=nmod dep_e2_8=appos dep_e2_9=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=acl dep_e2_2=xcomp dep_e2_3=dobj dep_e2_4=nmod dep_e2_5=appos dep_e2_6=compound
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=acl dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=appos dep_e2_5=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=acl dep_e2_2=xcomp dep_e2_3=dobj dep_e2_4=nmod dep_e2_5=appos dep_e2_6=compound
+null dep_e1_0=nmod dep_e2_0=acl dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=appos dep_e2_5=compound
+null dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nsubj
+null dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=dobj dep_e2_3=compound
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=compound dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=acl dep_e2_3=advcl dep_e2_4=advcl dep_e2_5=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=acl dep_e2_3=advcl dep_e2_4=advcl dep_e2_5=nmod
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=acl dep_e2_3=advcl dep_e2_4=advcl dep_e2_5=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=acl:relcl dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e2_0=acl:relcl dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=nmod dep_e2_0=acl:relcl dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e2_0=acl:relcl dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=dep dep_e2_3=acl dep_e2_4=nmod dep_e2_5=amod dep_e2_6=nsubj
+null 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=dep dep_e2_3=acl dep_e2_4=nmod dep_e2_5=acl dep_e2_6=dobj dep_e2_7=conj dep_e2_8=nsubj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=dep dep_e2_3=dobj dep_e2_4=nmod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=dep dep_e2_3=acl dep_e2_4=nmod dep_e2_5=amod dep_e2_6=nsubj
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=dep dep_e2_2=acl dep_e2_3=nmod dep_e2_4=amod dep_e2_5=nsubj
+null 
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=dep dep_e2_2=acl dep_e2_3=nmod dep_e2_4=acl dep_e2_5=dobj dep_e2_6=conj dep_e2_7=nsubj
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=dep dep_e2_2=dobj dep_e2_3=nmod
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=dep dep_e2_2=acl dep_e2_3=nmod dep_e2_4=amod dep_e2_5=nsubj
+null 
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=acl dep_e2_1=dobj dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=amod dep_e2_1=nsubj
+null 
+null 
+null 
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=acl dep_e1_1=dobj dep_e1_2=conj dep_e1_3=nsubj dep_e2_0=amod dep_e2_1=nsubj
+null dep_e1_0=dobj dep_e1_1=nmod dep_e2_0=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null 
+null 
+null 
+null dep_e1_0=nmod dep_e2_0=nsubj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=ccomp dep_e2_1=compound dep_e2_2=nsubjpass
+effect dep_e1_0=nsubj dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=conj dep_e2_3=amod dep_e2_4=nsubjpass
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=amod dep_e2_3=nsubjpass
+null 
+mechanism 
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+null 
+null dep_e1_0=nsubjpass dep_e2_0=nmod
+effect 
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null 
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=amod
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null 
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=amod
+effect 
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=amod
+null 
+mechanism dep_e1_0=nsubj dep_e2_0=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=conj dep_e2_1=nmod
+mechanism dep_e1_0=dep dep_e1_1=compound dep_e2_0=appos dep_e2_1=compound
+mechanism dep_e1_0=dep dep_e1_1=conj dep_e1_2=nmod dep_e2_0=appos dep_e2_1=compound
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null 
+null dep_e2_0=dep dep_e2_1=advcl dep_e2_2=dobj dep_e2_3=nmod
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=xcomp dep_e2_3=dobj dep_e2_4=compound
+effect dep_e2_0=dep dep_e2_1=advcl dep_e2_2=dobj dep_e2_3=nmod
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=xcomp dep_e2_3=dobj dep_e2_4=compound
+null dep_e1_0=advcl dep_e1_1=dobj dep_e1_2=nmod dep_e2_0=conj dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=compound
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null 
+null dep_e2_0=appos dep_e2_1=advcl dep_e2_2=dobj dep_e2_3=nmod
+effect dep_e2_0=appos dep_e2_1=advcl dep_e2_2=dobj dep_e2_3=nmod
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubjpass
+null 
+effect 
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=conj dep_e2_1=nmod dep_e2_2=acl dep_e2_3=nmod dep_e2_4=compound
+mechanism dep_e1_0=nsubjpass dep_e2_0=conj dep_e2_1=nmod dep_e2_2=acl dep_e2_3=nmod dep_e2_4=compound
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=dobj dep_e2_2=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nmod
+null dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubj
+effect dep_e1_0=nmod dep_e2_0=nsubj
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nsubj
+null 
+effect 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod
+null 
+null 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+null 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=compound
+null 
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=nmod
+null 
+null 
+null dep_e1_0=compound dep_e2_0=compound
+null 
+null dep_e1_0=compound dep_e2_0=compound
+null 
+null 
+null 
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=compound
+null 
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=compound
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null dep_e1_0=compound dep_e2_0=compound
+null 
+null 
+null 
+null 
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubjpass
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=compound dep_e2_3=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=compound dep_e2_4=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=acl dep_e2_5=nmod
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl dep_e2_4=nmod
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl dep_e2_4=nmod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=acl dep_e2_2=nmod
+null dep_e2_0=parataxis dep_e2_1=nsubj
+null dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=compound
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=dobj dep_e1_1=compound dep_e2_0=nsubj
+null dep_e1_0=dobj dep_e1_1=compound dep_e2_0=nsubj
+null dep_e1_0=dobj dep_e1_1=compound dep_e2_0=nsubj
+null dep_e1_0=dobj dep_e1_1=compound dep_e2_0=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e2_0=dep dep_e2_1=nsubj
+null dep_e2_0=dep dep_e2_1=acl dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=acl dep_e2_3=nmod
+effect dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl dep_e2_2=nmod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl dep_e2_2=nmod
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl:relcl dep_e2_4=nsubjpass dep_e2_5=nmod
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl:relcl dep_e2_4=conj dep_e2_5=nsubjpass dep_e2_6=nmod
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl:relcl dep_e2_4=nsubjpass dep_e2_5=nmod
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl:relcl dep_e2_4=conj dep_e2_5=nsubjpass dep_e2_6=nmod
+null dep_e1_0=nsubjpass dep_e1_1=nmod dep_e2_0=nsubjpass dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e1_1=nmod dep_e2_0=nsubjpass dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e1_1=nmod dep_e2_0=nsubjpass dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e1_1=nmod dep_e2_0=nsubjpass dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e1_2=nmod dep_e2_0=conj dep_e2_1=nsubjpass dep_e2_2=nmod
+null dep_e1_0=nsubjpass dep_e1_1=nmod dep_e2_0=nsubjpass dep_e2_1=nmod
+null dep_e2_0=appos dep_e2_1=nsubj
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=compound dep_e2_0=conj dep_e2_1=acl dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=compound
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=dep dep_e2_1=parataxis dep_e2_2=nmod dep_e2_3=conj dep_e2_4=nsubj
+advise dep_e1_0=nmod dep_e1_1=conj dep_e2_0=dep dep_e2_1=parataxis dep_e2_2=nmod dep_e2_3=conj dep_e2_4=nsubj
+null 
+null dep_e2_0=dep dep_e2_1=dobj
+null dep_e2_0=dep dep_e2_1=dobj
+mechanism dep_e2_0=dep dep_e2_1=dobj
+null dep_e2_0=dep dep_e2_1=dobj
+null dep_e1_0=dobj dep_e2_0=dobj
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e2_0=parataxis dep_e2_1=nsubj
+null dep_e2_0=parataxis dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=parataxis dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod
+null dep_e1_0=nsubj dep_e2_0=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod
+null dep_e2_0=appos dep_e2_1=amod dep_e2_2=nsubjpass
+null dep_e2_0=appos dep_e2_1=xcomp dep_e2_2=dobj dep_e2_3=compound
+mechanism dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=compound
+null dep_e1_0=nsubjpass dep_e2_0=advcl dep_e2_1=nsubjpass
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=compound dep_e2_1=nsubjpass
+advise dep_e1_0=advcl dep_e1_1=nsubjpass dep_e2_0=nsubjpass
+null 
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl:relcl dep_e2_2=dobj dep_e2_3=nmod
+advise 
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubjpass
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=compound dep_e2_4=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound dep_e2_3=nsubjpass
+null dep_e2_0=appos dep_e2_1=nmod:tmod dep_e2_2=dep dep_e2_3=dep dep_e2_4=compound dep_e2_5=nsubj
+null dep_e2_0=appos dep_e2_1=dobj
+null dep_e2_0=appos dep_e2_1=compound dep_e2_2=nsubj dep_e2_3=advcl
+null dep_e1_0=nmod:tmod dep_e1_1=dep dep_e1_2=dep dep_e1_3=compound dep_e1_4=nsubj dep_e2_0=dobj
+null dep_e1_0=nmod:tmod dep_e1_1=dep dep_e1_2=dep dep_e1_3=compound dep_e1_4=nsubj dep_e2_0=advcl
+mechanism dep_e1_0=dobj dep_e2_0=advcl
+null dep_e2_0=dep dep_e2_1=nsubj dep_e2_2=advcl
+null 
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=advcl
+effect 
+effect dep_e1_0=nsubj dep_e1_1=advcl dep_e2_0=conj dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=advcl
+null 
+advise dep_e1_0=dobj dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=nsubj dep_e2_0=nsubj
+advise dep_e1_0=nsubjpass dep_e2_0=dobj dep_e2_1=dep dep_e2_2=dep dep_e2_3=compound dep_e2_4=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=dep dep_e2_2=nsubjpass
+mechanism dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+mechanism dep_e1_0=dep dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null 
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=dep dep_e2_2=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+mechanism dep_e1_0=dep dep_e1_1=dep dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=dep dep_e1_1=dep dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubjpass dep_e2_0=nmod
+null 
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=compound
+effect dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=appos dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=csubj dep_e2_0=dobj dep_e2_1=nmod
+effect 
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+effect 
+null 
+null 
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null 
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=compound
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+effect 
+effect dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null 
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod
+int dep_e1_0=nmod dep_e2_0=acl:relcl dep_e2_1=dobj dep_e2_2=dep
+int dep_e1_0=nmod dep_e2_0=acl:relcl dep_e2_1=dobj dep_e2_2=dep dep_e2_3=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nsubj
+null dep_e1_0=nmod dep_e2_0=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+mechanism dep_e1_0=nmod dep_e2_0=dep
+mechanism dep_e1_0=nmod dep_e2_0=dep dep_e2_1=appos
+mechanism dep_e1_0=nmod dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=appos dep_e2_0=appos
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=advcl dep_e2_0=nsubj
+null dep_e1_0=advcl dep_e2_0=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=acl dep_e2_1=dep dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=acl dep_e2_1=dep dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=nmod
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep dep_e2_5=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep dep_e2_5=conj dep_e2_6=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep dep_e2_5=conj dep_e2_6=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep dep_e2_5=conj dep_e2_6=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep dep_e2_5=conj dep_e2_6=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep dep_e2_5=appos dep_e2_6=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=dep dep_e2_6=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=dep dep_e2_6=appos dep_e2_7=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=dep dep_e2_6=appos dep_e2_7=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=dep dep_e2_6=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=compound dep_e2_6=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=dep dep_e2_6=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=dep dep_e2_6=appos dep_e2_7=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=dep dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=dep dep_e2_3=appos dep_e2_4=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=dep dep_e2_3=appos dep_e2_4=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=dep dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=dep dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=dep dep_e2_3=appos dep_e2_4=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=appos dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=appos dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=appos dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=appos dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=appos dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=appos dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=appos dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=appos dep_e1_1=nsubjpass dep_e2_0=appos dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=appos dep_e1_3=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=dep dep_e1_2=nsubjpass dep_e2_0=conj dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubjpass
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=nsubjpass
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=appos dep_e2_2=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=appos dep_e2_2=nsubjpass
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=nsubjpass
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=compound dep_e2_0=appos dep_e2_1=ccomp dep_e2_2=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=compound
+effect dep_e1_0=nsubjpass dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=nmod
+null dep_e2_0=conj
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=acl dep_e2_5=dobj
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=conj dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=acl dep_e2_5=dobj
+null dep_e1_0=conj dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=conj dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=conj
+effect dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=acl dep_e1_3=dobj dep_e2_0=nmod
+effect dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=acl dep_e1_3=dobj dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+advise dep_e1_0=nmod dep_e1_1=compound dep_e1_2=nsubjpass dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=compound dep_e1_2=nsubjpass dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=nsubjpass
+null dep_e1_0=dobj dep_e1_1=nsubjpass dep_e2_0=dobj dep_e2_1=conj dep_e2_2=nsubjpass
+advise dep_e1_0=nmod dep_e2_0=dep
+advise dep_e1_0=nmod dep_e2_0=dep dep_e2_1=conj
+advise dep_e1_0=nmod dep_e2_0=dep dep_e2_1=conj
+advise dep_e1_0=nmod dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=conj dep_e2_3=compound
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=conj dep_e2_3=compound
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl:relcl dep_e2_4=nmod dep_e2_5=nmod
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod
+effect dep_e1_0=conj dep_e1_1=compound dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubjpass
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=nmod
+null 
+null 
+effect dep_e1_0=nsubj dep_e2_0=nsubj
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubjpass
+null dep_e1_0=nsubj dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e2_0=acl dep_e2_1=dobj dep_e2_2=acl dep_e2_3=nmod
+null dep_e1_0=nmod dep_e2_0=acl dep_e2_1=dobj dep_e2_2=acl dep_e2_3=nmod dep_e2_4=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=acl dep_e2_3=nmod dep_e2_4=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=acl dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl dep_e2_4=nmod dep_e2_5=nmod
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl dep_e2_4=nmod dep_e2_5=nmod
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=nmod dep_e1_3=acl dep_e1_4=nmod dep_e1_5=nmod dep_e2_0=nsubj
+null dep_e1_0=nmod dep_e2_0=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl dep_e2_4=nmod dep_e2_5=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=acl dep_e2_3=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl dep_e2_2=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=amod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e2_0=conj dep_e2_1=ccomp dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=amod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=conj dep_e2_1=ccomp dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=conj dep_e1_2=amod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=conj dep_e1_3=amod dep_e2_0=conj dep_e2_1=ccomp dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=conj dep_e2_1=ccomp dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=dep dep_e2_0=nmod dep_e2_1=conj dep_e2_2=dep
+effect dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=conj
+effect dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+effect 
+effect dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=appos
+null 
+effect 
+effect 
+effect 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=amod dep_e2_4=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=amod dep_e2_3=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+effect dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=ccomp dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=ccomp dep_e2_1=dobj dep_e2_2=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect 
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+effect dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=dobj dep_e1_1=nsubj dep_e2_0=dobj dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=dep dep_e2_1=conj dep_e2_2=nmod dep_e2_3=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+effect dep_e1_0=advcl dep_e2_0=nsubj
+null dep_e1_0=advcl dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=advcl dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=appos
+null dep_e1_0=nmod dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=advcl
+null dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=appos
+null dep_e1_0=nsubj dep_e2_0=advcl
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=appos
+effect dep_e1_0=advcl dep_e1_1=nmod dep_e1_2=nmod dep_e2_0=advcl
+effect dep_e1_0=advcl dep_e1_1=nmod dep_e1_2=nmod dep_e1_3=appos dep_e2_0=advcl
+null 
+null 
+effect 
+null dep_e1_0=appos dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+effect 
+effect 
+mechanism dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null 
+effect dep_e1_0=compound dep_e2_0=nmod dep_e2_1=amod
+null dep_e1_0=compound dep_e2_0=compound
+null 
+null dep_e1_0=nmod dep_e1_1=amod dep_e2_0=compound
+null 
+advise 
+effect 
+effect 
+effect 
+null 
+null dep_e1_0=dobj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod
+null 
+effect dep_e1_0=nsubjpass dep_e2_0=nmod
+effect dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=conj
+effect dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=conj
+effect dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+effect dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=appos dep_e2_1=compound dep_e2_2=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=appos dep_e2_1=nsubj
+null dep_e1_0=appos dep_e1_1=compound dep_e1_2=nsubj dep_e2_0=appos dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=appos dep_e2_10=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=appos dep_e2_10=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=dobj dep_e1_1=nsubj dep_e2_0=dobj dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=dobj dep_e1_1=nsubj dep_e2_0=dobj dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=appos dep_e2_10=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=appos dep_e2_10=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=appos dep_e2_10=nsubj
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=conj dep_e1_4=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dobj dep_e2_5=conj dep_e2_6=acl dep_e2_7=dobj dep_e2_8=nmod dep_e2_9=appos dep_e2_10=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dobj dep_e2_4=conj dep_e2_5=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dobj dep_e2_4=conj dep_e2_5=acl dep_e2_6=dobj dep_e2_7=nmod dep_e2_8=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dobj dep_e2_4=conj dep_e2_5=acl dep_e2_6=dobj dep_e2_7=nmod dep_e2_8=appos dep_e2_9=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=conj dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=acl dep_e2_5=dobj dep_e2_6=nmod dep_e2_7=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=acl dep_e2_2=dobj dep_e2_3=conj dep_e2_4=acl dep_e2_5=dobj dep_e2_6=nmod dep_e2_7=appos dep_e2_8=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=conj dep_e1_3=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dobj dep_e2_4=conj dep_e2_5=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dobj dep_e2_4=conj dep_e2_5=acl dep_e2_6=dobj dep_e2_7=nmod dep_e2_8=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dobj dep_e2_4=conj dep_e2_5=acl dep_e2_6=dobj dep_e2_7=nmod dep_e2_8=appos dep_e2_9=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=acl dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=acl dep_e2_2=dobj dep_e2_3=nmod dep_e2_4=appos dep_e2_5=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=conj dep_e1_3=acl dep_e1_4=dobj dep_e1_5=conj dep_e1_6=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=conj dep_e1_3=acl dep_e1_4=dobj dep_e1_5=conj dep_e1_6=acl dep_e1_7=dobj dep_e1_8=nmod dep_e1_9=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=conj dep_e1_3=acl dep_e1_4=dobj dep_e1_5=conj dep_e1_6=acl dep_e1_7=dobj dep_e1_8=nmod dep_e1_9=appos dep_e1_10=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=compound dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e2_0=dep dep_e2_1=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=det
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=det
+null dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nsubjpass
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=compound dep_e2_1=nsubj
+mechanism dep_e1_0=advcl dep_e1_1=nsubjpass dep_e2_0=nsubj
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=advcl dep_e2_0=nmod dep_e2_1=acl dep_e2_2=nmod dep_e2_3=advcl
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=advcl dep_e2_0=nmod dep_e2_1=acl dep_e2_2=nmod dep_e2_3=advcl
+null dep_e1_0=nmod dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=advcl
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=advcl dep_e2_0=nmod dep_e2_1=acl dep_e2_2=nmod dep_e2_3=advcl
+null dep_e1_0=nmod dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=advcl
+null dep_e1_0=nmod dep_e1_1=acl dep_e1_2=nmod dep_e1_3=advcl dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=advcl
+null dep_e1_0=nmod dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=advcl
+advise dep_e1_0=nmod dep_e1_1=acl dep_e1_2=nmod dep_e1_3=advcl dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=advcl
+null dep_e1_0=nmod dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=advcl
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=advcl dep_e2_0=nmod dep_e2_1=acl dep_e2_2=nmod dep_e2_3=advcl
+null dep_e2_0=dep dep_e2_1=acl dep_e2_2=dobj dep_e2_3=nmod
+null dep_e2_0=dep dep_e2_1=advcl dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e2_0=advcl dep_e2_1=nsubjpass
+effect dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=advcl
+null 
+null dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod dep_e2_3=advcl
+null 
+null dep_e1_0=nmod dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=advcl
+advise 
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+mechanism dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=conj dep_e2_2=compound
+mechanism dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=amod dep_e2_0=appos
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=amod dep_e2_3=nsubj
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=nmod dep_e2_2=amod dep_e2_3=nsubj
+null dep_e1_0=appos dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nsubj
+effect dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=acl dep_e2_3=nmod
+null 
+effect 
+null dep_e1_0=nmod dep_e2_0=nsubj
+null dep_e1_0=dobj dep_e1_1=nmod dep_e2_0=dobj dep_e2_1=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=nmod
+effect dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+advise dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=compound
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl dep_e2_2=nmod
+advise dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=amod dep_e2_4=advcl
+effect dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+advise dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+mechanism dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=advcl
+null dep_e1_0=advcl dep_e2_0=nsubj
+null dep_e1_0=advcl dep_e2_0=nsubj
+advise dep_e1_0=nsubjpass dep_e2_0=nmod
+mechanism dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod
+effect dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+advise dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+advise dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e1_2=advcl dep_e2_0=conj dep_e2_1=nsubjpass dep_e2_2=advcl
+mechanism dep_e1_0=nsubj dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=csubjpass
+null dep_e1_0=nsubj dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=csubjpass
+null dep_e1_0=nmod dep_e1_1=csubjpass dep_e2_0=nmod dep_e2_1=csubjpass
+advise dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e1_2=advcl dep_e2_0=conj dep_e2_1=nsubjpass dep_e2_2=advcl
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=amod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=amod
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=amod
+null dep_e1_0=dep dep_e2_0=dep
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=parataxis dep_e2_1=xcomp dep_e2_2=advcl dep_e2_3=nmod dep_e2_4=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=parataxis dep_e2_1=xcomp dep_e2_2=advcl dep_e2_3=nmod dep_e2_4=nsubjpass
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=conj dep_e2_2=acl dep_e2_3=nmod dep_e2_4=compound
+effect dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubj
+advise dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=compound dep_e2_0=compound
+effect dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=amod dep_e2_3=nsubjpass
+effect dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=nmod
+effect 
+effect dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nsubjpass
+null 
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod dep_e2_3=conj dep_e2_4=amod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=amod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=conj
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null 
+null 
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=advcl dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=compound
+null 
+null dep_e1_0=nmod dep_e2_0=advcl dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=compound
+null 
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=compound
+null 
+null 
+null dep_e1_0=dobj dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=dobj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=compound
+null 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null 
+null 
+null dep_e1_0=amod dep_e1_1=nsubj dep_e1_2=advcl dep_e2_0=amod dep_e2_1=nsubj dep_e2_2=advcl
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj dep_e2_2=punct dep_e2_3=root dep_e2_4=dep
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=conj
+null dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=conj dep_e2_2=punct dep_e2_3=root dep_e2_4=dep dep_e2_5=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=punct dep_e2_2=root dep_e2_3=dep
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=punct dep_e2_2=root dep_e2_3=dep
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=punct dep_e2_2=root dep_e2_3=dep dep_e2_4=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=amod dep_e1_2=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=compound
+null 
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=compound
+null 
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=compound
+null 
+null 
+effect dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=dobj dep_e2_3=nsubj
+advise dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=dobj dep_e2_3=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e1_1=acl:relcl dep_e1_2=dobj dep_e1_3=nmod dep_e2_0=nsubjpass
+effect dep_e1_0=nsubj dep_e2_0=nmod
+null 
+null dep_e1_0=nmod dep_e2_0=nmod
+null 
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+effect 
+effect 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null 
+null 
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=nsubj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nmod dep_e2_5=nmod
+effect 
+null dep_e1_0=nsubj dep_e2_0=amod
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=conj dep_e2_1=acl dep_e2_2=dobj
+null dep_e1_0=nmod dep_e1_1=compound dep_e2_0=conj dep_e2_1=acl dep_e2_2=advcl dep_e2_3=nsubjpass
+null dep_e1_0=dobj dep_e2_0=advcl dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=nmod
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=compound dep_e2_0=dep
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=compound dep_e2_0=dep
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=conj dep_e2_0=dep
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=conj dep_e2_0=dep
+null 
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=conj dep_e2_0=dep
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=conj dep_e2_0=dep
+null 
+null dep_e1_0=dep dep_e2_0=dep
+null 
+mechanism 
+null 
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null 
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=dobj dep_e2_3=nmod
+null 
+null 
+null 
+null 
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null 
+mechanism dep_e1_0=nsubj dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod
+null 
+mechanism dep_e1_0=nsubj dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod
+null 
+null dep_e1_0=advcl dep_e2_0=nsubj
+null 
+effect 
+null dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl dep_e2_4=dobj dep_e2_5=nmod
+advise dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj dep_e2_4=nmod
+null 
+null 
+mechanism 
+null 
+null 
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=conj
+mechanism 
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound dep_e2_4=nsubjpass
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=amod dep_e2_3=nsubjpass
+null 
+null dep_e2_0=appos dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubj
+null 
+null dep_e2_0=appos dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubj
+advise 
+advise 
+null 
+mechanism dep_e1_0=nsubjpass dep_e2_0=conj dep_e2_1=nmod dep_e2_2=nmod
+mechanism 
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=conj dep_e2_4=amod
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=amod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=amod
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=amod
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=amod
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=conj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+mechanism 
+null 
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null 
+effect 
+effect 
+null dep_e1_0=compound dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubj
+null 
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubj
+null 
+effect 
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=nsubj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubj
+null dep_e1_0=dep dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=dep dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=dep dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubj dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubj
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubj dep_e2_0=conj dep_e2_1=compound dep_e2_2=nsubj
+null dep_e2_0=appos dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e2_0=appos dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj dep_e2_4=compound
+null dep_e2_0=appos dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=compound dep_e2_1=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=compound
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=compound dep_e2_1=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=acl dep_e2_2=dobj dep_e2_3=compound
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=compound dep_e2_1=nsubjpass
+effect dep_e1_0=nmod dep_e1_1=acl dep_e1_2=dobj dep_e1_3=compound dep_e2_0=nsubjpass
+null dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod dep_e2_3=compound
+null dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod dep_e2_3=compound
+null dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null dep_e2_0=nmod dep_e2_1=conj
+null dep_e2_0=nmod dep_e2_1=nmod
+null dep_e2_0=nmod dep_e2_1=dep dep_e2_2=nmod
+null dep_e2_0=nmod dep_e2_1=nmod
+null dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod dep_e2_3=compound
+null dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=conj
+mechanism dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nmod
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=conj
+mechanism dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=dep dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nmod
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nmod
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj
+mechanism dep_e1_0=conj dep_e1_1=compound dep_e2_0=nmod
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=dep dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=nmod
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=nmod
+mechanism dep_e1_0=conj dep_e2_0=nmod
+null dep_e1_0=conj dep_e2_0=dep dep_e2_1=nmod
+null dep_e1_0=conj dep_e2_0=nmod
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=conj dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=dep dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=conj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=dep dep_e1_1=nmod dep_e2_0=nmod
+null dep_e1_0=dep dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=dep dep_e1_1=nmod dep_e2_0=nmod
+null dep_e1_0=nmod dep_e2_0=conj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e2_0=nmod
+mechanism dep_e1_0=conj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nmod dep_e2_0=conj dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound dep_e2_3=nmod
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=dobj dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=appos dep_e2_1=amod dep_e2_2=nsubjpass
+effect dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod
+null 
+null 
+null 
+null 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj dep_e2_3=amod
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj dep_e2_3=appos
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=conj
+null dep_e1_0=amod dep_e2_0=appos
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=appos
+effect 
+effect dep_e1_0=nmod dep_e2_0=nsubj
+null 
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+advise dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl:relcl dep_e2_3=nsubjpass
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl:relcl dep_e2_3=nmod
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl:relcl dep_e2_3=nsubjpass
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=compound
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl:relcl dep_e2_3=nmod
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nmod dep_e2_5=dep
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nmod dep_e2_5=nsubjpass
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nmod dep_e2_5=conj dep_e2_6=nsubjpass
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=appos dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nmod dep_e2_5=conj dep_e2_6=nsubjpass
+effect dep_e1_0=nsubjpass dep_e2_0=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=nsubjpass dep_e2_0=nmod
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nsubjpass
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nsubjpass
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nmod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=nmod dep_e2_0=nmod
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nmod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nmod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nsubjpass
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nmod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nmod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+advise dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+advise dep_e1_0=nsubjpass dep_e2_0=nmod
+advise dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep
+advise dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nsubjpass
+advise dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+advise dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nsubjpass dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+null dep_e1_0=appos dep_e1_1=nmod dep_e1_2=nmod dep_e1_3=compound dep_e2_0=conj dep_e2_1=acl:relcl dep_e2_2=nmod
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=dep
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=compound dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nmod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=dep
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nmod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nsubjpass
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nmod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+null dep_e1_0=conj dep_e1_1=acl:relcl dep_e1_2=nmod dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=conj dep_e2_5=nsubjpass
+null dep_e1_0=dep dep_e2_0=nsubjpass
+null dep_e1_0=dep dep_e2_0=nsubjpass
+null dep_e1_0=dep dep_e2_0=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+null dep_e1_0=amod dep_e2_0=conj
+null 
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj dep_e2_4=conj
+null 
+null dep_e1_0=conj dep_e2_0=dep dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj dep_e2_4=conj
+effect 
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nsubj dep_e2_2=advcl
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=compound dep_e2_2=advcl
+null 
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=dep dep_e2_4=nsubj
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=dep dep_e2_4=conj dep_e2_5=nsubj
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=dep dep_e2_4=conj dep_e2_5=nsubj
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=nmod dep_e2_3=conj dep_e2_4=nsubj
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=ccomp dep_e2_2=dobj dep_e2_3=nmod
+null dep_e1_0=nsubj dep_e1_1=advcl dep_e2_0=compound dep_e2_1=advcl
+null 
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=dep dep_e2_3=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=dep dep_e2_3=conj dep_e2_4=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=dep dep_e2_3=conj dep_e2_4=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=dobj dep_e2_2=nmod
+null 
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=dep dep_e2_3=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=dep dep_e2_3=conj dep_e2_4=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=dep dep_e2_3=conj dep_e2_4=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=advcl dep_e2_0=ccomp dep_e2_1=dobj dep_e2_2=nmod
+null 
+null 
+null 
+null 
+effect 
+null 
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=dep dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=dep dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=dep dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=dep dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubj dep_e2_0=conj dep_e2_1=nsubj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=dep dep_e1_1=conj dep_e1_2=nsubj dep_e2_0=conj dep_e2_1=nsubj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+advise 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null 
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=compound dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=compound dep_e2_0=dep
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=compound dep_e2_0=dep
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=conj dep_e2_0=dep
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=conj dep_e2_0=dep
+null 
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=conj dep_e2_0=dep
+null dep_e1_0=nmod dep_e1_1=dep dep_e1_2=conj dep_e2_0=dep
+null 
+null dep_e1_0=dep dep_e2_0=dep
+null 
+mechanism 
+null 
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null 
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=dobj dep_e2_3=nmod
+null 
+null 
+null 
+null 
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null 
+null dep_e1_0=nsubj dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod
+null 
+null dep_e1_0=nsubj dep_e2_0=conj dep_e2_1=dobj dep_e2_2=nmod
+null 
+null dep_e1_0=advcl dep_e2_0=nsubj
+null 
+effect 
+null dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=acl dep_e2_4=dobj dep_e2_5=nmod
+advise dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=acl dep_e2_3=dobj dep_e2_4=nmod
+null 
+null 
+mechanism 
+null 
+null 
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=conj
+effect 
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound dep_e2_4=nsubjpass
+null dep_e1_0=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=amod dep_e2_3=nsubjpass
+null 
+null dep_e2_0=appos dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubj
+null 
+null dep_e2_0=appos dep_e2_1=dep dep_e2_2=appos dep_e2_3=nsubj
+effect 
+effect 
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=amod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=nsubj
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+effect dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+effect dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=conj dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+effect dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+mechanism dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod
+null dep_e2_0=dep dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+null 
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=nmod dep_e2_3=compound dep_e2_4=nsubjpass
+null dep_e1_0=dep dep_e1_1=nsubj dep_e2_0=dep dep_e2_1=conj dep_e2_2=nsubj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=compound dep_e2_0=acl dep_e2_1=nmod
+null dep_e1_0=compound dep_e2_0=acl dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+effect 
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nsubj dep_e2_0=nsubj
+null dep_e1_0=nmod dep_e1_1=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound dep_e2_3=nsubj
+null 
+null dep_e1_0=amod dep_e2_0=appos dep_e2_1=amod
+null dep_e1_0=dep dep_e1_1=amod dep_e2_0=conj
+null dep_e1_0=dep dep_e1_1=appos dep_e1_2=amod dep_e2_0=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=det
+effect dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=det dep_e2_3=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nsubj
+null dep_e1_0=det dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+advise dep_e1_0=nsubjpass dep_e1_1=advcl dep_e2_0=advcl dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=advcl
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e1_2=advcl dep_e2_0=nmod dep_e2_1=nsubjpass dep_e2_2=advcl
+null dep_e1_0=advcl dep_e1_1=nmod dep_e1_2=nmod dep_e1_3=advcl dep_e2_0=nsubjpass dep_e2_1=advcl
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=nmod
+advise dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+effect dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=det
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism 
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=det
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null 
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=det
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=det
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=det
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=det
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=det
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=det
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=det
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=det
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=nmod dep_e1_1=conj dep_e2_0=det
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=det dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=det dep_e2_0=nmod dep_e2_1=conj
+null 
+null dep_e1_0=det dep_e2_0=nmod dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=conj dep_e2_0=conj
+null 
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod
+null dep_e1_0=advcl dep_e2_0=dep dep_e2_1=compound
+null dep_e1_0=advcl dep_e2_0=dep dep_e2_1=compound
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=compound dep_e2_0=compound
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj dep_e2_1=compound
+effect 
+effect dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=acl:relcl dep_e2_2=dobj dep_e2_3=nmod
+advise 
+null dep_e1_0=dobj dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=compound dep_e2_2=advcl
+null 
+null dep_e1_0=dobj dep_e1_1=advcl dep_e2_0=dobj dep_e2_1=advcl
+null 
+null dep_e1_0=nmod dep_e1_1=compound dep_e1_2=advcl dep_e2_0=dobj dep_e2_1=advcl
+advise 
+effect 
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+mechanism dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null 
+null dep_e1_0=amod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null dep_e1_0=amod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound
+null dep_e1_0=amod dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=amod dep_e2_0=compound
+null 
+null 
+null 
+null 
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=nmod dep_e1_1=conj dep_e1_2=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=conj dep_e1_2=compound dep_e2_0=compound
+null dep_e1_0=nmod dep_e1_1=conj dep_e1_2=compound dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=conj dep_e1_2=compound dep_e2_0=compound
+effect dep_e1_0=dep dep_e1_1=nmod dep_e1_2=nsubj dep_e2_0=compound
+null 
+effect dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=acl:relcl dep_e2_2=dobj dep_e2_3=compound dep_e2_4=nsubj
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=nmod dep_e1_1=conj dep_e1_2=nsubjpass dep_e2_0=nmod dep_e2_1=nsubjpass
+null dep_e1_0=conj dep_e1_1=nsubjpass dep_e2_0=conj dep_e2_1=nsubjpass
+advise dep_e1_0=nmod dep_e1_1=nsubjpass dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubjpass
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=compound dep_e2_1=nsubjpass
+null dep_e1_0=nsubj dep_e2_0=nsubj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+effect dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj
+mechanism dep_e2_0=acl dep_e2_1=dep dep_e2_2=dobj dep_e2_3=compound
+advise dep_e1_0=nsubjpass dep_e2_0=nmod
+null 
+null dep_e1_0=nsubjpass dep_e2_0=nsubjpass
+mechanism dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod
+null 
+mechanism 
+null 
+mechanism dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=nmod
+null dep_e1_0=nmod dep_e2_0=nmod
+mechanism dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj
+mechanism dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=conj dep_e2_3=compound
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=compound
+effect dep_e1_0=nsubj dep_e2_0=advcl dep_e2_1=dobj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=amod
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=punct dep_e2_18=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=punct dep_e2_18=root dep_e2_19=punct dep_e2_20=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=punct dep_e2_18=root dep_e2_19=punct dep_e2_20=root dep_e2_21=punct dep_e2_22=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=punct dep_e2_18=root dep_e2_19=punct dep_e2_20=root dep_e2_21=punct dep_e2_22=root dep_e2_23=punct dep_e2_24=root
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=punct dep_e2_18=root dep_e2_19=punct dep_e2_20=root dep_e2_21=punct dep_e2_22=root dep_e2_23=punct dep_e2_24=root dep_e2_25=appos
+advise dep_e1_0=dobj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=conj dep_e2_3=acl dep_e2_4=dep dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=punct dep_e2_18=root dep_e2_19=punct dep_e2_20=root dep_e2_21=punct dep_e2_22=root dep_e2_23=punct dep_e2_24=root dep_e2_25=conj
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root dep_e2_10=punct dep_e2_11=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root dep_e2_10=punct dep_e2_11=root dep_e2_12=punct dep_e2_13=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root dep_e2_10=punct dep_e2_11=root dep_e2_12=punct dep_e2_13=root dep_e2_14=punct dep_e2_15=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root dep_e2_10=punct dep_e2_11=root dep_e2_12=punct dep_e2_13=root dep_e2_14=punct dep_e2_15=root dep_e2_16=punct dep_e2_17=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root dep_e2_10=punct dep_e2_11=root dep_e2_12=punct dep_e2_13=root dep_e2_14=punct dep_e2_15=root dep_e2_16=punct dep_e2_17=root dep_e2_18=punct dep_e2_19=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root dep_e2_10=punct dep_e2_11=root dep_e2_12=punct dep_e2_13=root dep_e2_14=punct dep_e2_15=root dep_e2_16=punct dep_e2_17=root dep_e2_18=punct dep_e2_19=root dep_e2_20=punct dep_e2_21=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root dep_e2_10=punct dep_e2_11=root dep_e2_12=punct dep_e2_13=root dep_e2_14=punct dep_e2_15=root dep_e2_16=punct dep_e2_17=root dep_e2_18=punct dep_e2_19=root dep_e2_20=punct dep_e2_21=root dep_e2_22=punct dep_e2_23=root
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root dep_e2_10=punct dep_e2_11=root dep_e2_12=punct dep_e2_13=root dep_e2_14=punct dep_e2_15=root dep_e2_16=punct dep_e2_17=root dep_e2_18=punct dep_e2_19=root dep_e2_20=punct dep_e2_21=root dep_e2_22=punct dep_e2_23=root dep_e2_24=appos
+null dep_e1_0=nmod dep_e2_0=nmod dep_e2_1=conj dep_e2_2=acl dep_e2_3=dep dep_e2_4=punct dep_e2_5=root dep_e2_6=punct dep_e2_7=root dep_e2_8=punct dep_e2_9=root dep_e2_10=punct dep_e2_11=root dep_e2_12=punct dep_e2_13=root dep_e2_14=punct dep_e2_15=root dep_e2_16=punct dep_e2_17=root dep_e2_18=punct dep_e2_19=root dep_e2_20=punct dep_e2_21=root dep_e2_22=punct dep_e2_23=root dep_e2_24=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=punct dep_e2_18=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=punct dep_e2_18=root dep_e2_19=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=punct dep_e2_18=root dep_e2_19=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=punct dep_e2_16=root dep_e2_17=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=punct dep_e2_14=root dep_e2_15=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=punct dep_e2_12=root dep_e2_13=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=punct dep_e2_10=root dep_e2_11=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=punct dep_e2_8=root dep_e2_9=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=appos
+null dep_e1_0=root dep_e2_0=root dep_e2_1=conj
+null dep_e1_0=appos dep_e2_0=conj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=amod
+advise dep_e1_0=advcl dep_e2_0=xcomp dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=punct dep_e2_6=root dep_e2_7=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=punct dep_e2_4=root dep_e2_5=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root
+null dep_e1_0=root dep_e2_0=root dep_e2_1=punct dep_e2_2=root dep_e2_3=conj
+null dep_e1_0=root dep_e2_0=root dep_e2_1=conj
+null 
+null dep_e1_0=amod dep_e2_0=conj dep_e2_1=amod
+null dep_e1_0=amod dep_e2_0=appos
+null dep_e1_0=amod dep_e2_0=appos dep_e2_1=dep dep_e2_2=amod
+null dep_e1_0=amod dep_e2_0=appos dep_e2_1=dep dep_e2_2=conj
+null dep_e1_0=amod dep_e2_0=appos dep_e2_1=dep dep_e2_2=appos dep_e2_3=compound
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=appos
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=appos dep_e2_1=dep dep_e2_2=amod
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=appos dep_e2_1=dep dep_e2_2=conj
+null dep_e1_0=conj dep_e1_1=amod dep_e2_0=appos dep_e2_1=dep dep_e2_2=appos dep_e2_3=compound
+null dep_e1_0=appos dep_e2_0=appos dep_e2_1=dep dep_e2_2=amod
+null dep_e1_0=appos dep_e2_0=appos dep_e2_1=dep dep_e2_2=conj
+null dep_e1_0=appos dep_e2_0=appos dep_e2_1=dep dep_e2_2=appos dep_e2_3=compound
+null dep_e1_0=amod dep_e2_0=conj
+null dep_e1_0=amod dep_e2_0=appos dep_e2_1=compound
+null dep_e1_0=conj dep_e2_0=appos dep_e2_1=compound
+null 
+null dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nmod
+null 
+null 
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e2_0=appos dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nsubjpass
+null 
+null 
+mechanism dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=conj dep_e2_1=nsubj
+null 
+null 
+mechanism dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=compound dep_e2_3=nsubj
+null 
+null dep_e1_0=nmod dep_e1_1=nmod dep_e1_2=compound dep_e2_0=nsubj
+null 
+null 
+null 
+null 
+null dep_e1_0=acl dep_e1_1=nmod dep_e1_2=conj dep_e2_0=nmod dep_e2_1=compound
+null dep_e2_0=appos dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e2_0=appos dep_e2_1=compound dep_e2_2=nsubjpass
+null dep_e2_0=appos dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=compound
+null dep_e1_0=compound dep_e1_1=nsubjpass dep_e2_0=compound dep_e2_1=nsubjpass
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nsubjpass dep_e2_0=nmod dep_e2_1=nmod
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=conj dep_e2_3=nsubj
+null dep_e2_0=dep dep_e2_1=nmod dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nmod dep_e1_1=conj dep_e1_2=nsubj dep_e2_0=nmod dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=compound
+null dep_e1_0=nmod dep_e1_1=nsubj dep_e2_0=nmod dep_e2_1=conj dep_e2_2=nsubj
+null 
+null 
+null dep_e2_0=dep dep_e2_1=compound dep_e2_2=nsubj
+null dep_e2_0=dep dep_e2_1=conj dep_e2_2=nmod dep_e2_3=nmod dep_e2_4=nmod
+mechanism dep_e1_0=nsubj dep_e2_0=conj dep_e2_1=nmod dep_e2_2=nmod dep_e2_3=nmod
+null dep_e1_0=nsubjpass dep_e2_0=nmod
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj dep_e2_3=compound
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj dep_e2_3=amod
+null dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj dep_e2_3=appos
+null dep_e1_0=nmod dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj dep_e2_3=compound
+null dep_e1_0=nmod dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj
+null dep_e1_0=nmod dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj dep_e2_3=amod
+null dep_e1_0=nmod dep_e2_0=xcomp dep_e2_1=dobj dep_e2_2=conj dep_e2_3=appos
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=compound
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=amod
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=appos
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj dep_e2_1=amod
+null dep_e1_0=conj dep_e1_1=compound dep_e2_0=conj dep_e2_1=appos
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=amod
+null dep_e1_0=conj dep_e2_0=conj dep_e2_1=appos
+null dep_e1_0=amod dep_e2_0=appos
+null dep_e1_0=amod dep_e2_0=amod
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=dobj
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=dep
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=dep dep_e2_4=conj
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=dep dep_e2_4=conj
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=dobj
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=dep
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=dep dep_e2_4=conj
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=dep dep_e2_4=conj
+null dep_e1_0=acl:relcl dep_e1_1=dobj dep_e1_2=amod dep_e2_0=dep dep_e2_1=advcl dep_e2_2=nmod dep_e2_3=dep dep_e2_4=appos
+advise dep_e1_0=dobj dep_e2_0=nmod dep_e2_1=dep
+advise dep_e1_0=dobj dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj
+advise dep_e1_0=dobj dep_e2_0=nmod dep_e2_1=dep dep_e2_2=conj
+advise dep_e1_0=dobj dep_e2_0=nmod dep_e2_1=dep dep_e2_2=appos
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=appos
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=appos
+null dep_e1_0=conj dep_e2_0=appos
+null dep_e1_0=nsubj dep_e1_1=nmod dep_e1_2=nmod dep_e2_0=advcl dep_e2_1=nsubjpass
+null dep_e1_0=nsubj dep_e1_1=nmod dep_e1_2=nmod dep_e2_0=advcl dep_e2_1=nmod
+mechanism dep_e1_0=nsubjpass dep_e2_0=nmod
+null dep_e1_0=amod dep_e2_0=amod
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+null dep_e1_0=conj dep_e2_0=conj
+mechanism dep_e1_0=nsubj dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=advcl
+null dep_e1_0=nsubj dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=nmod dep_e2_2=advcl
+null dep_e1_0=nmod dep_e1_1=advcl dep_e2_0=nmod dep_e2_1=advcl
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=compound dep_e2_1=nsubj
+null dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=compound dep_e2_1=nsubj
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod
+null dep_e1_0=compound dep_e1_1=nsubj dep_e2_0=compound dep_e2_1=nsubj
+null dep_e1_0=dobj dep_e1_1=nmod dep_e2_0=nsubj
+advise dep_e1_0=advcl dep_e1_1=dobj dep_e2_0=dep
+advise dep_e1_0=advcl dep_e1_1=dobj dep_e2_0=dep dep_e2_1=conj
+null dep_e1_0=dep dep_e2_0=dep dep_e2_1=conj
+mechanism 
+mechanism dep_e1_0=nsubj dep_e2_0=dobj dep_e2_1=nmod dep_e2_2=dep dep_e2_3=conj dep_e2_4=compound
+mechanism 
+null 
+null 
+null 
+null dep_e1_0=advcl dep_e2_0=dobj dep_e2_1=conj
+mechanism dep_e1_0=nsubjpass dep_e2_0=xcomp dep_e2_1=advcl dep_e2_2=nmod

@@ -88,7 +88,9 @@ def get_subtree_from_word(tree, ent):
 def get_entity_node_key(entity, analysis):
     for key in sorted(analysis.nodes, key=lambda key: int(key)):
         try:
-            if analysis.nodes[key]['word'] == entity:
+            if analysis.nodes[key]['start'] == entity.offset_from:
+                return key
+            if analysis.nodes[key]['word'] == entity.word:
                 return key
         except KeyError:
             pass
@@ -99,7 +101,10 @@ def separately_paths_to_common_parent(list1, list2):
     h_2 = [el[0] for el in list2]
     h_intersection = [value for value in h_1 if value in h_2]
 
-    common_parent_node_key = h_intersection[0]
+    if h_intersection != []:
+        common_parent_node_key = h_intersection[0]
+    else:
+        common_parent_node_key = 0
     path_1 = sorted([el for el in list1 if el[0] >= common_parent_node_key])
     path_2 = sorted([el for el in list2 if el[0] >= common_parent_node_key])
 
@@ -125,14 +130,14 @@ def get_heads_and_relations(entity_key, analysis):
 def extract_features(analysis, sentence, entities, e1, e2):
     features = []
 
-    key_e1 = get_entity_node_key(e1.split()[-1],analysis)
-    key_e2 = get_entity_node_key(e2.split()[-1],analysis)
+    key_e1 = get_entity_node_key(e1,analysis)
+    key_e2 = get_entity_node_key(e2,analysis)
 
+    if key_e1 == 0 or key_e2 == 0:
+        return ""
     heads_rels_e1 = get_heads_and_relations(key_e1, analysis)
     heads_rels_e2 = get_heads_and_relations(key_e2, analysis)
 
-    print(heads_rels_e1)
-    print(heads_rels_e2)
     path_to_cp_e1, path_to_cp_e2 = separately_paths_to_common_parent(heads_rels_e1, heads_rels_e2)
 
     for i, (head, rel) in enumerate(path_to_cp_e1):
@@ -178,7 +183,7 @@ def get_entities(child):
 def get_entity_by_id(entities, ent_id):
     for entity in entities:
         if entity.id == ent_id:
-            return entity.word
+            return entity
     return None
 
 def extract_entities(sentence):
@@ -227,7 +232,6 @@ for filename in os.listdir(inputdir):
 
     for sentence in sentences:
         (sid, stext) = (sentence.attrib["id"], sentence.attrib["text"])
-
         entities = get_entities(sentence)
         # Tokenize, tag, and parse sentence
         if not stext:
