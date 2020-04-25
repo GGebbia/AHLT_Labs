@@ -266,11 +266,20 @@ def extract_features(analysis, sentence, entities, e1, e2):
 
     path_to_cp_e1, path_to_cp_e2 = separately_paths_to_common_parent(heads_rels_e1, heads_rels_e2)
 
-    for i, (head, rel) in enumerate(path_to_cp_e1):
-        features.append("dep_e1_{}={}".format(i,rel))
+    # feature_path = []
+    # for i, (head, rel) in enumerate(path_to_cp_e1):
+    #     word = analysis.nodes[head]["word"]
+    #     feature_path.append("{}({})".format(word, rel))
 
-    for i, (head, rel) in enumerate(path_to_cp_e2):
-        features.append("dep_e2_{}={}".format(i,rel))
+    # feature_path = "->".join(feature_path)
+    # features.append(feature_path)
+
+    # feature_path = []
+    # for i, (head, rel) in enumerate(path_to_cp_e2):
+    #     word = analysis.nodes[head]["word"]
+    #     feature_path.append("{}({})".format(word, rel))
+    # feature_path = "->".join(feature_path)
+    # features.append(feature_path)
 
     for key in sorted(analysis.nodes, key=lambda key: int(key)):
         try:

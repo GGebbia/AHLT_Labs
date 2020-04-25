@@ -1,10 +1,11 @@
 import os
-import pycrfsuite
 import argparse
-from itertools import chain
-from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.preprocessing import LabelBinarizer
-
+import itertools
+import collections
+import numpy as np
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import GridSearchCV
 
 def split_data(features):
     """
@@ -23,10 +24,63 @@ def split_data(features):
 
     for feat in features:
         feat = feat.split(" ")
-        Y_labels.append([feat[0]])
-        X_samples.append([feat[1:]])
+        Y_labels.append(feat[0])
+        X_samples.append(feat[1:])
 
     return X_samples, Y_labels
+
+def transform_feature_vector_to_dataset(X_train, X_test):
+    
+    flatten_X_samples = list(itertools.chain(*X_train))
+    feature_names_eq = [item.split("=")[0]for item in flatten_X_samples if "=" in item]
+    feature_names_eq = list(set(feature_names_eq))
+    feature_names_without_eq = [item for item, count in collections.Counter(flatten_X_samples).items() if count >= 50 and "=" not in item][1:]
+    
+    n_features = len(feature_names_eq) + len(feature_names_without_eq)
+    
+    new_X_train = np.zeros((len(X_train), n_features))
+    new_X_test = np.zeros((len(X_test), n_features))
+    
+    
+    for i, sample in enumerate(X_train):
+        for j, feature_name in enumerate(feature_names_eq):
+            for feat in sample:
+                if feature_name in feat:
+                    value = feat.split("=")[1]                
+                    new_X_train[i,j] = value
+    
+    for i, sample in enumerate(X_train):
+        for j, feature_name in enumerate(feature_names_without_eq, len(feature_names_eq)):
+            if feature_name in sample:
+                new_X_train[i,j] = 1
+    
+    for i, sample in enumerate(X_test):
+        for j, feature_name in enumerate(feature_names_eq):
+            for feat in sample:
+                if feature_name in feat:
+                    value = feat.split("=")[1]                
+                    new_X_test[i,j] = value
+    
+    for i, sample in enumerate(X_test):
+        for j, feature_name in enumerate(feature_names_without_eq, len(feature_names_eq)):
+            if feature_name in sample:
+                new_X_test[i,j] = 1
+    
+    return new_X_train, new_X_test
+
+
+def process_feature_vectors(train_feature_vectors, test_feature_vectors):
+    X_train, Y_train = split_data(train_feature_vectors)
+    X_test, Y_test = split_data(test_feature_vectors)
+    
+    new_X_train, new_X_test = transform_feature_vector_to_dataset(X_train, X_test)
+    # new_X_train, new_X_test = process_dataset_to_dataframe(new_X_train, new_X_test)
+    return new_X_train, Y_train, new_X_test, Y_test
+
+def gridsearch(model, parameters):
+    clf = GridSearchCV(model, parameters)
+    clf.fit(train_feature_set, df_train.ddi_label)
+    clf_pred_test = clf.predict(test_feature_set)
 
 
 def output_predicted_entities(Y_pred, filename):
@@ -70,6 +124,7 @@ def evaluate(inputdir, outputfile):
 
 
 
+
 parser = argparse.ArgumentParser(description=
                                  """
         Compute the Machine Learning model loading the features extracted on the training dataset and applying on the devel/testing dataset.
@@ -97,34 +152,16 @@ if not os.path.exists(outputdir):
 
 
 output_filename = os.path.join(outputdir, "predicted.txt")
-model_filename = os.path.join(outputdir, "model.crfsuite")
 
-train_samples = open(train_filename, "r").read().split("\n")[:-1]
-test_samples = open(test_filename, "r").read().split("\n")[:-1]
+train_feat_vects = open(train_filename, "r").read().split("\n")[:-1]
+test_feat_vects = open(test_filename, "r").read().split("\n")[:-1]
 
-X_train, Y_train = split_data(train_samples)
-X_test, Y_test = split_data(test_samples)
+X_train, Y_train, X_test, Y_test = process_feature_vectors(train_feat_vects, test_feat_vects)
 
-trainer = pycrfsuite.Trainer(verbose=False)
-
-for xseq, yseq in zip(X_train, Y_train):
-    trainer.append(xseq, yseq)
-
-trainer.set_params({
-    'c1': 0.05,  # coefficient for L1 penalty
-    'c2': 0.1,  # coefficient for L2 penalty 1e-1 0.61
-    'max_iterations': 10000,  # stop earlier
-
-    # include transitions that are possible, but not observed
-    'feature.possible_transitions': True
-})
-
-trainer.train(model_filename)
-
-tagger = pycrfsuite.Tagger()
-tagger.open(model_filename)
-
-Y_pred = [tagger.tag(xseq) for xseq in X_test]
+clf = RandomForestClassifier()
+clf.fit(X_train, Y_train)
+Y_pred = clf.predict(X_test)
+Y_pred = [[value] for value in Y_pred]
 
 outputfile = open(output_filename, "w")
 output_predicted_entities(Y_pred, fulltest_filename)
