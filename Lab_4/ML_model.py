@@ -34,7 +34,7 @@ def transform_feature_vector_to_dataset(X_train, X_test):
     flatten_X_samples = list(itertools.chain(*X_train))
     feature_names_eq = [item.split("=")[0]for item in flatten_X_samples if "=" in item]
     feature_names_eq = list(set(feature_names_eq))
-    feature_names_without_eq = [item for item, count in collections.Counter(flatten_X_samples).items() if count >= 50 and "=" not in item][1:]
+    feature_names_without_eq = [item for item, count in collections.Counter(flatten_X_samples).items() if  "=" not in item][1:]
 
     n_features = len(feature_names_eq) + len(feature_names_without_eq)
 
@@ -162,7 +162,6 @@ train_feat_vects = open(train_filename, "r").read().split("\n")[:-1]
 test_feat_vects = open(test_filename, "r").read().split("\n")[:-1]
 
 X_train, Y_train, X_test, Y_test = process_feature_vectors(train_feat_vects, test_feat_vects)
-
 
 rfc_cv = RandomForestClassifier(class_weight="balanced")
 params = {'n_estimators': [5, 10, 15, 20],

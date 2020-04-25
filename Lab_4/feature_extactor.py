@@ -223,15 +223,21 @@ def count_words_between(sentence, e1_offset_end, e2_offset_begin):
     words_between = sentence[e1_offset_end+1:e2_offset_begin].split()
     return len(words_between)
 
+def special_word_in_path(path1, path2):
+    for head, _ in path1:
+        if analysis.nodes[head]["word"] in special_words:
+            return True
+
+    for head, _ in path2:
+        if analysis.nodes[head]["word"] in special_words:
+            return True
+    return False
+
+
 
 
 #TODO !!!!!!!!! Funcio que compti numero de drugs entre les nostres entitats
 #TODO !!!!!!!!! Funcio que compti nombre de verbs abans de la primera entitat, nombre de verbs entre les dues i nombre de verbs al final!
-
-# TODO sub_obj :; '''binary feature that checks if drug1 is the nsubj or in its subtree
-#     and if drug2 is dobj or in its subtree, returns 1 if both, 0 otherwise''' USE the tree for this
-# TODO both_head check if both drug mentions have same head Use the tree for this
-# TODO is there a special_word in path between 2 entities
 
 # Given a token list, collect the most relevant features to store in a list.
 def extract_features(analysis, sentence, entities, e1, e2):
@@ -304,9 +310,9 @@ def extract_features(analysis, sentence, entities, e1, e2):
     #  for lemma in sentence.partition(e2)[2].split():
     #      features.append("la2={}".format(lemma))
 
-    if key_e1 in [el[0] for el in heads_rels_e1]:
+    if key_e1 in [el[0] for el in path_to_cp_e2]:
         features.append("1under2")
-    elif  key_e2 in [el[0] for el in heads_rels_e2]:
+    elif  key_e2 in [el[0] for el in path_to_cp_e1]:
         features.append("2under1")
 
     count_nots = count_no_not_in_sentence(sentence)
@@ -349,12 +355,39 @@ def extract_features(analysis, sentence, entities, e1, e2):
         features.append("separated_by_comma")
     if key_phrase(sentence, e1_word, e2_word):
         features.append("key_phrase")
+
     # e1_tree = get_subtree_from_word(tree, e1)
     # e2_tree = get_subtree_from_word(tree, e2)
     # if is_node_in_parent(e1_tree, e2):
     #     features.append("2under1")
     # elif is_node_in_parent(e2_tree, e1):
     #     features.append("1under2")
+
+    # Count how many drugs are in between the two entities
+    count_drugs = 0
+    for entity in entities:
+        if (e1.offset_to < entity.offset_from) and (entity.offset_to < e2.offset_from):
+            count_drugs += 1
+
+    features.append("count_drugs={}".format(count_drugs))
+
+# TODO sub_obj :; '''binary feature that checks if drug1 is the nsubj or in its subtree
+#     and if drug2 is dobj or in its subtree, returns 1 if both, 0 otherwise''' USE the tree for this
+
+    if any(rel == "nsubj" for head, rel in path_to_cp_e1) and any(rel == "dobj" for head, rel in path_to_cp_e2):
+        features.append("sub_obj")
+
+# TODO both_head check if both drug mentions have same head Use the tree for this
+
+    if analysis.nodes[key_e1]["head"] == analysis.nodes[key_e2]["head"]:
+        features.append("both_head")
+
+
+# TODO is there a special_word in path between 2 entities
+    special_word = special_word_in_path(path_to_cp_e1, path_to_cp_e2)
+    if special_word:
+        features.append("special_word")
+
 
 
     return " ".join(features)
