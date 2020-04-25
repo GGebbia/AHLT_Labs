@@ -50,7 +50,10 @@ def analyze(s):
     last_offset_end = 0
     for head_node in mytree:
         # first key is not first word (is root)
-        for key in list(head_node.nodes.keys())[1:]:
+        for key in sorted(head_node.nodes, key=lambda key: int(key)):
+            # first key is not first word (is root)
+            if key == 0:
+                continue
             # find first occurrence of substring token in sentence
             word = head_node.nodes[key]['word']
             offset_start = s.find(word, last_offset_end)
@@ -88,6 +91,8 @@ def get_entity_node_key(entity, analysis):
     for key in sorted(analysis.nodes, key=lambda key: int(key)):
         try:
             if analysis.nodes[key]['start'] == entity.offset_from:
+                return key
+            if analysis.nodes[key]['end'] == entity.offset_to:
                 return key
             if analysis.nodes[key]['word'] == entity.word:
                 return key
@@ -303,12 +308,12 @@ def extract_features(analysis, sentence, entities, e1, e2):
 
     # direct path cc
 
-#     for lemma in sentence.partition(str(e1.offset_from))[0].split():
-#         features.append("lb1{}".format(lemma.replace("=","eq")))
+    #for lemma in sentence.partition(str(e1.offset_from))[0].split():
+    #    features.append("lb1{}".format(lemma.replace("=","eq")))
     for lemma in find_between(sentence, str(e1.offset_to), str(e2.offset_from)).split():
         features.append("lib{}".format(lemma.replace("=","eq")))
-#     for lemma in sentence.partition(str(e2.offset_to))[2].split():
-#        features.append("la2{}".format(lemma.replace("=","eq")))
+    #for lemma in sentence.partition(str(e2.offset_to))[2].split():
+    #    features.append("la2{}".format(lemma.replace("=","eq")))
 
     for item in path_to_cp_e2:
         features.append("cpe2{}".format(item[1]))

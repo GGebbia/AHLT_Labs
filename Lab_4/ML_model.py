@@ -77,11 +77,6 @@ def process_feature_vectors(train_feature_vectors, test_feature_vectors):
     # new_X_train, new_X_test = process_dataset_to_dataframe(new_X_train, new_X_test)
     return new_X_train, Y_train, new_X_test, Y_test
 
-def gridsearch(model, parameters):
-    clf = GridSearchCV(model, parameters)
-    clf.fit(train_feature_set, df_train.ddi_label)
-    clf_pred_test = clf.predict(test_feature_set)
-
 
 def output_predicted_entities(Y_pred, filename):
     """
