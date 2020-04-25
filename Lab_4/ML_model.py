@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
-
+from sklearn.svm import LinearSVC
 def split_data(features):
     """
     Receive a list of featured sentences splitted by words and split it into samples and labels.
@@ -163,10 +163,17 @@ test_feat_vects = open(test_filename, "r").read().split("\n")[:-1]
 
 X_train, Y_train, X_test, Y_test = process_feature_vectors(train_feat_vects, test_feat_vects)
 
-rfc_cv = RandomForestClassifier(class_weight="balanced")
-params = {'n_estimators': [5, 10, 15, 20],
-         'max_depth': [100, 200, 300]}
-Y_pred = gridsearch(rfc_cv, params)
+# rfc_cv = RandomForestClassifier(class_weight="balanced")
+svm_cv = LinearSVC(class_weight="balanced")
+
+# params = {'n_estimators': [5, 10, 15, 20]}
+         # 'max_depth': [100, 200, 300]}
+# Y_pred = gridsearch(rfc_cv, params)
+
+params = {'tol': [1e-2, 1e-3, 1e-4],
+          'dual': [False]
+        }
+Y_pred = gridsearch(svm_cv, params)
 Y_pred = [[value] for value in Y_pred]
 
 outputfile = open(output_filename, "w")
