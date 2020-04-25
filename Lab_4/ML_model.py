@@ -34,8 +34,8 @@ def transform_feature_vector_to_dataset(X_train, X_test):
     flatten_X_samples = list(itertools.chain(*X_train))
     feature_names_eq = [item.split("=")[0]for item in flatten_X_samples if "=" in item]
     feature_names_eq = list(set(feature_names_eq))
-    feature_names_without_eq = [item for item, count in collections.Counter(flatten_X_samples).items() if "=" not in item][1:]
-
+    feature_names_without_eq = [item for item, count in collections.Counter(flatten_X_samples).items() if "=" not in item][0:]
+    feature_names_without_eq.remove('')
     n_features = len(feature_names_eq) + len(feature_names_without_eq)
 
     new_X_train = np.zeros((len(X_train), n_features))
@@ -166,8 +166,8 @@ X_train, Y_train, X_test, Y_test = process_feature_vectors(train_feat_vects, tes
 # rfc_cv = RandomForestClassifier(class_weight="balanced")
 svm_cv = LinearSVC(class_weight="balanced")
 
-# params = {'n_estimators': [5, 10, 15, 20]}
-         # 'max_depth': [100, 200, 300]}
+# params = {'n_estimators': [5, 10, 15, 20],
+#           'max_depth': [100, 200, 300]}
 # Y_pred = gridsearch(rfc_cv, params)
 
 params = {'tol': [1e-2, 1e-3, 1e-4],

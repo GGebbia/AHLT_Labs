@@ -303,16 +303,30 @@ def extract_features(analysis, sentence, entities, e1, e2):
 
     # direct path cc
 
-    #  for lemma in sentence.partition(e1)[0].split():
-    #      features.append("lb1={}".format(lemma))
-    #  for lemma in find_between(sentence, e1, e2).split():
-    #      features.append("lib={}".format(lemma))
-    #  for lemma in sentence.partition(e2)[2].split():
-    #      features.append("la2={}".format(lemma))
+#     for lemma in sentence.partition(str(e1.offset_from))[0].split():
+#         features.append("lb1{}".format(lemma.replace("=","eq")))
+    for lemma in find_between(sentence, str(e1.offset_to), str(e2.offset_from)).split():
+        features.append("lib{}".format(lemma.replace("=","eq")))
+#     for lemma in sentence.partition(str(e2.offset_to))[2].split():
+#        features.append("la2{}".format(lemma.replace("=","eq")))
+
+    for item in path_to_cp_e2:
+        features.append("cpe2{}".format(item[1]))
+    for item in path_to_cp_e1:
+        features.append("cpe1{}".format(item[1]))
+
+    for (head, _) in path_to_cp_e2:
+        word = analysis.nodes[head]["word"]
+        features.append("cpe2w{}".format(word))
+    for (head, _) in path_to_cp_e1:
+        word = analysis.nodes[head]["word"]
+        features.append("cpe1w{}".format(word))
+
+
 
     if key_e1 in [el[0] for el in path_to_cp_e2]:
         features.append("1under2")
-    elif  key_e2 in [el[0] for el in path_to_cp_e1]:
+    elif key_e2 in [el[0] for el in path_to_cp_e1]:
         features.append("2under1")
 
     count_nots = count_no_not_in_sentence(sentence)
