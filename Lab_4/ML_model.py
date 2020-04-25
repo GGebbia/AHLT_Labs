@@ -34,7 +34,7 @@ def transform_feature_vector_to_dataset(X_train, X_test):
     flatten_X_samples = list(itertools.chain(*X_train))
     feature_names_eq = [item.split("=")[0]for item in flatten_X_samples if "=" in item]
     feature_names_eq = list(set(feature_names_eq))
-    feature_names_without_eq = [item for item, count in collections.Counter(flatten_X_samples).items() if  "=" not in item][1:]
+    feature_names_without_eq = [item for item, count in collections.Counter(flatten_X_samples).items() if "=" not in item][1:]
 
     n_features = len(feature_names_eq) + len(feature_names_without_eq)
 
