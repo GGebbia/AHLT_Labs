@@ -30,49 +30,49 @@ def split_data(features):
     return X_samples, Y_labels
 
 def transform_feature_vector_to_dataset(X_train, X_test):
-    
+
     flatten_X_samples = list(itertools.chain(*X_train))
     feature_names_eq = [item.split("=")[0]for item in flatten_X_samples if "=" in item]
     feature_names_eq = list(set(feature_names_eq))
     feature_names_without_eq = [item for item, count in collections.Counter(flatten_X_samples).items() if count >= 50 and "=" not in item][1:]
-    
+
     n_features = len(feature_names_eq) + len(feature_names_without_eq)
-    
+
     new_X_train = np.zeros((len(X_train), n_features))
     new_X_test = np.zeros((len(X_test), n_features))
-    
-    
+
+
     for i, sample in enumerate(X_train):
         for j, feature_name in enumerate(feature_names_eq):
             for feat in sample:
                 if feature_name in feat:
-                    value = feat.split("=")[1]                
+                    value = feat.split("=")[1]
                     new_X_train[i,j] = value
-    
+
     for i, sample in enumerate(X_train):
         for j, feature_name in enumerate(feature_names_without_eq, len(feature_names_eq)):
             if feature_name in sample:
                 new_X_train[i,j] = 1
-    
+
     for i, sample in enumerate(X_test):
         for j, feature_name in enumerate(feature_names_eq):
             for feat in sample:
                 if feature_name in feat:
-                    value = feat.split("=")[1]                
+                    value = feat.split("=")[1]
                     new_X_test[i,j] = value
-    
+
     for i, sample in enumerate(X_test):
         for j, feature_name in enumerate(feature_names_without_eq, len(feature_names_eq)):
             if feature_name in sample:
                 new_X_test[i,j] = 1
-    
+
     return new_X_train, new_X_test
 
 
 def process_feature_vectors(train_feature_vectors, test_feature_vectors):
     X_train, Y_train = split_data(train_feature_vectors)
     X_test, Y_test = split_data(test_feature_vectors)
-    
+
     new_X_train, new_X_test = transform_feature_vector_to_dataset(X_train, X_test)
     # new_X_train, new_X_test = process_dataset_to_dataframe(new_X_train, new_X_test)
     return new_X_train, Y_train, new_X_test, Y_test
@@ -107,7 +107,7 @@ def output_predicted_entities(Y_pred, filename):
             interaction = "1"
         line = [_id, e1_id, e2_id, interaction, label]
         outputfile.write("|".join(line) + "\n")
-        
+
 def evaluate(inputdir, outputfile):
     """
     Receives an input directory and the outputfile to evaluate the predicted labels with the evaluateNER.jar program.
@@ -122,7 +122,12 @@ def evaluate(inputdir, outputfile):
 
     os.system("java -jar eval/evaluateDDI.jar " + inputdir + " " + outputfile)
 
+def gridsearch(model, parameters):
+    clf = GridSearchCV(model, parameters)
+    clf.fit(X_train, Y_train)
+    Y_pred = clf.predict(X_test)
 
+    return Y_pred
 
 
 parser = argparse.ArgumentParser(description=
@@ -158,9 +163,11 @@ test_feat_vects = open(test_filename, "r").read().split("\n")[:-1]
 
 X_train, Y_train, X_test, Y_test = process_feature_vectors(train_feat_vects, test_feat_vects)
 
-clf = RandomForestClassifier()
-clf.fit(X_train, Y_train)
-Y_pred = clf.predict(X_test)
+
+rfc_cv = RandomForestClassifier(class_weight="balanced")
+params = {'n_estimators': [5, 10, 15, 20],
+         'max_depth': [100, 200, 300]}
+Y_pred = gridsearch(rfc_cv, params)
 Y_pred = [[value] for value in Y_pred]
 
 outputfile = open(output_filename, "w")
