@@ -1,0 +1,41 @@
+SCORES FOR the file: SVM_kernel=poly_gamma=auto.txt
+Gold Dataset: /Devel
+
+Partial Evaluation: only detection of DDI (regadless to the type)
+tp	fp	fn	total	prec	recall	F1
+484	2219	0	484	0.1791	1	0.3037
+
+
+Detection and Classification of DDI
+tp	fp	fn	total	prec	recall	F1
+117	2586	367	484	0.0433	0.2417	0.0734
+
+
+________________________________________________________________________
+
+SCORES FOR DDI TYPE
+Scores for ddi with type mechanism
+tp	fp	fn	total	prec	recall	F1
+1	9	200	201	0.1	0.005	0.0095
+
+
+Scores for ddi with type effect
+tp	fp	fn	total	prec	recall	F1
+0	2	162	162	0	0	0
+
+
+Scores for ddi with type advise
+tp	fp	fn	total	prec	recall	F1
+116	2575	3	119	0.0431	0.9748	0.0826
+
+
+Scores for ddi with type int
+tp	fp	fn	total	prec	recall	F1
+0	0	2	2	0	0	0
+
+
+MACRO-AVERAGE MEASURES:
+	P	R	F1
+	0.0358	0.2449	0.0624
+________________________________________________________________________
+
