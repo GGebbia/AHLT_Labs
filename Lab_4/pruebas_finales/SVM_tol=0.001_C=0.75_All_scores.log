@@ -1,0 +1,41 @@
+SCORES FOR the file: SVM_tol=0.001_C=0.75.txt
+Gold Dataset: /Devel
+
+Partial Evaluation: only detection of DDI (regadless to the type)
+tp	fp	fn	total	prec	recall	F1
+324	258	160	484	0.5567	0.6694	0.6079
+
+
+Detection and Classification of DDI
+tp	fp	fn	total	prec	recall	F1
+282	300	202	484	0.4845	0.5826	0.5291
+
+
+________________________________________________________________________
+
+SCORES FOR DDI TYPE
+Scores for ddi with type mechanism
+tp	fp	fn	total	prec	recall	F1
+103	140	98	201	0.4239	0.5124	0.464
+
+
+Scores for ddi with type effect
+tp	fp	fn	total	prec	recall	F1
+113	97	49	162	0.5381	0.6975	0.6075
+
+
+Scores for ddi with type advise
+tp	fp	fn	total	prec	recall	F1
+66	56	53	119	0.541	0.5546	0.5477
+
+
+Scores for ddi with type int
+tp	fp	fn	total	prec	recall	F1
+0	7	2	2	0	0	0
+
+
+MACRO-AVERAGE MEASURES:
+	P	R	F1
+	0.3757	0.4411	0.4058
+________________________________________________________________________
+

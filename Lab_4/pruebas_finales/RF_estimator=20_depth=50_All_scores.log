@@ -1,0 +1,41 @@
+SCORES FOR the file: RF_estimator=20_depth=50.txt
+Gold Dataset: /Devel
+
+Partial Evaluation: only detection of DDI (regadless to the type)
+tp	fp	fn	total	prec	recall	F1
+255	113	229	484	0.6929	0.5269	0.5986
+
+
+Detection and Classification of DDI
+tp	fp	fn	total	prec	recall	F1
+224	144	260	484	0.6087	0.4628	0.5258
+
+
+________________________________________________________________________
+
+SCORES FOR DDI TYPE
+Scores for ddi with type mechanism
+tp	fp	fn	total	prec	recall	F1
+76	70	125	201	0.5205	0.3781	0.438
+
+
+Scores for ddi with type effect
+tp	fp	fn	total	prec	recall	F1
+94	51	68	162	0.6483	0.5802	0.6124
+
+
+Scores for ddi with type advise
+tp	fp	fn	total	prec	recall	F1
+54	23	65	119	0.7013	0.4538	0.551
+
+
+Scores for ddi with type int
+tp	fp	fn	total	prec	recall	F1
+0	0	2	2	0	0	0
+
+
+MACRO-AVERAGE MEASURES:
+	P	R	F1
+	0.4675	0.353	0.4023
+________________________________________________________________________
+

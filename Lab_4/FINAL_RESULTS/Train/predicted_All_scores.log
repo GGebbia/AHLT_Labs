@@ -1,0 +1,41 @@
+SCORES FOR the file: predicted.txt
+Gold Dataset: /Train
+
+Partial Evaluation: only detection of DDI (regadless to the type)
+tp	fp	fn	total	prec	recall	F1
+3238	96	299	3537	0,9712	0,9155	0,9425
+
+
+Detection and Classification of DDI
+tp	fp	fn	total	prec	recall	F1
+3228	106	309	3537	0,9682	0,9126	0,9396
+
+
+________________________________________________________________________
+
+SCORES FOR DDI TYPE
+Scores for ddi with type mechanism
+tp	fp	fn	total	prec	recall	F1
+959	64	159	1118	0,9374	0,8578	0,8958
+
+
+Scores for ddi with type effect
+tp	fp	fn	total	prec	recall	F1
+1449	15	76	1525	0,9898	0,9502	0,9696
+
+
+Scores for ddi with type advise
+tp	fp	fn	total	prec	recall	F1
+646	22	61	707	0,9671	0,9137	0,9396
+
+
+Scores for ddi with type int
+tp	fp	fn	total	prec	recall	F1
+174	5	12	186	0,9721	0,9355	0,9534
+
+
+MACRO-AVERAGE MEASURES:
+	P	R	F1
+	0,9666	0,9143	0,9397
+________________________________________________________________________
+
