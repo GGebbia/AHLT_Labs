@@ -96,6 +96,20 @@ def load_data(datadir):
 
     return dataset_examples
 
+def create_indexs(datadir, max_length):
+    '''
+    Returns a mapping of each word seen in the data with an integer. Also a mapping of each tag (null, mechanism, advise,
+    effect, int). Also returns maxlen
+    It has an <UNK> token and <PAD> token that will be used for filling the encoded sentence till max_length
+    '''
+    tags = ['null', 'mechanism', 'advise', 'effect', 'int']
+    all_indexes = {}
+    word_indexes = {}
+    tags_indexes = dict(enumerate(tags))
+    all_indexes['maxlen'] = max_length
+    all_indexes['tags'] = tags_indexes
+
+
 
 def learn (traindir, validationdir, modelname):
     '''
