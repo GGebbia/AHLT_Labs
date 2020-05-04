@@ -60,8 +60,6 @@ def load_data(datadir):
     #TODO
     # returns dataset as a list of examples: each example correspond to a drug pair in a sentence and contains:
     # sent id, e1id, e2id, ground truth class, list of sentence tokens
-    # MASK TARGET DRUGS!
-    # process each file in directory
 
     # connect to CoreNLP server
     my_parser = CoreNLPDependencyParser(url="http://localhost:9000")
@@ -96,19 +94,67 @@ def load_data(datadir):
 
     return dataset_examples
 
-def create_indexs(datadir, max_length):
+def create_indexs(loaded_dataset, max_length):
     '''
     Returns a mapping of each word seen in the data with an integer. Also a mapping of each tag (null, mechanism, advise,
     effect, int). Also returns maxlen
     It has an <UNK> token and <PAD> token that will be used for filling the encoded sentence till max_length
+    No need to encode pos as it is already an integer
     '''
-    tags = ['null', 'mechanism', 'advise', 'effect', 'int']
     all_indexes = {}
-    word_indexes = {}
-    tags_indexes = dict(enumerate(tags))
-    all_indexes['maxlen'] = max_length
-    all_indexes['tags'] = tags_indexes
+    types = ['null', 'mechanism', 'advise', 'effect', 'int']
+    types_indexes = dict(enumerate(types))
+    word_indexes = {"<UNK>":0, "<PAD>":1}
+    lemma_indexes = {"<UNK>": 0, "<PAD>": 1}
+    tag_indexes = {"<UNK>": 0, "<PAD>": 1}
+    word_counter = lemma_counter = tag_counter = 2
 
+    # connect to CoreNLP server
+    for data in loaded_dataset:
+        for entities in data[4]:
+            word = entities[0]
+            lemma =  entities[1]
+            tag = entities[3]
+            if word not in word_indexes:
+                word_indexes[word] = word_counter
+                word_counter += 1
+            if lemma not in lemma_indexes:
+                lemma_indexes[lemma] = lemma_counter
+                lemma_counter += 1
+            if tag not in tag_indexes:
+                tag_indexes[tag] = tag_counter
+                tag_counter += 1
+    all_indexes['maxlen'] = max_length
+    all_indexes['types'] = types_indexes
+    all_indexes['words'] = word_indexes
+    all_indexes['tags'] = tag_indexes
+    all_indexes['lemmas'] = lemma_indexes
+    return all_indexes
+
+
+def build_network(idx):
+    '''
+    Input : Receives the index dictionary with the encondings of words and
+    tags, and the maximum length of sentences.
+    Output : Returns a compiled Keras neural network
+    '''
+    # sizes
+    n_words = len(idx['words'])
+    n_tags = len(idx['tags'])
+    max_len = idx['maxlen']
+    # create network layers
+    inp = Input(shape=(max_len,))
+    ## ... add missing layers here ... #
+    # out = # final output layer
+    # create and compile model
+    model = Model(inp, out)
+    model.compile()  # set appropriate parameters ( optimizer, loss, etc)
+
+    return model
+
+def encode_words(dataset, idx):
+    encoded_words = []
+    return encoded_words
 
 
 def learn (traindir, validationdir, modelname):
@@ -141,4 +187,6 @@ def learn (traindir, validationdir, modelname):
 
 
 ### MAIN ###
-data_loaded = load_data("data/Train")
+data_loaded = load_data("data/Devel")
+indexs_dict = create_indexs(data_loaded, 100)
+encoded_words =  encode_words(data_loaded, indexs_dict)
