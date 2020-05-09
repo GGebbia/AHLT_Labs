@@ -6,11 +6,18 @@ import sys
 import nltk
 from nltk.parse.corenlp import CoreNLPDependencyParser
 
+from keras.utils import np_utils
+from keras.layers import Dense, Input, Reshape, Concatenate, Flatten
+from keras.layers import Conv2D, MaxPool2D, Embedding, Dropout
+from keras.models import Model
+from keras.optimizers import Adam
+from keras.utils import plot_model
+
 # TODO see if is used
 nltk.download('punkt')
 
-def analysis_shortened_and_masked(analysis, id_e1, id_e2, entities):
 
+def analysis_shortened_and_masked(analysis, id_e1, id_e2, entities):
     entities_masked = []
     entities_texts = []
     # Words to mask
@@ -53,6 +60,7 @@ def analysis_shortened_and_masked(analysis, id_e1, id_e2, entities):
 
     return entities_masked
 
+
 def load_data(datadir):
     # connect to CoreNLP server
     my_parser = CoreNLPDependencyParser(url="http://localhost:9000")
@@ -87,6 +95,7 @@ def load_data(datadir):
 
     return dataset_examples
 
+
 def create_indexs(loaded_dataset, max_length):
     '''
     Returns a mapping of each word seen in the data with an integer. Also a mapping of each tag (null, mechanism, advise,
@@ -97,7 +106,7 @@ def create_indexs(loaded_dataset, max_length):
     all_indexes = {}
     types = ['null', 'mechanism', 'advise', 'effect', 'int']
     types_indexes = dict(enumerate(types))
-    word_indexes = {"<UNK>":0, "<PAD>":1}
+    word_indexes = {"<UNK>": 0, "<PAD>": 1}
     lemma_indexes = {"<UNK>": 0, "<PAD>": 1}
     tag_indexes = {"<UNK>": 0, "<PAD>": 1}
     word_counter = lemma_counter = tag_counter = 2
@@ -106,7 +115,7 @@ def create_indexs(loaded_dataset, max_length):
     for data in loaded_dataset:
         for entities in data[4]:
             word = entities[0]
-            lemma =  entities[1]
+            lemma = entities[1]
             tag = entities[3]
             if word not in word_indexes:
                 word_indexes[word] = word_counter
@@ -145,6 +154,7 @@ def build_network(idx):
     model.compile()  # set appropriate parameters ( optimizer, loss, etc)
 
     return model
+
 
 def encode_words(dataset, idx):
     encoded_words_all = []
@@ -193,7 +203,14 @@ def encode_words(dataset, idx):
     return encoded_words_all, encoded_lemmas_all, pos_all, encoded_tags_all
 
 
-def learn (traindir, validationdir, modelname):
+def encode_tags(dataset, idx):
+    encoded_interaction_tags = []
+    for data in dataset:
+        encoded_interaction_tags.append(idx['types'][data[3]])
+    return encoded_interaction_tags
+
+
+def learn(traindir, validationdir, modelname):
     '''
     learns a NN model using traindir as training data , and validationdir
     as validation data . Saves learnt model in a file named modelname
@@ -210,7 +227,7 @@ def learn (traindir, validationdir, modelname):
     model = build_network(idx)
 
     # encode datasets
-    Xtrain = encode_words(traindata,idx)
+    Xtrain = encode_words(traindata, idx)
     Ytrain = encode_tags(traindata, idx)
     Xval = encode_words(valdata, idx)
     Yval = encode_tags(valdata, idx)
@@ -225,4 +242,5 @@ def learn (traindir, validationdir, modelname):
 ### MAIN ###
 data_loaded = load_data("data/Devel")
 indexs_dict = create_indexs(data_loaded, 100)
-encoded_words =  encode_words(data_loaded, indexs_dict)
+encoded_words, encoded_lemmas, pos_all, encoded_word_tags = encode_words(data_loaded, indexs_dict)
+encoded_interaction_tags = encode_tags(data_loaded, indexs_dict)
