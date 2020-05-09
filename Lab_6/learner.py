@@ -31,36 +31,29 @@ def analysis_shortened_and_masked(analysis, id_e1, id_e2, entities):
             if key == 0:
                 continue
             current_word = head_node.nodes[key]['word'].lower()
+            pos = head_node.nodes[key]['address']
 
             if entity1 == current_word:
                 word = "<DRUG1>"
                 lemma = "<DRUG1>"
-                pos = "<DRUG1>"
                 tag = "<DRUG1>"
             elif entity2 == current_word:
                 word = "<DRUG2>"
                 lemma = "<DRUG2>"
-                pos = "<DRUG2>"
                 tag = "<DRUG2>"
             elif current_word in entities_texts:
                 word = "<DRUG_OTHER>"
                 lemma = "<DRUG_OTHER>"
-                pos = "<DRUG_OTHER>"
                 tag = "<DRUG_OTHER>"
             else:
                 word = head_node.nodes[key]['word']
                 lemma = head_node.nodes[key]['lemma']
-                pos = head_node.nodes[key]['address']
                 tag = head_node.nodes[key]['tag']
             entities_masked.append([word, lemma, pos, tag])
 
     return entities_masked
 
 def load_data(datadir):
-    #TODO
-    # returns dataset as a list of examples: each example correspond to a drug pair in a sentence and contains:
-    # sent id, e1id, e2id, ground truth class, list of sentence tokens
-
     # connect to CoreNLP server
     my_parser = CoreNLPDependencyParser(url="http://localhost:9000")
     dataset_examples = []
@@ -124,11 +117,12 @@ def create_indexs(loaded_dataset, max_length):
             if tag not in tag_indexes:
                 tag_indexes[tag] = tag_counter
                 tag_counter += 1
-    all_indexes['maxlen'] = max_length
-    all_indexes['types'] = types_indexes
+
     all_indexes['words'] = word_indexes
-    all_indexes['tags'] = tag_indexes
     all_indexes['lemmas'] = lemma_indexes
+    all_indexes['types'] = types_indexes
+    all_indexes['tags'] = tag_indexes
+    all_indexes['maxlen'] = max_length
     return all_indexes
 
 
@@ -153,8 +147,50 @@ def build_network(idx):
     return model
 
 def encode_words(dataset, idx):
-    encoded_words = []
-    return encoded_words
+    encoded_words_all = []
+    encoded_lemmas_all = []
+    encoded_tags_all = []
+    pos_all = []
+    # Iterate through sentences
+    for data in dataset:
+        sentence_words_encoded = []
+        sentence_lemmas_encoded = []
+        sentence_pos = []
+        sentence_tags_encoded = []
+        # Encode words on each sentence
+        for analysis in data[4]:
+            word = analysis[0]
+            lemma = analysis[1]
+            pos = analysis[2]
+            tag = analysis[3]
+            try:
+                word_encoded = idx['words'][word]
+            except KeyError:
+                word_encoded = idx['words']['<UNK>']
+            try:
+                lemma_encoded = idx['lemmas'][lemma]
+            except KeyError:
+                lemma_encoded = idx['lemmas']['<UNK>']
+            try:
+                tag_encoded = idx['tags'][tag]
+            except KeyError:
+                tag_encoded = idx['tags']['<UNK>']
+            sentence_words_encoded.append(word_encoded)
+            sentence_words_encoded.append(lemma_encoded)
+            sentence_pos.append(pos)
+            sentence_tags_encoded.append(tag_encoded)
+        # Apply padding if needed
+        while len(sentence_words_encoded) < idx['maxlen']:
+            sentence_words_encoded.append(idx['words']['<PAD>'])
+            sentence_lemmas_encoded.append(idx['lemmas']['<PAD>'])
+            sentence_pos.append(0)
+            sentence_tags_encoded.append(idx['tags']['<PAD>'])
+        encoded_words_all.append(sentence_words_encoded)
+        encoded_lemmas_all.append(sentence_lemmas_encoded)
+        pos_all.append(sentence_pos)
+        encoded_tags_all.append(sentence_tags_encoded)
+    # Return the 4 lists generated
+    return encoded_words_all, encoded_lemmas_all, pos_all, encoded_tags_all
 
 
 def learn (traindir, validationdir, modelname):
