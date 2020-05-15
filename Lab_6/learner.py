@@ -18,6 +18,9 @@ from keras.utils import to_categorical
 from keras.callbacks import EarlyStopping
 from keras.callbacks import ModelCheckpoint
 
+from numpy.random import seed
+import tensorflow
+
 from sklearn.utils import class_weight
 
 # TODO see if is used
@@ -249,7 +252,7 @@ def build_network(idx):
     concatenated_tensor = Concatenate(axis=1)([maxpool_1, maxpool_2, maxpool_3])
 
     flatten = Flatten()(concatenated_tensor)
-    dropout = Dropout(0.5)(flatten)
+    dropout = Dropout(0.25)(flatten)
     output = Dense(units=n_outputs, activation='softmax', name='fully_connected_affine_layer')(dropout)
 
     ###
@@ -257,7 +260,7 @@ def build_network(idx):
     model = Model(inputs=inputs, outputs=output, name='intent_classifier')
     print("Model Summary")
     print(model.summary())
-    adam = Adam(lr=0.002, beta_1=0.9, beta_2=0.999, epsilon=1e-08, decay=0.0)
+    adam = Adam(lr=0.0005, beta_1=0.9, beta_2=0.999, epsilon=1e-08, decay=0.0)
     model.compile(loss='categorical_crossentropy',
                   optimizer=adam,
                   metrics=['accuracy'])
@@ -294,11 +297,11 @@ def learn(traindir, validationdir, modelname):
                                                      , y_integers)
     d_class_weights = dict(enumerate(class_weights))
 
-    mc_acc = ModelCheckpoint('best_model_acc.h5', monitor='val_accuracy', mode='max', verbose=1, save_best_only=True)
-    mc_loss = ModelCheckpoint('best_model_loss.h5', monitor='val_loss', mode='max', verbose=1, save_best_only=True)
-    es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=5)
+    mc_acc = ModelCheckpoint('best_model_acc_no_balance.h5', monitor='val_accuracy', mode='max', verbose=1, save_best_only=True)
+    mc_loss = ModelCheckpoint('best_model_loss_no_balance.h5', monitor='val_loss', mode='min', verbose=1, save_best_only=True)
+    es = EarlyStopping(monitor='val_accuracy', mode='max', verbose=1, patience=10)
     # train model
-    model.fit(Xtrain, Ytrain, batch_size=64, epochs=400, validation_data=(Xval, Yval), verbose=2, callbacks=[es, mc_acc, mc_loss], class_weight = d_class_weights)
+    model.fit(Xtrain, Ytrain, batch_size=256, epochs=400, validation_data=(Xval, Yval), verbose=2, callbacks=[es, mc_acc, mc_loss], class_weight = d_class_weights)
 
     plot_model(model, to_file='ddi_model.png')
     scores = model.evaluate(Xval, Yval, verbose=0)
@@ -313,13 +316,7 @@ def save_model_and_indexs(model, idx, filename):
     with open(filename+'.pkl', 'wb') as f:
         pickle.dump(idx, f, 0)
 
-
-### MAIN ###
-#data_loaded = load_data("data/Train")
-#indexs_dict = create_indexs(data_loaded, 100)
-#encoded_words, encoded_lemmas, pos_all, encoded_word_tags = encode_words(data_loaded, indexs_dict)
-#encoded_interaction_tags = encode_tags(data_loaded, indexs_dict)
-# all_encodings = {'words': encoded_words, 'lemmas': encoded_lemmas, 'pos': pos_all, 'word_tags': encoded_word_tags, 'interaction_tags': encoded_interaction_tags}
-#model_not_trained = build_network(indexs_dict)
+seed(1)
+tensorflow.random.set_seed(2)
 learn("data/Train", "data/Devel", "model_1st_attempt_devel_test")
 
