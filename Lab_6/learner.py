@@ -4,6 +4,8 @@ import xml.etree.ElementTree as ET
 import os
 import sys
 import nltk
+import numpy as np
+import pickle
 from nltk.parse.corenlp import CoreNLPDependencyParser
 
 from keras.utils import np_utils
@@ -12,6 +14,11 @@ from keras.layers import Conv2D, MaxPool2D, Embedding, Dropout
 from keras.models import Model
 from keras.optimizers import Adam
 from keras.utils import plot_model
+from keras.utils import to_categorical
+from keras.callbacks import EarlyStopping
+from keras.callbacks import ModelCheckpoint
+
+from sklearn.utils import class_weight
 
 # TODO see if is used
 nltk.download('punkt')
@@ -104,8 +111,7 @@ def create_indexs(loaded_dataset, max_length):
     No need to encode pos as it is already an integer
     '''
     all_indexes = {}
-    types = ['null', 'mechanism', 'advise', 'effect', 'int']
-    types_indexes = dict(enumerate(types))
+    types_indexes = {'null': 0, 'mechanism': 1, 'advise': 2, 'effect': 3, 'int': 4}
     word_indexes = {"<UNK>": 0, "<PAD>": 1}
     lemma_indexes = {"<UNK>": 0, "<PAD>": 1}
     tag_indexes = {"<UNK>": 0, "<PAD>": 1}
@@ -133,27 +139,6 @@ def create_indexs(loaded_dataset, max_length):
     all_indexes['tags'] = tag_indexes
     all_indexes['maxlen'] = max_length
     return all_indexes
-
-
-def build_network(idx):
-    '''
-    Input : Receives the index dictionary with the encondings of words and
-    tags, and the maximum length of sentences.
-    Output : Returns a compiled Keras neural network
-    '''
-    # sizes
-    n_words = len(idx['words'])
-    n_tags = len(idx['tags'])
-    max_len = idx['maxlen']
-    # create network layers
-    inp = Input(shape=(max_len,))
-    ## ... add missing layers here ... #
-    # out = # final output layer
-    # create and compile model
-    model = Model(inp, out)
-    model.compile()  # set appropriate parameters ( optimizer, loss, etc)
-
-    return model
 
 
 def encode_words(dataset, idx):
@@ -186,28 +171,98 @@ def encode_words(dataset, idx):
             except KeyError:
                 tag_encoded = idx['tags']['<UNK>']
             sentence_words_encoded.append(word_encoded)
-            sentence_words_encoded.append(lemma_encoded)
+            sentence_lemmas_encoded.append(lemma_encoded)
             sentence_pos.append(pos)
             sentence_tags_encoded.append(tag_encoded)
+            if len(sentence_words_encoded) == idx['maxlen']:
+                break
         # Apply padding if needed
         while len(sentence_words_encoded) < idx['maxlen']:
             sentence_words_encoded.append(idx['words']['<PAD>'])
             sentence_lemmas_encoded.append(idx['lemmas']['<PAD>'])
             sentence_pos.append(0)
             sentence_tags_encoded.append(idx['tags']['<PAD>'])
-        encoded_words_all.append(sentence_words_encoded)
+        encoded_words_all.append(np.array(sentence_words_encoded, dtype=np.int32))
         encoded_lemmas_all.append(sentence_lemmas_encoded)
         pos_all.append(sentence_pos)
         encoded_tags_all.append(sentence_tags_encoded)
     # Return the 4 lists generated
-    return encoded_words_all, encoded_lemmas_all, pos_all, encoded_tags_all
+    return np.array(encoded_words_all, dtype=np.int32), encoded_lemmas_all, pos_all, encoded_tags_all
 
 
 def encode_tags(dataset, idx):
     encoded_interaction_tags = []
     for data in dataset:
-        encoded_interaction_tags.append(idx['types'][data[3]])
-    return encoded_interaction_tags
+        one_hot = [0, 0, 0, 0, 0]
+        if idx['types'][data[3]] == 0:
+            one_hot = [0, 0, 0, 0, 1]
+        if idx['types'][data[3]] == 1:
+            one_hot = [0, 0, 0, 1, 0]
+        if idx['types'][data[3]] == 2:
+            one_hot = [0, 0, 1, 0, 0]
+        if idx['types'][data[3]] == 3:
+            one_hot = [0, 1, 0, 0, 0]
+        if idx['types'][data[3]] == 4:
+            one_hot = [1, 0, 0, 0, 0]
+        encoded_interaction_tags.append(one_hot)
+    return np.array(encoded_interaction_tags)
+
+def build_network(idx):
+    '''
+    Input : Receives the index dictionary with the encodings of words and
+    tags, and the maximum length of sentences.
+    Output : Returns a compiled Keras neural network
+    '''
+    # TODO, not using lemmas see how can train 2 embeddings
+    # TODO use tags
+    ## HYPERPARAMS ###
+    embedding_dim = 64
+    # sizes
+    n_words = len(idx['words'])
+    n_outputs = len(idx['types'])
+    # n_word_tags = len(idx['tags'])
+    # n_lemmas = len(idx['lemmas'])
+    max_len = idx['maxlen']
+    # create network layers
+    inputs = Input(shape=(max_len,), dtype='int32')
+    X_input_words_embedding = Embedding(input_dim=n_words, output_dim=embedding_dim, input_length=max_len)(inputs)
+    X_input = Reshape((max_len, embedding_dim, 1))(X_input_words_embedding)
+    # X_input_lemmas_embedding = Embedding(input_dim=n_lemmas, output_dim=embedding_dim, input_length=max_len)(inputs)
+
+    # Input size = (embedding_dim_words (64) + embedding de lemmas (64) -not being used now- + one hot de 44 tags -not used now-  + 1 pos-not used-) * 100 paraules
+    ### COPIED MODEL ###
+    X1 = Conv2D(128, kernel_size=(3, embedding_dim), padding='valid', kernel_initializer='normal',
+                activation='relu',
+                name='conv1Filter1')(X_input)
+    maxpool_1 = MaxPool2D(pool_size=(48, 1), strides=(1, 1), padding='valid', name='maxpool1')(X1)
+
+    X2 = Conv2D(128, kernel_size=(4, embedding_dim), padding='valid', kernel_initializer='normal',
+                activation='relu',
+                name='conv1Filter2')(X_input)
+    maxpool_2 = MaxPool2D(pool_size=(47, 1), strides=(1, 1), padding='valid', name='maxpool2')(X2)
+
+    X3 = Conv2D(128, kernel_size=(5, embedding_dim), padding='valid', kernel_initializer='normal',
+                activation='relu',
+                name='conv1Filter3')(X_input)
+    maxpool_3 = MaxPool2D(pool_size=(46, 1), strides=(1, 1), padding='valid', name='maxpool3')(X3)
+
+    concatenated_tensor = Concatenate(axis=1)([maxpool_1, maxpool_2, maxpool_3])
+
+    flatten = Flatten()(concatenated_tensor)
+    dropout = Dropout(0.5)(flatten)
+    output = Dense(units=n_outputs, activation='softmax', name='fully_connected_affine_layer')(dropout)
+
+    ###
+    # create and compile model
+    model = Model(inputs=inputs, outputs=output, name='intent_classifier')
+    print("Model Summary")
+    print(model.summary())
+    adam = Adam(lr=0.002, beta_1=0.9, beta_2=0.999, epsilon=1e-08, decay=0.0)
+    model.compile(loss='categorical_crossentropy',
+                  optimizer=adam,
+                  metrics=['accuracy'])
+
+    return model
 
 
 def learn(traindir, validationdir, modelname):
@@ -227,20 +282,44 @@ def learn(traindir, validationdir, modelname):
     model = build_network(idx)
 
     # encode datasets
-    Xtrain = encode_words(traindata, idx)
+    # TODO use the other dicts
+    Xtrain, _, _, _ = encode_words(traindata, idx)
     Ytrain = encode_tags(traindata, idx)
-    Xval = encode_words(valdata, idx)
+    Xval, _, _, _ = encode_words(valdata, idx)
     Yval = encode_tags(valdata, idx)
 
+    y_integers = np.argmax(Ytrain, axis=1)
+    class_weights = class_weight.compute_class_weight('balanced'
+                                                     , np.unique(y_integers)
+                                                     , y_integers)
+    d_class_weights = dict(enumerate(class_weights))
+
+    mc_acc = ModelCheckpoint('best_model_acc.h5', monitor='val_accuracy', mode='max', verbose=1, save_best_only=True)
+    mc_loss = ModelCheckpoint('best_model_loss.h5', monitor='val_loss', mode='max', verbose=1, save_best_only=True)
+    es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=5)
     # train model
-    model.fit(Xtrain, Ytrain, validation_data=(Xval, Yval))
+    model.fit(Xtrain, Ytrain, batch_size=64, epochs=400, validation_data=(Xval, Yval), verbose=2, callbacks=[es, mc_acc, mc_loss], class_weight = d_class_weights)
+
+    plot_model(model, to_file='ddi_model.png')
+    scores = model.evaluate(Xval, Yval, verbose=0)
+    print("%s: %.2f%%" % (model.metrics_names[1], scores[1] * 100))
 
     # save model and indexs , for later use in prediction
     save_model_and_indexs(model, idx, modelname)
 
+def save_model_and_indexs(model, idx, filename):
+    model.save(filename + '.h5')
+
+    with open(filename+'.pkl', 'wb') as f:
+        pickle.dump(idx, f, 0)
+
 
 ### MAIN ###
-data_loaded = load_data("data/Devel")
-indexs_dict = create_indexs(data_loaded, 100)
-encoded_words, encoded_lemmas, pos_all, encoded_word_tags = encode_words(data_loaded, indexs_dict)
-encoded_interaction_tags = encode_tags(data_loaded, indexs_dict)
+#data_loaded = load_data("data/Train")
+#indexs_dict = create_indexs(data_loaded, 100)
+#encoded_words, encoded_lemmas, pos_all, encoded_word_tags = encode_words(data_loaded, indexs_dict)
+#encoded_interaction_tags = encode_tags(data_loaded, indexs_dict)
+# all_encodings = {'words': encoded_words, 'lemmas': encoded_lemmas, 'pos': pos_all, 'word_tags': encoded_word_tags, 'interaction_tags': encoded_interaction_tags}
+#model_not_trained = build_network(indexs_dict)
+learn("data/Train", "data/Devel", "model_1st_attempt_devel_test")
+
