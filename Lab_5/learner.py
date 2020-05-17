@@ -123,13 +123,13 @@ def encode_tags(dataset, idx):
         sentence_tags = []
         for entity in sentence:
             tag = entity[3]
-            sentence_tags.append([idx['tags'][tag]])
+            sentence_tags.append(idx['tags'][tag])
 
         while len(sentence_tags) < idx['maxlen']:
-            sentence_tags.append([idx['tags']['<PAD>']])
+            sentence_tags.append(idx['tags']['<PAD>'])
         
         encoded_interaction_tags.append(sentence_tags)
-    return np.array(encoded_interaction_tags)
+    return encoded_interaction_tags
 
 
 def save_model_and_indexs(model, idx, filename):
@@ -151,7 +151,7 @@ def learn(traindir, validationdir, modelname):
     # create indexes from training data
     max_len = 100
     idx = create_indexs(traindata, max_len)
- 
+
     # build network
     model = build_network(idx)
 
@@ -162,10 +162,10 @@ def learn(traindir, validationdir, modelname):
     Yval = encode_tags(valdata, idx)
 
     # train model
-    model.fit(Xtrain, Ytrain, validation_data=(Xval, Yval))
+    model.fit(np.array(Xtrain), np.array(Ytrain)) #, validation_data=(Xval, Yval))
 
     # save model and indexs , for later use in prediction
-    save_model_and_indexs(model, idx, modelname)
+    #save_model_and_indexs(model, idx, modelname)
 
 
 ### MAIN ###
